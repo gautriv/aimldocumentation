@@ -1,0 +1,7 @@
+footercolumnone:
+
+    - title: About me
+      url: /aboutme/
+
+    - title: Contact
+      url: /contact/

@@ -1,0 +1,58 @@
+plugins:
+  - jekyll-feed
+  - jekyll-seo
+  - jemoji
+
+destination: _site
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+site_title: AI & ML for Technical Writers - Mastering Content for Emerging Technologies
+
+exclude:
+  - .gitignore
+  - vendor
+
+# Collections
+collections:
+  docs:
+    output: true
+  slides:
+    output: true
+  smartphones: 
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: home_sidebar
+      topnav: topnav
+      
+sidebars:
+- sidebar
+
+
+####### jekyll seo tag configuration #######
+title: AI & ML for Technical Writers
+tagline: A step by step guide for technical writers
+description: A course for technical writers looking to learn each and every aspect of AI & ML.
+
+url: https://beingtechnicalwriter.com/aimldocumentation
+social:
+  name: Gaurav Trivedi
+  links:
+    - https://www.linkedin.com/in/gauravtrivedi1988/
+    - https://github.com/gautriv/
+
+lang: en_US
+
