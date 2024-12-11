@@ -1,1 +1,1 @@
-# API Documentation Course Source Files for Technical Writers
+# AI/ML Course Source Files for Technical Writers
