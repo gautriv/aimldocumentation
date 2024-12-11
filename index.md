@@ -1,5 +1,5 @@
 ---
-title: AI & ML for Technical Writers - Mastering Content for Emerging
+title: "Introduction to AI and ML"
 keywords: []
 tags: [getting_started]
 sidebar: sidebar
