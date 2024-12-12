@@ -11,108 +11,102 @@ previous:
   url: https://beingtechnicalwriter.com/aimldocumentation/index.html
 ---
 
-Writing about AI/ML is like hosting a party. Developers want espresso shots (facts). Data scientists need artisan coffee (details). End-users? They’re happy with soda (simple instructions).
+Remember Ally, the voice assistant we explored in Module 1? Imagine this: You’re the technical writer responsible for documenting how Ally works. Your task is to create documentation that serves three very different audiences—developers integrating Ally’s APIs, data scientists fine-tuning Ally’s machine learning models, and end-users like Mia, who just want to set reminders or transcribe notes.
 
-## Lesson 1: Understanding Your Audience
+Sounds like a tall order, right? Don’t worry! By the end of this module, you’ll know how to:
 
-There are three types audience for AI documentation
-1. Developers
+- Understand the unique needs of these three audiences.
+- Create an API reference that developers will love.
+- Document workflows and datasets for data scientists.
+- Write task-based guides for end-users.
 
-    - What they want: API endpoints, parameters, and error codes. No fluff, just facts.
+Let’s start by understanding your audience.
 
-    - Writing style: Precise, concise, and actionable.
+## Understanding Your Audience
 
-    Example API Documentation for Developers:
+Writing for AI/ML products is like crafting a tailored message for three different people at once. You need to know who they are, what they need, and how to communicate with them effectively.
 
-    ```plaintext
-    Endpoint: POST /api/v1/predict
-    Description: This endpoint generates predictions for house prices based on input data.
+1. **Developers**
 
-    Parameters:
-      - `square_feet` (integer): Total area of the house in square feet (required).
-      - `location` (string): Location of the property (required).
-      - `bedrooms` (integer): Number of bedrooms (optional).
+    - **What they need:** Developers care about technical details like API endpoints, input parameters, and response formats. They want to know how to quickly integrate Ally’s functionality into their apps.
 
-    Sample Request:
-    POST /api/v1/predict
-    {
-      "square_feet": 2000,
-      "location": "San Francisco",
-      "bedrooms": 3
-    }
+    - **How to write for them:** Be precise, include code examples, and document edge cases. Clarity and efficiency are key.
 
-    Sample Response:
-    {
-      "predicted_price": "$1,200,000"
-    }
-    ```
+2. **Data Scientists**
 
-    Pro Tip: Avoid long paragraphs. Break information into small, scannable sections.
+    - **What they need:** Data scientists focus on the "why" and "how" behind Ally’s ML models and datasets. They need to understand parameters, tuning options, and performance metrics.
+    - **How to write for them:** Use logical explanations, document datasets thoroughly, and provide use cases for model tuning.
 
-2. Data Scientists
+3. **End-Users**
 
-    - What they want: Workflows, examples, and clarity in technical depth.
+    - **What they need:** End-users like Mia don’t care about the technical underpinnings. They just want clear, simple instructions to achieve their tasks.
 
-    - Writing style: Detailed, methodical, and often visual.
+    - **How to write for them:** Be conversational, focus on tasks, and avoid technical jargon. Think step-by-step guides and visuals.
 
-    Example Workflow Documentation for Data Scientists:
-
-    1. **Model Overview:** This house price prediction model uses Linear Regression trained on a dataset of 10,000 real estate transactions.
-
-    2. **Python Code Example:**
-
-        ```python
-        # Step 1: Import Libraries
-        from sklearn.linear_model import LinearRegression
-        from sklearn.model_selection import train_test_split
-
-        # Step 2: Load and Split the Dataset
-        data = load_real_estate_data()  # Replace with your data loader
-        X_train, X_test, y_train, y_test = train_test_split(data['features'], data['prices'], test_size=0.2)
-
-        # Step 3: Train the Model
-        model = LinearRegression()
-        model.fit(X_train, y_train)
-
-        # Step 4: Predict and Evaluate
-        predictions = model.predict(X_test)
-        print("Mean Absolute Error:", mean_absolute_error(y_test, predictions))
-
-        ```
-    3. Model Metrics:
-
-      - R-Squared: 0.89
-      - Mean Absolute Error: $15,000
-
-3. End-Users
-
-    - What they want: Plain English, no buzzwords, no jargon.
-    - Writing style: Clear, conversational, and step-by-step.
-
-    Example for End-Users:
-    “How to Use the House Price Predictor”
-
-      1. Enter the total square footage of the house.
-      2. Specify the location (e.g., San Francisco).
-      3. Click ‘Predict Price.’
-      4. View the estimated price on your screen.
-
-    Sample Input and Output:
-
-      - Input: 2000 sq ft, San Francisco, 3 bedrooms.
-
-      - Output: $1,200,000.
-
-{% include activity.html content=" <b> 1: Audience Remix </b>
+{% include activity.html content=" <b> 1:  Audience Persona </b>
 <br>
-Task: Write about “predicting house prices using ML” for:
+Take 10 minutes to write a persona for each audience. Think about:
 <br>
-  1. A Developer: Include API endpoint details with parameters and responses.
+<li> Their goals </li>
 <br>
-  2. A Data Scientist: Provide a code snippet for training the model and a workflow.
+<li> What questions they’ll ask </li>
 <br>
-  3. An End-User: Write simple steps for using the tool.
+<li> The challenges they might face with Ally’s product </li>
 " %}
 
-{%include c-2-a-1.html %}
+## Break Down the Complexity
 
+AI and ML are complex, but your job is to simplify them for your audience. Here’s how:
+
+1. Use Analogies
+
+    - Example: Explain “neural networks” as a web of neurons in the brain that work together to identify patterns.
+
+2. Explain Gradually
+
+    - Start with basics: What is Ally’s transcription feature?
+    - Then build on it: How does it use machine learning to improve accuracy?
+
+{% include activity.html content=" <b> 2: Simplify a Complex Concept </b>
+<br>
+Take this statement and rewrite it for an end-user:
+<br>
+<i> Ally uses natural language processing (NLP) to tokenize, parse, and generate semantic representations of user input. </i>
+<br>
+Keep it short and approachable. Share your rewritten version in a discussion forum or with peers for feedback.
+<br>
+" %}
+
+## Structure: A Roadmap for AI/ML Docs
+Documentation should be like a story—each section builds on the previous one. Here's a simple structure to follow:
+
+1. Introduction: What is Ally? Why does it matter?
+2. Getting Started: How do users set it up?
+3. Core Concepts: What are the key features and technologies behind Ally?
+4. APIs and Technical Details: Detailed docs for developers.
+5. FAQs and Troubleshooting: Common user questions and solutions.
+
+{% include activity.html content=" <b> 3: Build a Doc Skeleton </b>
+<br>
+Draft an outline for Ally’s documentation using the structure above. Include at least two bullet points under each section.
+<br>
+Example:
+<br>
+  <li>Introduction:</li>
+    <li>Briefly describe Ally.</li>
+    <li>Explain the key use case: audio transcription.</li>
+<br>
+  <li>Getting Started:</li>
+    <li>Steps for installing Ally.</li>
+    <li>Setting up the initial configuration.</li>
+<br>
+" %}
+
+## Setting the Stage for API Documentation
+While creating your doc skeleton, you notice that the APIs and Technical Details section will require extra care. APIs are the backbone of any developer-focused documentation, and this section needs to shine.
+
+Imagine Jamie, the developer from our earlier example. Jamie needs to integrate Ally’s transcription feature into their app. They don’t want to waste time searching for how to use the API—they need clear, concise instructions. Let’s zoom in and focus on crafting an API reference.
+
+**Writing an API Reference for Developers**
+
+APIs are like the nuts and bolts of Ally’s functionality. They allow developers to connect Ally’s capabilities to their own applications. Let’s document Ally’s transcription API.
