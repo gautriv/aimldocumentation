@@ -267,6 +267,20 @@ We've all seen (and maybe created) these visualization disasters:
 4. Add helpful annotations explaining each component's purpose
 5. Test your diagram with a colleague—can they understand the system from your visual alone?
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ### Exercise 2: Make the Invisible Visible
 
 **The mission**: Choose a complex AI concept and create a visual explanation that would make it clear to a non-expert.

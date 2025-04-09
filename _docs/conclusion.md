@@ -1,12 +1,4 @@
 ---
-layout: default
-title: Conclusion
-nav_order: 15
-permalink: /docs/conclusion/
-has_toc: true
----
-
----
 title: "The Final Word: Becoming an AI Documentation Specialist Who Makes a Difference"
 subtitle: "From learning to leading: Your journey to exceptional AI-ML documentation starts now"
 description: "Congratulations on completing this comprehensive journey through AI-ML documentation! This conclusion brings together everything you've learned and provides a roadmap for your continued growth as a documentation specialist who bridges the gap between complex AI systems and the humans who use them."
