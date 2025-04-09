@@ -137,29 +137,6 @@ The documentation you've created throughout this course provides excellent mater
   </div>
 </div>
 
-## Practice Makes Perfect
-
-<div class="practice-section">
-  <div class="practice-content">
-    <h3>Ready to Apply Your Knowledge?</h3>
-    <p>While completing this course is a significant achievement, continuous practice is the key to mastery. I've created a dedicated section with real-world AI-ML documentation exercises to help you further refine your skills.</p>
-    
-    <p>Our <a href="{{ "/practice-exercises/" | relative_url }}" class="practice-link">Practice Exercises</a> include:</p>
-    
-    <ul class="practice-list">
-      <li><strong>Model Card Creation</strong> - Document AI models with comprehensive model cards</li>
-      <li><strong>AI System Documentation</strong> - Document complex ML pipelines and architectures</li>
-      <li><strong>Ethical AI Documentation</strong> - Learn to document ethical considerations effectively</li>
-      <li><strong>Visual AI Documentation</strong> - Master creating diagrams and visual explanations</li>
-      <li><strong>AI Explainability Documentation</strong> - Explore techniques for documenting AI decisions</li>
-    </ul>
-    
-    <div class="practice-cta">
-      <a href="{{ "/practice-exercises/" | relative_url }}" class="practice-button">Explore Practice Exercises</a>
-    </div>
-  </div>
-</div>
-
 ## From the Course Creator
 
 <div class="creator-message">
