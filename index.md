@@ -10,7 +10,7 @@ keywords: "AI documentation, machine learning documentation, technical writing f
     <h1 class="hero-title">Transform Complex AI Systems into <span class="highlight">Crystal-Clear Documentation</span></h1>
     <p class="hero-subtitle">Master the specialized skills needed to document artificial intelligence and machine learning systems that developers love and users understand.</p>
     <div class="hero-cta">
-      <a href="{{ site.baseurl }}/aimldocumentation/documentation.html" class="primary-button">Explore Course Modules</a>
+      <a href="{{ site.baseurl }}/documentation.html" class="primary-button">Explore Course Modules</a>
       <a href="#why-this-course" class="secondary-button">Why This Course?</a>
     </div>
   </div>
@@ -105,7 +105,7 @@ keywords: "AI documentation, machine learning documentation, technical writing f
     <h2>Ready to Master AI-ML Documentation?</h2>
     <p>Start your journey toward becoming an expert in documenting artificial intelligence and machine learning systems. Each module builds on previous concepts while introducing new skills and perspectives.</p>
     <div class="cta-buttons">
-      <a href="{{ site.baseurl }}/aimldocumentation/documentation.html" class="primary-button">Start with First Module</a>
+      <a href="{{ site.baseurl }}/documentation.html" class="primary-button">Start with First Module</a>
     </div>
   </div>
 </div>
