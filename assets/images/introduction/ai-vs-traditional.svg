@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f5f7fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#080f5b">
+    Documenting Different Systems
+  </text>
+  
+  <!-- Traditional Software Box -->
+  <rect x="50" y="100" width="320" height="350" rx="15" fill="white" stroke="#080f5b" stroke-width="3"/>
+  <text x="210" y="130" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#080f5b">Traditional Software</text>
+  
+  <!-- Traditional Icon: Gears -->
+  <g transform="translate(210, 180)">
+    <!-- Outer Gear -->
+    <circle cx="0" cy="0" r="35" fill="#f5f7fa" stroke="#080f5b" stroke-width="3"/>
+    <path d="M0,-45 L5,-35 L15,-38 L18,-28 L28,-25 L25,-15 L35,-10 L35,0 L35,10 L25,15 L28,25 L18,28 L15,38 L5,35 L0,45 L-5,35 L-15,38 L-18,28 L-28,25 L-25,15 L-35,10 L-35,0 L-35,-10 L-25,-15 L-28,-25 L-18,-28 L-15,-38 L-5,-35 Z" fill="#e0e0e0" stroke="#080f5b" stroke-width="2"/>
+    <!-- Inner Gear -->
+    <circle cx="0" cy="0" r="15" fill="#080f5b"/>
+    <!-- Teeth -->
+    <rect x="-3" y="-40" width="6" height="10" fill="#080f5b"/>
+    <rect x="-3" y="30" width="6" height="10" fill="#080f5b"/>
+    <rect x="30" y="-3" width="10" height="6" fill="#080f5b"/>
+    <rect x="-40" y="-3" width="10" height="6" fill="#080f5b"/>
+  </g>
+  
+  <!-- Traditional Software Characteristics -->
+  <g transform="translate(70, 250)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f0ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#080f5b">Predictable Outputs</text>
+    </g>
+    
+    <g transform="translate(0, 45)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f0ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#080f5b">Rule-based Logic</text>
+    </g>
+    
+    <g transform="translate(0, 90)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f0ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#080f5b">Step-by-step Processes</text>
+    </g>
+    
+    <g transform="translate(0, 135)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f0ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#080f5b">Deterministic Behavior</text>
+    </g>
+  </g>
+  
+  <!-- AI Systems Box -->
+  <rect x="430" y="100" width="320" height="350" rx="15" fill="white" stroke="#3772ff" stroke-width="3"/>
+  <text x="590" y="130" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#3772ff">AI Systems</text>
+  
+  <!-- AI Icon: Neural Network -->
+  <g transform="translate(590, 180)">
+    <!-- Nodes -->
+    <!-- Input layer -->
+    <circle cx="-30" cy="-25" r="8" fill="#3772ff"/>
+    <circle cx="-30" cy="0" r="8" fill="#3772ff"/>
+    <circle cx="-30" cy="25" r="8" fill="#3772ff"/>
+    
+    <!-- Hidden layer -->
+    <circle cx="0" cy="-30" r="8" fill="#3772ff"/>
+    <circle cx="0" cy="-10" r="8" fill="#3772ff"/>
+    <circle cx="0" cy="10" r="8" fill="#3772ff"/>
+    <circle cx="0" cy="30" r="8" fill="#3772ff"/>
+    
+    <!-- Output layer -->
+    <circle cx="30" cy="-15" r="8" fill="#3772ff"/>
+    <circle cx="30" cy="15" r="8" fill="#3772ff"/>
+    
+    <!-- Connections -->
+    <!-- Input to hidden -->
+    <line x1="-30" y1="-25" x2="0" y2="-30" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="-25" x2="0" y2="-10" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="-25" x2="0" y2="10" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="-25" x2="0" y2="30" stroke="#3772ff" stroke-width="2"/>
+    
+    <line x1="-30" y1="0" x2="0" y2="-30" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="0" x2="0" y2="-10" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="0" x2="0" y2="10" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="0" x2="0" y2="30" stroke="#3772ff" stroke-width="2"/>
+    
+    <line x1="-30" y1="25" x2="0" y2="-30" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="25" x2="0" y2="-10" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="25" x2="0" y2="10" stroke="#3772ff" stroke-width="2"/>
+    <line x1="-30" y1="25" x2="0" y2="30" stroke="#3772ff" stroke-width="2"/>
+    
+    <!-- Hidden to output -->
+    <line x1="0" y1="-30" x2="30" y2="-15" stroke="#3772ff" stroke-width="2"/>
+    <line x1="0" y1="-30" x2="30" y2="15" stroke="#3772ff" stroke-width="2"/>
+    <line x1="0" y1="-10" x2="30" y2="-15" stroke="#3772ff" stroke-width="2"/>
+    <line x1="0" y1="-10" x2="30" y2="15" stroke="#3772ff" stroke-width="2"/>
+    <line x1="0" y1="10" x2="30" y2="-15" stroke="#3772ff" stroke-width="2"/>
+    <line x1="0" y1="10" x2="30" y2="15" stroke="#3772ff" stroke-width="2"/>
+    <line x1="0" y1="30" x2="30" y2="-15" stroke="#3772ff" stroke-width="2"/>
+    <line x1="0" y1="30" x2="30" y2="15" stroke="#3772ff" stroke-width="2"/>
+  </g>
+  
+  <!-- AI System Characteristics -->
+  <g transform="translate(450, 250)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f7ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#3772ff">Probabilistic Outputs</text>
+    </g>
+    
+    <g transform="translate(0, 45)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f7ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#3772ff">Data-driven Models</text>
+    </g>
+    
+    <g transform="translate(0, 90)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f7ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#3772ff">Black-box Behavior</text>
+    </g>
+    
+    <g transform="translate(0, 135)">
+      <rect x="0" y="0" width="280" height="35" rx="5" fill="#e6f7ff"/>
+      <text x="140" y="24" font-family="Arial" font-size="16" text-anchor="middle" fill="#3772ff">Emergent Properties</text>
+    </g>
+  </g>
+  
+  <!-- Versus -->
+  <circle cx="400" cy="180" r="35" fill="#ff9e00"/>
+  <text x="400" y="187" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="white">VS</text>
+  
+  <!-- Documentation Implications -->
+  <rect x="220" y="460" width="360" height="30" rx="15" fill="#080f5b"/>
+  <text x="400" y="482" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    Different Documentation Approaches Required
+  </text>
+</svg> 

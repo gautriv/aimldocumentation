@@ -1,0 +1,118 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="700" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#333">Types of Machine Learning</text>
+    
+    <!-- Section 1: Supervised Learning -->
+    <rect x="50" y="100" width="700" height="180" rx="10" ry="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="400" y="130" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#2196F3">Supervised Learning</text>
+    
+    <!-- Supervised Learning Illustration -->
+    <rect x="70" y="150" width="320" height="110" rx="5" ry="5" fill="white" stroke="#90CAF9" stroke-width="1"/>
+    
+    <!-- Data Points -->
+    <circle cx="120" cy="180" r="10" fill="#F44336"/>
+    <circle cx="150" cy="200" r="10" fill="#F44336"/>
+    <circle cx="180" cy="170" r="10" fill="#F44336"/>
+    <circle cx="210" cy="210" r="10" fill="#F44336"/>
+    <circle cx="230" cy="190" r="10" fill="#F44336"/>
+    
+    <circle cx="270" cy="220" r="10" fill="#4CAF50"/>
+    <circle cx="290" cy="190" r="10" fill="#4CAF50"/>
+    <circle cx="310" cy="230" r="10" fill="#4CAF50"/>
+    <circle cx="330" cy="210" r="10" fill="#4CAF50"/>
+    <circle cx="350" cy="180" r="10" fill="#4CAF50"/>
+    
+    <!-- Labels -->
+    <text x="155" cy="160" text-anchor="middle" font-family="Arial" font-size="12" fill="#F44336">Label: Cat</text>
+    <text x="325" cy="160" text-anchor="middle" font-family="Arial" font-size="12" fill="#4CAF50">Label: Dog</text>
+    
+    <!-- Decision Boundary -->
+    <line x1="240" y1="150" x2="240" y2="260" stroke="#2196F3" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- Description -->
+    <rect x="420" y="150" width="320" height="110" rx="5" ry="5" fill="white" stroke="#90CAF9" stroke-width="1"/>
+    <text x="430" y="170" font-family="Arial" font-size="14" fill="#333">• Algorithm learns from labeled examples</text>
+    <text x="430" y="195" font-family="Arial" font-size="14" fill="#333">• Input: Features with correct answers</text>
+    <text x="430" y="220" font-family="Arial" font-size="14" fill="#333">• Goal: Predict labels for new data</text>
+    <text x="430" y="245" font-family="Arial" font-size="14" fill="#333">• Examples: Classification, Regression</text>
+    
+    <!-- Section 2: Unsupervised Learning -->
+    <rect x="50" y="300" width="700" height="180" rx="10" ry="10" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <text x="400" y="330" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#4CAF50">Unsupervised Learning</text>
+    
+    <!-- Unsupervised Learning Illustration -->
+    <rect x="70" y="350" width="320" height="110" rx="5" ry="5" fill="white" stroke="#A5D6A7" stroke-width="1"/>
+    
+    <!-- Data Points -->
+    <circle cx="120" cy="380" r="10" fill="#90CAF9"/>
+    <circle cx="140" cy="390" r="10" fill="#90CAF9"/>
+    <circle cx="125" cy="410" r="10" fill="#90CAF9"/>
+    <circle cx="150" cy="420" r="10" fill="#90CAF9"/>
+    <circle cx="110" cy="430" r="10" fill="#90CAF9"/>
+    
+    <circle cx="240" cy="370" r="10" fill="#90CAF9"/>
+    <circle cx="260" cy="380" r="10" fill="#90CAF9"/>
+    <circle cx="230" cy="395" r="10" fill="#90CAF9"/>
+    <circle cx="250" cy="410" r="10" fill="#90CAF9"/>
+    <circle cx="270" cy="390" r="10" fill="#90CAF9"/>
+    
+    <circle cx="340" cy="420" r="10" fill="#90CAF9"/>
+    <circle cx="330" cy="400" r="10" fill="#90CAF9"/>
+    <circle cx="350" cy="385" r="10" fill="#90CAF9"/>
+    <circle cx="360" cy="410" r="10" fill="#90CAF9"/>
+    <circle cx="325" cy="430" r="10" fill="#90CAF9"/>
+    
+    <!-- Clusters -->
+    <circle cx="130" cy="400" r="50" fill="none" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <circle cx="250" cy="390" r="45" fill="none" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <circle cx="340" cy="405" r="40" fill="none" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="5,3"/>
+    
+    <!-- Description -->
+    <rect x="420" y="350" width="320" height="110" rx="5" ry="5" fill="white" stroke="#A5D6A7" stroke-width="1"/>
+    <text x="430" y="370" font-family="Arial" font-size="14" fill="#333">• Algorithm finds patterns without labels</text>
+    <text x="430" y="395" font-family="Arial" font-size="14" fill="#333">• Input: Unlabeled data only</text>
+    <text x="430" y="420" font-family="Arial" font-size="14" fill="#333">• Goal: Discover natural groupings</text>
+    <text x="430" y="445" font-family="Arial" font-size="14" fill="#333">• Examples: Clustering, Dimensionality Reduction</text>
+    
+    <!-- Section 3: Reinforcement Learning -->
+    <rect x="50" y="500" width="700" height="180" rx="10" ry="10" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <text x="400" y="530" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#FF9800">Reinforcement Learning</text>
+    
+    <!-- Reinforcement Learning Illustration -->
+    <rect x="70" y="550" width="320" height="110" rx="5" ry="5" fill="white" stroke="#FFCC80" stroke-width="1"/>
+    
+    <!-- Environment -->
+    <rect x="100" y="570" width="260" height="70" fill="#FFFDE7" stroke="#FFD54F" stroke-width="1" rx="5" ry="5"/>
+    <text x="230" y="585" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Environment</text>
+    
+    <!-- Agent -->
+    <circle cx="150" cy="605" r="20" fill="#FF9800"/>
+    <text x="150" y="610" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Agent</text>
+    
+    <!-- Reward -->
+    <polygon points="280,590 290,610 300,590 290,585" fill="#FFEB3B" stroke="#FDD835" stroke-width="1"/>
+    <text x="290" y="610" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Reward</text>
+    
+    <!-- Action and State arrows -->
+    <path d="M 175 595 L 240 595" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="210" y="590" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Action</text>
+    
+    <path d="M 240 615 L 175 615" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="210" y="630" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">State</text>
+    
+    <!-- Description -->
+    <rect x="420" y="550" width="320" height="110" rx="5" ry="5" fill="white" stroke="#FFCC80" stroke-width="1"/>
+    <text x="430" y="570" font-family="Arial" font-size="14" fill="#333">• Agent learns through interaction</text>
+    <text x="430" y="595" font-family="Arial" font-size="14" fill="#333">• Input: Environment feedback (rewards)</text>
+    <text x="430" y="620" font-family="Arial" font-size="14" fill="#333">• Goal: Learn optimal action policy</text>
+    <text x="430" y="645" font-family="Arial" font-size="14" fill="#333">• Examples: Game AI, Autonomous vehicles</text>
+    
+    <!-- Arrow definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#FF9800"/>
+        </marker>
+    </defs>
+</svg> 

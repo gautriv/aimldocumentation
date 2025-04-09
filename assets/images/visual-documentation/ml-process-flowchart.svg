@@ -1,0 +1,111 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="600" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#333">Machine Learning Process Flowchart</text>
+    
+    <!-- Process Flow -->
+    <!-- Start Node -->
+    <rect x="350" y="100" width="100" height="50" rx="25" ry="25" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <text x="400" y="130" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Start</text>
+    
+    <!-- Data Collection -->
+    <rect x="300" y="180" width="200" height="50" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="400" y="210" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Data Collection</text>
+    
+    <!-- Data Preprocessing -->
+    <rect x="300" y="260" width="200" height="50" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="400" y="290" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Data Preprocessing</text>
+    
+    <!-- Feature Engineering -->
+    <rect x="300" y="340" width="200" height="50" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="400" y="370" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Feature Engineering</text>
+    
+    <!-- Decision Diamond -->
+    <polygon points="400,420 450,455 400,490 350,455" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <text x="400" y="463" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Features 
+Sufficient?</text>
+    
+    <!-- Model Training -->
+    <rect x="300" y="520" width="200" height="50" fill="#FFF8E1" stroke="#FFC107" stroke-width="2"/>
+    <text x="400" y="550" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Model Training</text>
+    
+    <!-- Connection lines -->
+    <line x1="400" y1="150" x2="400" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="400" y1="230" x2="400" y2="260" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="400" y1="310" x2="400" y2="340" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="400" y1="390" x2="400" y2="420" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="400" y1="490" x2="400" y2="520" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Decision Diamond Yes/No paths -->
+    <path d="M 450 455 L 550 455 L 550 370 L 500 370" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="510" y="445" font-family="Arial" font-size="12" fill="#333">No</text>
+    <text x="400" y="510" font-family="Arial" font-size="12" fill="#333">Yes</text>
+    
+    <!-- Model Evaluation Box -->
+    <rect x="550" y="520" width="200" height="50" fill="#FFF8E1" stroke="#FFC107" stroke-width="2"/>
+    <text x="650" y="550" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Model Evaluation</text>
+    
+    <!-- Connect Model Training to Evaluation -->
+    <line x1="500" y1="545" x2="550" y2="545" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Decision Diamond for Model Performance -->
+    <polygon points="650,420 700,455 650,490 600,455" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <text x="650" y="463" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Performance
+Acceptable?</text>
+    
+    <!-- Connect Evaluation to Decision -->
+    <line x1="650" y1="520" x2="650" y2="490" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Decision Paths -->
+    <path d="M 600 455 L 500 455 L 500 545" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="560" y="445" font-family="Arial" font-size="12" fill="#333">No</text>
+    
+    <!-- Model Deployment Box -->
+    <rect x="550" y="340" width="200" height="50" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="650" y="370" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Model Deployment</text>
+    
+    <!-- Connect Decision to Deployment -->
+    <line x1="650" y1="420" x2="650" y2="390" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="660" y="410" font-family="Arial" font-size="12" fill="#333">Yes</text>
+    
+    <!-- Monitoring Box -->
+    <rect x="550" y="260" width="200" height="50" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="650" y="290" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Monitoring & Maintenance</text>
+    
+    <!-- Connect Deployment to Monitoring -->
+    <line x1="650" y1="340" x2="650" y2="310" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- End Node -->
+    <rect x="600" y="180" width="100" height="50" rx="25" ry="25" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+    <text x="650" y="210" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">End</text>
+    
+    <!-- Connect Monitoring to End -->
+    <line x1="650" y1="260" x2="650" y2="230" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Arrow definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- Legend -->
+    <rect x="50" y="180" width="180" height="200" rx="5" ry="5" fill="white" stroke="#BDBDBD" stroke-width="1"/>
+    <text x="140" y="200" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Legend</text>
+    
+    <rect x="70" y="220" width="20" height="20" rx="10" ry="10" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <text x="140" y="235" font-family="Arial" font-size="12" fill="#333">Start/End Points</text>
+    
+    <rect x="70" y="250" width="20" height="20" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="140" y="265" font-family="Arial" font-size="12" fill="#333">Data Processing</text>
+    
+    <rect x="70" y="280" width="20" height="20" fill="#FFF8E1" stroke="#FFC107" stroke-width="2"/>
+    <text x="140" y="295" font-family="Arial" font-size="12" fill="#333">Model Operations</text>
+    
+    <polygon points="80,315 90,325 80,335 70,325" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <text x="140" y="325" font-family="Arial" font-size="12" fill="#333">Decision Points</text>
+    
+    <rect x="70" y="345" width="20" height="20" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="140" y="360" font-family="Arial" font-size="12" fill="#333">Production Stage</text>
+</svg> 

@@ -1,58 +1,85 @@
-plugins:
-  - jekyll-feed
-  - jekyll-seo
-  - jemoji
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-destination: _site
-highlighter: rouge
+title: AI-ML Documentation Course
+description: >-
+  A comprehensive course on creating world-class AI and ML documentation.
+  Learn how to document AI models, explain complex concepts, and create ethical documentation for artificial intelligence systems.
+baseurl: "/aimldocumentation" # the subpath of your site, e.g. /blog
+url: "https://beingtechnicalwriter.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
-  auto_ids: true
   syntax_highlighter: rouge
+permalink: pretty
 
-site_title: AI & ML for Technical Writers - Mastering Content for Emerging Technologies
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
+# SEO settings
+twitter:
+  username: beingtechwriter
+  card: summary
+social:
+  name: Being Technical Writer
+  links:
+    - https://twitter.com/beingtechwriter
+    - https://www.linkedin.com/in/gauravtrivedi1988/
+    - https://github.com/gautriv
+
+# Exclude from processing
 exclude:
-  - .gitignore
-  - vendor
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
 
 # Collections
 collections:
   docs:
     output: true
-  slides:
-    output: true
-  smartphones: 
-    output: true
+    permalink: /:path/
 
+# Default layouts
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: "pages"
+      type: "docs"
     values:
-      layout: "page"
-      comments: true
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
-      
-sidebars:
-- sidebar
-
-
-####### jekyll seo tag configuration #######
-title: AI & ML for Technical Writers
-tagline: A step by step guide for technical writers
-description: A course for technical writers looking to learn each and every aspect of AI & ML.
-
-url: https://beingtechnicalwriter.com/aimldocumentation
-social:
-  name: Gaurav Trivedi
-  links:
-    - https://www.linkedin.com/in/gauravtrivedi1988/
-    - https://github.com/gautriv/
-
-lang: en_US
-
+      layout: "doc"
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

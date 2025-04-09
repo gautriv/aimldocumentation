@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#263238">The Four Types of API Documentation</text>
+  <text x="400" y="80" font-family="Arial" font-size="16" text-anchor="middle" fill="#546e7a">Each serves a different purpose in the developer journey</text>
+  
+  <!-- Matrix background -->
+  <rect x="100" y="120" width="600" height="500" fill="white" stroke="#cfd8dc" stroke-width="2" rx="10"/>
+  
+  <!-- Matrix grid lines -->
+  <line x1="400" y1="120" x2="400" y2="620" stroke="#cfd8dc" stroke-width="3"/>
+  <line x1="100" y1="370" x2="700" y2="370" stroke="#cfd8dc" stroke-width="3"/>
+  
+  <!-- Matrix headers -->
+  <text x="250" y="150" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#263238">Learning-Oriented</text>
+  <text x="550" y="150" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#263238">Problem-Oriented</text>
+  
+  <text x="75" y="250" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#263238" transform="rotate(-90, 75, 250)">Practical</text>
+  <text x="75" y="500" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#263238" transform="rotate(-90, 75, 500)">Theoretical</text>
+  
+  <!-- Quadrant 1: Tutorials -->
+  <rect x="130" y="170" width="240" height="170" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  
+  <!-- Tutorial icon -->
+  <circle cx="170" y="210" r="30" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="170" y="220" font-family="Arial" font-size="30" text-anchor="middle" font-weight="bold" fill="#0d47a1">1</text>
+  
+  <text x="290" y="200" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#0d47a1">Tutorials</text>
+  <text x="290" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#0d47a1">"Getting Started"</text>
+  
+  <rect x="220" y="250" width="140" height="75" rx="5" fill="white" stroke="#90caf9" stroke-width="1"/>
+  <text x="290" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">• Step-by-step guides</text>
+  <text x="290" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">• Complete examples</text>
+  <text x="290" y="310" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">• Focus on first success</text>
+  
+  <!-- Quadrant 2: How-To Guides -->
+  <rect x="430" y="170" width="240" height="170" rx="10" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  
+  <!-- How-To icon -->
+  <circle cx="470" y="210" r="30" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="470" y="220" font-family="Arial" font-size="30" text-anchor="middle" font-weight="bold" fill="#2e7d32">2</text>
+  
+  <text x="590" y="200" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#2e7d32">How-To Guides</text>
+  <text x="590" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#2e7d32">"Solving Problems"</text>
+  
+  <rect x="520" y="250" width="140" height="75" rx="5" fill="white" stroke="#a5d6a7" stroke-width="1"/>
+  <text x="590" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">• Task-focused guides</text>
+  <text x="590" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">• Specific use cases</text>
+  <text x="590" y="310" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">• Assumes basic knowledge</text>
+  
+  <!-- Quadrant 3: Reference -->
+  <rect x="430" y="400" width="240" height="170" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  
+  <!-- Reference icon -->
+  <circle cx="470" y="440" r="30" fill="#ffe0b2" stroke="#f57c00" stroke-width="2"/>
+  <text x="470" y="450" font-family="Arial" font-size="30" text-anchor="middle" font-weight="bold" fill="#e65100">4</text>
+  
+  <text x="590" y="430" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#e65100">Reference</text>
+  <text x="590" y="460" font-family="Arial" font-size="14" text-anchor="middle" fill="#e65100">"Information-Oriented"</text>
+  
+  <rect x="520" y="480" width="140" height="75" rx="5" fill="white" stroke="#ffcc80" stroke-width="1"/>
+  <text x="590" y="500" font-family="Arial" font-size="12" text-anchor="middle" fill="#e65100">• Complete details</text>
+  <text x="590" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#e65100">• Technical specifications</text>
+  <text x="590" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#e65100">• Organized for lookup</text>
+  
+  <!-- Quadrant 4: Explanations -->
+  <rect x="130" y="400" width="240" height="170" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  
+  <!-- Explanation icon -->
+  <circle cx="170" y="440" r="30" fill="#c5cae9" stroke="#303f9f" stroke-width="2"/>
+  <text x="170" y="450" font-family="Arial" font-size="30" text-anchor="middle" font-weight="bold" fill="#283593">3</text>
+  
+  <text x="290" y="430" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#283593">Explanations</text>
+  <text x="290" y="460" font-family="Arial" font-size="14" text-anchor="middle" fill="#283593">"Understanding-Oriented"</text>
+  
+  <rect x="220" y="480" width="140" height="75" rx="5" fill="white" stroke="#9fa8da" stroke-width="1"/>
+  <text x="290" y="500" font-family="Arial" font-size="12" text-anchor="middle" fill="#283593">• Background information</text>
+  <text x="290" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#283593">• How the API works</text>
+  <text x="290" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#283593">• Design decisions</text>
+  
+  <!-- Legend - When to use each type -->
+  <rect x="150" y="630" width="500" height="60" fill="white" stroke="#b0bec5" stroke-width="1" rx="5"/>
+  <text x="400" y="650" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#455a64">When to Use Each Type</text>
+  
+  <circle cx="180" y="670" r="10" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="180" y="675" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="#0d47a1">1</text>
+  <text x="245" y="675" font-family="Arial" font-size="12" fill="#455a64">When onboarding</text>
+  
+  <circle cx="310" y="670" r="10" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="310" y="675" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="#2e7d32">2</text>
+  <text x="395" y="675" font-family="Arial" font-size="12" fill="#455a64">When building features</text>
+  
+  <circle cx="480" y="670" r="10" fill="#c5cae9" stroke="#303f9f" stroke-width="1"/>
+  <text x="480" y="675" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="#283593">3</text>
+  <text x="545" y="675" font-family="Arial" font-size="12" fill="#455a64">When gaining depth</text>
+  
+  <circle cx="600" y="670" r="10" fill="#ffe0b2" stroke="#f57c00" stroke-width="1"/>
+  <text x="600" y="675" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="#e65100">4</text>
+  <text x="660" y="675" font-family="Arial" font-size="12" fill="#455a64">When implementing</text>
+  
+  <!-- Icons for each quadrant -->
+  <!-- Tutorial visual elements -->
+  <rect x="140" y="230" width="15" height="20" fill="#1976d2" stroke="none"/>
+  <rect x="145" y="220" width="15" height="20" fill="#1976d2" stroke="none"/>
+  <rect x="150" y="210" width="15" height="20" fill="#1976d2" stroke="none"/>
+  <text x="146" y="236" font-family="Arial" font-size="8" fill="white">1</text>
+  <text x="151" y="226" font-family="Arial" font-size="8" fill="white">2</text>
+  <text x="156" y="216" font-family="Arial" font-size="8" fill="white">3</text>
+  
+  <!-- How-To visual elements -->
+  <circle cx="465" y="215" r="12" fill="#388e3c" stroke="none"/>
+  <text x="465" y="219" font-family="Arial" font-size="14" text-anchor="middle" fill="white">?</text>
+  <path d="M 480,213 L 500,213" stroke="#388e3c" stroke-width="2"/>
+  <path d="M 481,217 L 495,217" stroke="#388e3c" stroke-width="2"/>
+  <circle cx="505" y="215" r="5" fill="#388e3c" stroke="none"/>
+  
+  <!-- Explanation visual elements -->
+  <circle cx="170" y="420" r="15" fill="#303f9f" stroke="none"/>
+  <text x="170" y="425" font-family="Arial" font-size="15" text-anchor="middle" fill="white">i</text>
+  <rect x="155" y="440" width="30" height="2" fill="#303f9f" stroke="none"/>
+  <rect x="155" y="445" width="30" height="2" fill="#303f9f" stroke="none"/>
+  <rect x="155" y="450" width="20" height="2" fill="#303f9f" stroke="none"/>
+  
+  <!-- Reference visual elements -->
+  <rect x="455" y="420" width="25" height="35" fill="#f57c00" stroke="none"/>
+  <rect x="455" y="420" width="25" height="5" fill="white" stroke="none"/>
+  <rect x="460" y="430" width="15" height="2" fill="white" stroke="none"/>
+  <rect x="460" y="435" width="15" height="2" fill="white" stroke="none"/>
+  <rect x="460" y="440" width="15" height="2" fill="white" stroke="none"/>
+  <rect x="460" y="445" width="10" height="2" fill="white" stroke="none"/>
+</svg> 

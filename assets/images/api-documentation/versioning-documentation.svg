@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="900" height="650" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f7fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#263238">Documenting API Versions for AI Services</text>
+  
+  <!-- Main container -->
+  <rect x="50" y="80" width="800" height="530" fill="white" stroke="#b0bec5" stroke-width="2" rx="8"/>
+  
+  <!-- Version timeline section -->
+  <rect x="70" y="100" width="760" height="150" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5"/>
+  <text x="450" y="125" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d47a1">Version Timeline</text>
+  
+  <!-- Timeline -->
+  <line x1="120" y1="180" x2="780" y2="180" stroke="#90caf9" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Timeline nodes -->
+  <circle cx="180" y="180" r="10" fill="#0d47a1" stroke="none"/>
+  <text x="180" y="160" font-family="Arial" font-size="14" text-anchor="middle" fill="#0d47a1">v1.0</text>
+  <text x="180" y="210" font-family="Arial" font-size="12" text-anchor="middle" fill="#546e7a">Jan 2022</text>
+  
+  <circle cx="320" y="180" r="10" fill="#0d47a1" stroke="none"/>
+  <text x="320" y="160" font-family="Arial" font-size="14" text-anchor="middle" fill="#0d47a1">v1.5</text>
+  <text x="320" y="210" font-family="Arial" font-size="12" text-anchor="middle" fill="#546e7a">Jun 2022</text>
+  
+  <circle cx="450" y="180" r="15" fill="#0d47a1" stroke="none"/>
+  <text x="450" y="160" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0d47a1">v2.0</text>
+  <text x="450" y="210" font-family="Arial" font-size="12" text-anchor="middle" fill="#546e7a">Jan 2023</text>
+  <text x="450" y="230" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="#43a047">Current Stable</text>
+  
+  <circle cx="580" y="180" r="10" fill="#9c27b0" stroke="none"/>
+  <text x="580" y="160" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#6a1b9a">v3.0-beta</text>
+  <text x="580" y="210" font-family="Arial" font-size="12" text-anchor="middle" fill="#546e7a">Jul 2023</text>
+  
+  <circle cx="700" y="180" r="10" fill="#78909c" stroke="#455a64" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="700" y="160" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#455a64">v3.0</text>
+  <text x="700" y="210" font-family="Arial" font-size="12" text-anchor="middle" fill="#546e7a">Planned: Dec 2023</text>
+  
+  <!-- v1.0 end of support marker -->
+  <path d="M 180,180 L 180,225" stroke="#ef5350" stroke-width="1" stroke-dasharray="4,2"/>
+  <path d="M 165,225 L 195,225" stroke="#ef5350" stroke-width="2"/>
+  <text x="180" y="245" font-family="Arial" font-size="12" text-anchor="middle" fill="#d32f2f">End of Support: Dec 2023</text>
+  
+  <!-- API vs Model Version section -->
+  <rect x="70" y="270" width="360" height="320" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1" rx="5"/>
+  <text x="250" y="295" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#6a1b9a">API vs Model Versions</text>
+  
+  <!-- API to model mapping -->
+  <rect x="90" y="320" width="320" height="250" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  
+  <!-- Table header -->
+  <line x1="90" y1="350" x2="410" y2="350" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="250" y1="320" x2="250" y2="570" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="170" y="340" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#6a1b9a">Model Version</text>
+  <text x="330" y="340" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#6a1b9a">API Support</text>
+  
+  <!-- Row 1 -->
+  <line x1="90" y1="380" x2="410" y2="380" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="170" y="370" font-family="Arial" font-size="14" fill="#263238">vision-2023-07</text>
+  <text x="330" y="370" font-family="Arial" font-size="14" fill="#263238">v2.0, v3.0-beta</text>
+  
+  <!-- Row 2 -->
+  <line x1="90" y1="410" x2="410" y2="410" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="170" y="400" font-family="Arial" font-size="14" fill="#263238">vision-2023-01</text>
+  <text x="330" y="400" font-family="Arial" font-size="14" fill="#263238">v1.5, v2.0</text>
+  
+  <!-- Row 3 -->
+  <line x1="90" y1="440" x2="410" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="170" y="430" font-family="Arial" font-size="14" fill="#263238">vision-2022-06</text>
+  <text x="330" y="430" font-family="Arial" font-size="14" fill="#263238">v1.0, v1.5</text>
+  
+  <!-- Notes -->
+  <text x="100" y="470" font-family="Arial" font-size="14" font-weight="bold" fill="#6a1b9a">Important:</text>
+  <text x="100" y="495" font-family="Arial" font-size="14" fill="#263238">• New APIs may access newer models</text>
+  <text x="100" y="520" font-family="Arial" font-size="14" fill="#263238">• Older APIs maintain compatibility</text>
+  <text x="100" y="545" font-family="Arial" font-size="14" fill="#263238">• Model versions have different capabilities</text>
+  
+  <!-- Migration guide section -->
+  <rect x="450" y="270" width="380" height="320" fill="#e8f5e9" stroke="#4caf50" stroke-width="1" rx="5"/>
+  <text x="640" y="295" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#2e7d32">Migration Guide</text>
+  
+  <!-- Breaking vs Non-breaking changes -->
+  <rect x="470" y="320" width="340" height="120" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="640" y="340" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#2e7d32">v1.5 → v2.0 Changes</text>
+  
+  <rect x="480" y="355" width="150" height="25" fill="#ffcdd2" stroke="#ef9a9a" stroke-width="1" rx="3"/>
+  <text x="555" y="373" font-family="Arial" font-size="14" text-anchor="middle" fill="#c62828">Breaking</text>
+  
+  <rect x="650" y="355" width="150" height="25" fill="#c8e6c9" stroke="#a5d6a7" stroke-width="1" rx="3"/>
+  <text x="725" y="373" font-family="Arial" font-size="14" text-anchor="middle" fill="#2e7d32">Non-Breaking</text>
+  
+  <text x="480" y="400" font-family="Arial" font-size="12" fill="#d32f2f">• Authentication change</text>
+  <text x="480" y="420" font-family="Arial" font-size="12" fill="#d32f2f">• Response format update</text>
+  
+  <text x="650" y="400" font-family="Arial" font-size="12" fill="#2e7d32">• New optional parameters</text>
+  <text x="650" y="420" font-family="Arial" font-size="12" fill="#2e7d32">• Performance improvements</text>
+  
+  <!-- Code example -->
+  <rect x="470" y="450" width="340" height="120" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="640" y="470" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#2e7d32">Code Migration Example</text>
+  
+  <rect x="480" y="485" width="320" height="75" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" rx="2"/>
+  <text x="490" y="505" font-family="Courier New" font-size="12" fill="#c62828">// v1.5 (before)</text>
+  <text x="490" y="525" font-family="Courier New" font-size="12" fill="#c62828">fetch('/v1.5/analyze?key=API_KEY')</text>
+  <text x="490" y="545" font-family="Courier New" font-size="12" fill="#2e7d32">// v2.0 (after)</text>
+  <text x="490" y="565" font-family="Courier New" font-size="12" fill="#2e7d32">fetch('/v2.0/analyze', {headers: {Authorization: 'Bearer API_KEY'}})</text>
+  
+  <!-- AI-specific versioning notes -->
+  <rect x="50" y="630" width="800" height="40" fill="#ede7f6" stroke="#673ab7" stroke-width="1" rx="5"/>
+  <text x="450" y="655" font-family="Arial" font-size="14" text-anchor="middle" fill="#4527a0">For AI APIs: Document both API version changes AND underlying model version differences</text>
+  
+  <!-- Documentation Reference -->
+  <text x="100" y="620" font-family="Arial" font-size="14" font-weight="bold" fill="#546e7a">Legend:</text>
+  <circle cx="180" y="617" r="10" fill="#0d47a1" stroke="none"/>
+  <text x="200" y="620" font-family="Arial" font-size="12" fill="#546e7a">Released Versions</text>
+  
+  <circle cx="300" y="617" r="10" fill="#9c27b0" stroke="none"/>
+  <text x="320" y="620" font-family="Arial" font-size="12" fill="#546e7a">Beta Versions</text>
+  
+  <circle cx="420" y="617" r="10" fill="#78909c" stroke="#455a64" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="440" y="620" font-family="Arial" font-size="12" fill="#546e7a">Planned Versions</text>
+  
+  <path d="M 560,615 L 560,625" stroke="#ef5350" stroke-width="1" stroke-dasharray="4,2"/>
+  <path d="M 550,620 L 570,620" stroke="#ef5350" stroke-width="2"/>
+  <text x="590" y="620" font-family="Arial" font-size="12" fill="#546e7a">End of Support</text>
+</svg> 

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#1a237e">What Makes AI API Documentation Different?</text>
+  
+  <!-- Dividing line -->
+  <line x1="400" y1="80" x2="400" y2="550" stroke="#cfd8dc" stroke-width="2" stroke-dasharray="6,4"/>
+  
+  <!-- Traditional API Side -->
+  <rect x="50" y="80" width="300" height="60" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="200" y="120" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#0d47a1">Traditional API</text>
+  
+  <!-- AI API Side -->
+  <rect x="450" y="80" width="300" height="60" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  <text x="600" y="120" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a237e">AI API</text>
+  
+  <!-- Row 1: Behavior -->
+  <rect x="90" y="160" width="220" height="70" rx="5" fill="white" stroke="#90caf9" stroke-width="2"/>
+  <text x="200" y="185" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0d47a1">Deterministic</text>
+  <text x="200" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Same input always produces same output</text>
+  
+  <rect x="490" y="160" width="220" height="70" rx="5" fill="white" stroke="#9fa8da" stroke-width="2"/>
+  <text x="600" y="185" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1a237e">Non-deterministic</text>
+  <text x="600" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Results may vary with identical inputs</text>
+  
+  <!-- Row 2: Inputs -->
+  <rect x="90" y="250" width="220" height="70" rx="5" fill="white" stroke="#90caf9" stroke-width="2"/>
+  <text x="200" y="275" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0d47a1">Simple inputs</text>
+  <text x="200" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Structured data with fixed schema</text>
+  
+  <rect x="490" y="250" width="220" height="70" rx="5" fill="white" stroke="#9fa8da" stroke-width="2"/>
+  <text x="600" y="275" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1a237e">Complex inputs</text>
+  <text x="600" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Unstructured data requiring preprocessing</text>
+  
+  <!-- Row 3: Confidence -->
+  <rect x="90" y="340" width="220" height="70" rx="5" fill="white" stroke="#90caf9" stroke-width="2"/>
+  <text x="200" y="365" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0d47a1">Binary results</text>
+  <text x="200" y="390" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Success/failure with error codes</text>
+  
+  <rect x="490" y="340" width="220" height="70" rx="5" fill="white" stroke="#9fa8da" stroke-width="2"/>
+  <text x="600" y="365" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1a237e">Confidence scores</text>
+  <text x="600" y="390" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Probabilistic results requiring interpretation</text>
+  
+  <!-- Row 4: Domain -->
+  <rect x="90" y="430" width="220" height="70" rx="5" fill="white" stroke="#90caf9" stroke-width="2"/>
+  <text x="200" y="455" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0d47a1">Generic patterns</text>
+  <text x="200" y="480" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Similar patterns across domains</text>
+  
+  <rect x="490" y="430" width="220" height="70" rx="5" fill="white" stroke="#9fa8da" stroke-width="2"/>
+  <text x="600" y="455" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1a237e">Domain-specific</text>
+  <text x="600" y="480" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">NLP, vision, speech have unique requirements</text>
+  
+  <!-- Row 5: Ethics -->
+  <rect x="90" y="520" width="220" height="70" rx="5" fill="white" stroke="#90caf9" stroke-width="2"/>
+  <text x="200" y="545" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0d47a1">Basic usage guidelines</text>
+  <text x="200" y="570" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Technical limitations and terms of service</text>
+  
+  <rect x="490" y="520" width="220" height="70" rx="5" fill="white" stroke="#9fa8da" stroke-width="2"/>
+  <text x="600" y="545" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1a237e">Ethical usage guidelines</text>
+  <text x="600" y="570" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Bias, fairness, and appropriate use cases</text>
+  
+  <!-- Icons -->
+  <!-- Deterministic icon -->
+  <circle cx="50" y="195" r="20" fill="#bbdefb"/>
+  <text x="50" y="200" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d47a1">=</text>
+  
+  <!-- Non-deterministic icon -->
+  <circle cx="730" y="195" r="20" fill="#c5cae9"/>
+  <text x="730" y="200" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a237e">~</text>
+  
+  <!-- Simple input icon -->
+  <circle cx="50" y="285" r="20" fill="#bbdefb"/>
+  <text x="50" y="292" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d47a1">{ }</text>
+  
+  <!-- Complex input icon -->
+  <circle cx="730" y="285" r="20" fill="#c5cae9"/>
+  <text x="730" y="292" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a237e">📊</text>
+  
+  <!-- Binary results icon -->
+  <circle cx="50" y="375" r="20" fill="#bbdefb"/>
+  <text x="50" y="380" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d47a1">0/1</text>
+  
+  <!-- Confidence score icon -->
+  <circle cx="730" y="375" r="20" fill="#c5cae9"/>
+  <text x="730" y="380" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a237e">%</text>
+  
+  <!-- Generic patterns icon -->
+  <circle cx="50" y="465" r="20" fill="#bbdefb"/>
+  <text x="50" y="470" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d47a1">⚙️</text>
+  
+  <!-- Domain-specific icon -->
+  <circle cx="730" y="465" r="20" fill="#c5cae9"/>
+  <text x="730" y="470" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a237e">🔍</text>
+  
+  <!-- Ethics icon for traditional -->
+  <circle cx="50" y="555" r="20" fill="#bbdefb"/>
+  <text x="50" y="560" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d47a1">📋</text>
+  
+  <!-- Ethics icon for AI -->
+  <circle cx="730" y="555" r="20" fill="#c5cae9"/>
+  <text x="730" y="560" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#1a237e">⚖️</text>
+</svg> 

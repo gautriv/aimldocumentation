@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#263238">AI API Error Documentation Template</text>
+  
+  <!-- Main document container -->
+  <rect x="100" y="80" width="700" height="580" fill="white" stroke="#b0bec5" stroke-width="2" rx="8"/>
+  
+  <!-- Error Code Header Section -->
+  <rect x="100" y="80" width="700" height="60" fill="#ffebee" stroke="#ef5350" stroke-width="1" rx="8"/>
+  <text x="130" y="118" font-family="Arial" font-size="20" font-weight="bold" fill="#c62828">Error:</text>
+  <text x="195" y="118" font-family="Arial" font-size="20" fill="#c62828">[Error Code/Name]</text>
+  <rect x="600" y="100" width="180" height="25" fill="white" stroke="#ef5350" stroke-width="1" rx="12.5"/>
+  <text x="690" y="118" font-family="Courier New" font-size="16" text-anchor="middle" fill="#c62828">HTTP 429</text>
+  
+  <!-- Description Section -->
+  <rect x="120" y="160" width="660" height="80" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="5"/>
+  <text x="140" y="185" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Description</text>
+  <line x1="140" y1="195" x2="760" y2="195" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="140" y="220" font-family="Arial" font-size="14" fill="#37474f">Clear explanation of what this error means and when it occurs. For AI APIs, be specific about</text>
+  <text x="140" y="245" font-family="Arial" font-size="14" fill="#37474f">how this error relates to model limitations, input requirements, or resource constraints.</text>
+  
+  <!-- Common Causes Section -->
+  <rect x="120" y="260" width="310" height="160" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="5"/>
+  <text x="140" y="285" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Common Causes</text>
+  <line x1="140" y1="295" x2="410" y2="295" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="140" y="320" font-family="Arial" font-size="14" fill="#37474f">• [Cause 1]</text>
+  <text x="140" y="350" font-family="Arial" font-size="14" fill="#37474f">• [Cause 2]</text>
+  <text x="140" y="380" font-family="Arial" font-size="14" fill="#37474f">• [Cause 3]</text>
+  <text x="140" y="410" font-family="Arial" font-size="14" fill="#37474f">• [Cause 4]</text>
+  
+  <!-- Example Error Response Section -->
+  <rect x="450" y="260" width="330" height="160" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="5"/>
+  <text x="470" y="285" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Example Error Response</text>
+  <line x1="470" y1="295" x2="760" y2="295" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="470" y="310" width="290" height="95" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="485" y="330" font-family="Courier New" font-size="12" fill="#37474f">{</text>
+  <text x="500" y="350" font-family="Courier New" font-size="12" fill="#37474f">"error": {</text>
+  <text x="515" y="370" font-family="Courier New" font-size="12" fill="#37474f">"code": "rate_limit_exceeded",</text>
+  <text x="515" y="390" font-family="Courier New" font-size="12" fill="#37474f">"message": "API rate limit exceeded"</text>
+  <text x="500" y="410" font-family="Courier New" font-size="12" fill="#37474f">}</text>
+  <text x="485" y="430" font-family="Courier New" font-size="12" fill="#37474f">}</text>
+  
+  <!-- Troubleshooting Steps Section -->
+  <rect x="120" y="440" width="660" height="120" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="5"/>
+  <text x="140" y="465" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Troubleshooting Steps</text>
+  <line x1="140" y1="475" x2="760" y2="475" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="140" y="500" font-family="Arial" font-size="14" fill="#37474f">1. [Step 1]</text>
+  <text x="140" y="530" font-family="Arial" font-size="14" fill="#37474f">2. [Step 2]</text>
+  <text x="140" y="560" font-family="Arial" font-size="14" fill="#37474f">3. [Step 3]</text>
+  
+  <!-- Code Example Section -->
+  <rect x="120" y="580" width="660" height="60" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1" rx="5"/>
+  <text x="140" y="605" font-family="Arial" font-size="16" font-weight="bold" fill="#2e7d32">Code Example: Handling This Error</text>
+  <text x="140" y="630" font-family="Arial" font-size="14" fill="#37474f">Include language-specific code samples showing proper error handling.</text>
+  
+  <!-- AI-Specific Error Categories -->
+  <rect x="840" y="160" width="30" height="110" fill="#ffebee" stroke="#ef5350" stroke-width="1" rx="15"/>
+  <text x="840" y="230" font-family="Arial" font-size="12" font-weight="bold" fill="#c62828" transform="rotate(90, 840, 230)">AI-Specific</text>
+  
+  <rect x="820" y="160" width="40" height="30" fill="#ffebee" stroke="#ef5350" stroke-width="1" rx="5"/>
+  <text x="840" y="180" font-family="Arial" font-size="12" text-anchor="middle" fill="#c62828">Input</text>
+  <path d="M 860,175 L 890,175" stroke="#ef5350" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <text x="950" y="180" font-family="Arial" font-size="12" text-anchor="middle" fill="#616161">Format/Quality Issues</text>
+  
+  <rect x="820" y="200" width="40" height="30" fill="#ffebee" stroke="#ef5350" stroke-width="1" rx="5"/>
+  <text x="840" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#c62828">Model</text>
+  <path d="M 860,215 L 890,215" stroke="#ef5350" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <text x="950" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#616161">Capability Limitations</text>
+  
+  <rect x="820" y="240" width="40" height="30" fill="#ffebee" stroke="#ef5350" stroke-width="1" rx="5"/>
+  <text x="840" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#c62828">Ethical</text>
+  <path d="M 860,255 L 890,255" stroke="#ef5350" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <text x="950" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#616161">Content Policy Violations</text>
+  
+  <!-- Template Notes -->
+  <rect x="840" y="400" width="30" height="200" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="15"/>
+  <text x="840" y="510" font-family="Arial" font-size="12" font-weight="bold" fill="#0d47a1" transform="rotate(90, 840, 510)">Important Sections</text>
+  
+  <rect x="820" y="400" width="40" height="30" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5"/>
+  <text x="840" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">1</text>
+  <path d="M 820,415 L 790,415 L 750,118" stroke="#2196f3" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowhead-blue)"/>
+  <text x="750" y="420" font-family="Arial" font-size="12" text-anchor="end" fill="#0d47a1">Include HTTP status code</text>
+  
+  <rect x="820" y="440" width="40" height="30" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5"/>
+  <text x="840" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">2</text>
+  <path d="M 820,455 L 790,455 L 750,220" stroke="#2196f3" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowhead-blue)"/>
+  <text x="750" y="460" font-family="Arial" font-size="12" text-anchor="end" fill="#0d47a1">Explain AI context</text>
+  
+  <rect x="820" y="480" width="40" height="30" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5"/>
+  <text x="840" y="500" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">3</text>
+  <path d="M 820,495 L 790,495 L 750,350" stroke="#2196f3" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowhead-blue)"/>
+  <text x="750" y="500" font-family="Arial" font-size="12" text-anchor="end" fill="#0d47a1">Show exact JSON response</text>
+  
+  <rect x="820" y="520" width="40" height="30" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5"/>
+  <text x="840" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">4</text>
+  <path d="M 820,535 L 790,535 L 750,530" stroke="#2196f3" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowhead-blue)"/>
+  <text x="750" y="540" font-family="Arial" font-size="12" text-anchor="end" fill="#0d47a1">Provide specific steps</text>
+  
+  <rect x="820" y="560" width="40" height="30" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5"/>
+  <text x="840" y="580" font-family="Arial" font-size="12" text-anchor="middle" fill="#0d47a1">5</text>
+  <path d="M 820,575 L 790,575 L 750,605" stroke="#2196f3" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowhead-blue)"/>
+  <text x="750" y="580" font-family="Arial" font-size="12" text-anchor="end" fill="#0d47a1">Include code samples</text>
+  
+  <!-- Common AI API Errors Note -->
+  <rect x="100" y="680" width="700" height="40" fill="#efebe9" stroke="#8d6e63" stroke-width="1" rx="5"/>
+  <text x="450" y="705" font-family="Arial" font-size="14" text-anchor="middle" fill="#4e342e">Document unique AI error types: Input Validation, Model Limitations, Resource Errors, and Ethical/Safety Errors</text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef5350"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2196f3"/>
+    </marker>
+  </defs>
+</svg> 

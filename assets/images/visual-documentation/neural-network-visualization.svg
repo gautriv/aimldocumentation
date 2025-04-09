@@ -1,0 +1,90 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="500" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#333">Neural Network Architecture Visualization</text>
+    
+    <!-- Layer Labels -->
+    <text x="100" y="100" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Input Layer</text>
+    <text x="300" y="100" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Hidden Layer 1</text>
+    <text x="500" y="100" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Hidden Layer 2</text>
+    <text x="700" y="100" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Output Layer</text>
+    
+    <!-- Input Layer Nodes -->
+    <circle cx="100" cy="150" r="20" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <circle cx="100" cy="200" r="20" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <circle cx="100" cy="250" r="20" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <circle cx="100" cy="300" r="20" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <circle cx="100" cy="350" r="20" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    
+    <!-- Hidden Layer 1 Nodes -->
+    <circle cx="300" cy="150" r="20" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="300" cy="200" r="20" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="300" cy="250" r="20" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="300" cy="300" r="20" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <circle cx="300" cy="350" r="20" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    
+    <!-- Hidden Layer 2 Nodes -->
+    <circle cx="500" cy="175" r="20" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <circle cx="500" cy="225" r="20" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <circle cx="500" cy="275" r="20" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <circle cx="500" cy="325" r="20" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    
+    <!-- Output Layer Nodes -->
+    <circle cx="700" cy="200" r="20" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+    <circle cx="700" cy="250" r="20" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+    <circle cx="700" cy="300" r="20" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+    
+    <!-- Connections from Input to Hidden Layer 1 -->
+    <!-- Drawing only a subset of connections to avoid visual clutter -->
+    <line x1="120" y1="150" x2="280" y2="150" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="150" x2="280" y2="200" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="150" x2="280" y2="250" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="200" x2="280" y2="150" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="200" x2="280" y2="200" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="200" x2="280" y2="250" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="250" x2="280" y2="200" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="250" x2="280" y2="250" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="250" x2="280" y2="300" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="300" x2="280" y2="250" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="300" x2="280" y2="300" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="300" x2="280" y2="350" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="350" x2="280" y2="300" stroke="#BBDEFB" stroke-width="1.5"/>
+    <line x1="120" y1="350" x2="280" y2="350" stroke="#BBDEFB" stroke-width="1.5"/>
+    
+    <!-- Connections from Hidden Layer 1 to Hidden Layer 2 -->
+    <line x1="320" y1="150" x2="480" y2="175" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="150" x2="480" y2="225" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="200" x2="480" y2="175" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="200" x2="480" y2="225" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="200" x2="480" y2="275" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="250" x2="480" y2="225" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="250" x2="480" y2="275" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="300" x2="480" y2="275" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="300" x2="480" y2="325" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="350" x2="480" y2="275" stroke="#C8E6C9" stroke-width="1.5"/>
+    <line x1="320" y1="350" x2="480" y2="325" stroke="#C8E6C9" stroke-width="1.5"/>
+    
+    <!-- Connections from Hidden Layer 2 to Output Layer -->
+    <line x1="520" y1="175" x2="680" y2="200" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="175" x2="680" y2="250" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="225" x2="680" y2="200" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="225" x2="680" y2="250" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="225" x2="680" y2="300" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="275" x2="680" y2="200" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="275" x2="680" y2="250" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="275" x2="680" y2="300" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="325" x2="680" y2="250" stroke="#FFE0B2" stroke-width="1.5"/>
+    <line x1="520" y1="325" x2="680" y2="300" stroke="#FFE0B2" stroke-width="1.5"/>
+    
+    <!-- Legend -->
+    <rect x="50" y="420" width="700" height="60" rx="5" ry="5" fill="white" stroke="#BDBDBD" stroke-width="1"/>
+    <circle cx="100" cy="450" r="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="120" y="455" font-family="Arial" font-size="14" fill="#333">Input Layer</text>
+    <circle cx="250" cy="450" r="10" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2"/>
+    <text x="270" y="455" font-family="Arial" font-size="14" fill="#333">Hidden Layers</text>
+    <circle cx="400" cy="450" r="10" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+    <text x="420" y="455" font-family="Arial" font-size="14" fill="#333">Hidden Layers</text>
+    <circle cx="550" cy="450" r="10" fill="#FFEBEE" stroke="#F44336" stroke-width="2"/>
+    <text x="570" y="455" font-family="Arial" font-size="14" fill="#333">Output Layer</text>
+</svg> 

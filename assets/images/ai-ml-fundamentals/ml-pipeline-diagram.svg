@@ -1,0 +1,123 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+    <rect width="900" height="600" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="450" y="40" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#333">Machine Learning Pipeline</text>
+    <text x="450" y="70" text-anchor="middle" font-family="Arial" font-size="16" fill="#666">From Data Collection to Production Deployment</text>
+    
+    <!-- Main Flow Path -->
+    <path d="M 100 150 L 800 150 L 800 450 L 100 450 Z" fill="none" stroke="#BDBDBD" stroke-width="1" stroke-dasharray="5,5"/>
+    
+    <!-- Stage 1: Data Collection -->
+    <rect x="100" y="120" width="150" height="60" rx="10" ry="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="175" y="155" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Data Collection</text>
+    
+    <!-- Stage 2: Data Preprocessing -->
+    <rect x="280" y="120" width="150" height="60" rx="10" ry="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="355" y="155" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Data Preprocessing</text>
+    
+    <!-- Stage 3: Feature Engineering -->
+    <rect x="460" y="120" width="150" height="60" rx="10" ry="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <text x="535" y="155" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Feature Engineering</text>
+    
+    <!-- Stage 4: Model Selection -->
+    <rect x="640" y="120" width="150" height="60" rx="10" ry="10" fill="#FFF8E1" stroke="#FFC107" stroke-width="2"/>
+    <text x="715" y="155" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Model Selection</text>
+    
+    <!-- Stage 5: Model Training -->
+    <rect x="640" y="210" width="150" height="60" rx="10" ry="10" fill="#FFF8E1" stroke="#FFC107" stroke-width="2"/>
+    <text x="715" y="245" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Model Training</text>
+    
+    <!-- Stage 6: Model Evaluation -->
+    <rect x="640" y="300" width="150" height="60" rx="10" ry="10" fill="#FFF8E1" stroke="#FFC107" stroke-width="2"/>
+    <text x="715" y="335" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Model Evaluation</text>
+    
+    <!-- Stage 7: Deployment -->
+    <rect x="640" y="390" width="150" height="60" rx="10" ry="10" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="715" y="425" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Deployment</text>
+    
+    <!-- Stage 8: Monitoring -->
+    <rect x="460" y="390" width="150" height="60" rx="10" ry="10" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="535" y="425" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Monitoring</text>
+    
+    <!-- Stage 9: Feedback Loop -->
+    <rect x="280" y="390" width="150" height="60" rx="10" ry="10" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="355" y="425" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Maintenance</text>
+    
+    <!-- Stage 10: Retraining -->
+    <rect x="100" y="390" width="150" height="60" rx="10" ry="10" fill="#F3E5F5" stroke="#9C27B0" stroke-width="2"/>
+    <text x="175" y="425" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Retraining</text>
+    
+    <!-- Connecting Arrows -->
+    <!-- Horizontal flow -->
+    <path d="M 250 150 L 280 150" stroke="#2196F3" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 430 150 L 460 150" stroke="#2196F3" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 610 150 L 640 150" stroke="#FFC107" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    
+    <!-- Vertical flow -->
+    <path d="M 715 180 L 715 210" stroke="#FFC107" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 715 270 L 715 300" stroke="#FFC107" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 715 360 L 715 390" stroke="#9C27B0" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    
+    <!-- Feedback loop -->
+    <path d="M 640 420 L 610 420" stroke="#9C27B0" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 460 420 L 430 420" stroke="#9C27B0" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 280 420 L 250 420" stroke="#9C27B0" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 100 420 L 70 420 L 70 150 L 100 150" stroke="#9C27B0" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    
+    <!-- Data details -->
+    <rect x="110" y="200" width="130" height="170" rx="5" ry="5" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+    <text x="175" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#2196F3">Data Collection</text>
+    <text x="175" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Sources:</text>
+    <text x="120" y="260" font-family="Arial" font-size="12" fill="#333">• Databases</text>
+    <text x="120" y="280" font-family="Arial" font-size="12" fill="#333">• APIs</text>
+    <text x="120" y="300" font-family="Arial" font-size="12" fill="#333">• Web Scraping</text>
+    <text x="120" y="320" font-family="Arial" font-size="12" fill="#333">• Sensors</text>
+    <text x="120" y="340" font-family="Arial" font-size="12" fill="#333">• User Input</text>
+    <text x="120" y="360" font-family="Arial" font-size="12" fill="#333">• Public Datasets</text>
+    
+    <!-- Preprocessing details -->
+    <rect x="290" y="200" width="130" height="170" rx="5" ry="5" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+    <text x="355" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#2196F3">Preprocessing</text>
+    <text x="355" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Steps:</text>
+    <text x="300" y="260" font-family="Arial" font-size="12" fill="#333">• Cleaning</text>
+    <text x="300" y="280" font-family="Arial" font-size="12" fill="#333">• Normalization</text>
+    <text x="300" y="300" font-family="Arial" font-size="12" fill="#333">• Handling Missing Data</text>
+    <text x="300" y="320" font-family="Arial" font-size="12" fill="#333">• Outlier Detection</text>
+    <text x="300" y="340" font-family="Arial" font-size="12" fill="#333">• Data Transformation</text>
+    <text x="300" y="360" font-family="Arial" font-size="12" fill="#333">• Data Splitting</text>
+    
+    <!-- Feature Engineering details -->
+    <rect x="470" y="200" width="130" height="170" rx="5" ry="5" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+    <text x="535" y="220" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#2196F3">Feature Engineering</text>
+    <text x="535" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Techniques:</text>
+    <text x="480" y="260" font-family="Arial" font-size="12" fill="#333">• Feature Creation</text>
+    <text x="480" y="280" font-family="Arial" font-size="12" fill="#333">• Feature Selection</text>
+    <text x="480" y="300" font-family="Arial" font-size="12" fill="#333">• Feature Scaling</text>
+    <text x="480" y="320" font-family="Arial" font-size="12" fill="#333">• Dimensionality Reduction</text>
+    <text x="480" y="340" font-family="Arial" font-size="12" fill="#333">• Encoding</text>
+    <text x="480" y="360" font-family="Arial" font-size="12" fill="#333">• Feature Extraction</text>
+    
+    <!-- Model details -->
+    <rect x="780" y="210" width="100" height="150" rx="5" ry="5" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+    <text x="830" y="230" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#FFC107">Models</text>
+    <text x="790" y="250" font-family="Arial" font-size="12" fill="#333">• Linear Models</text>
+    <text x="790" y="270" font-family="Arial" font-size="12" fill="#333">• Decision Trees</text>
+    <text x="790" y="290" font-family="Arial" font-size="12" fill="#333">• Random Forests</text>
+    <text x="790" y="310" font-family="Arial" font-size="12" fill="#333">• SVMs</text>
+    <text x="790" y="330" font-family="Arial" font-size="12" fill="#333">• Neural Networks</text>
+    <text x="790" y="350" font-family="Arial" font-size="12" fill="#333">• Ensemble Methods</text>
+    
+    <!-- Feedback Loop Details -->
+    <rect x="250" y="480" width="400" height="80" rx="5" ry="5" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1"/>
+    <text x="450" y="500" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#9C27B0">Continuous Improvement Cycle</text>
+    <text x="450" y="525" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">The ML lifecycle is iterative. As new data arrives and requirements change,</text>
+    <text x="450" y="545" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">the model is retrained and redeployed to maintain or improve performance.</text>
+    
+    <!-- Arrows definition -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+</svg> 

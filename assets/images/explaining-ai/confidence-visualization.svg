@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#263238">Making AI Confidence Scores Meaningful to Users</text>
+  
+  <!-- Main container -->
+  <rect x="50" y="80" width="800" height="490" rx="10" fill="white" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Section 1: Confidence Scale Visualization -->
+  <text x="150" y="110" font-family="Arial" font-size="20" text-anchor="start" font-weight="bold" fill="#0d47a1">1. Visual Confidence Indicators</text>
+  
+  <!-- Confidence scale -->
+  <rect x="100" y="130" width="700" height="90" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="1.5"/>
+  
+  <!-- Low confidence -->
+  <rect x="120" y="150" width="170" height="50" rx="5" fill="#ffebee" stroke="#f44336" stroke-width="1"/>
+  <text x="205" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#c62828">Low Confidence</text>
+  <text x="205" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="#c62828">(< 70%)</text>
+  
+  <!-- Medium confidence -->
+  <rect x="310" y="150" width="170" height="50" rx="5" fill="#fff8e1" stroke="#ffc107" stroke-width="1"/>
+  <text x="395" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#ff8f00">Medium Confidence</text>
+  <text x="395" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="#ff8f00">(70-85%)</text>
+  
+  <!-- High confidence -->
+  <rect x="500" y="150" width="170" height="50" rx="5" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+  <text x="585" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#2e7d32">High Confidence</text>
+  <text x="585" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">(> 85%)</text>
+  
+  <!-- Section 2: Real-world Application Examples -->
+  <text x="150" y="250" font-family="Arial" font-size="20" text-anchor="start" font-weight="bold" fill="#0d47a1">2. Real-world Application Examples</text>
+  
+  <rect x="100" y="270" width="330" height="140" rx="5" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="1.5"/>
+  
+  <!-- Low confidence example -->
+  <rect x="120" y="290" width="290" height="100" rx="5" fill="white" stroke="#d32f2f" stroke-width="1"/>
+  <text x="265" y="315" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#d32f2f">Low Confidence (65%)</text>
+  <text x="265" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#d32f2f">"This image might contain a dog,</text>
+  <text x="265" y="360" font-family="Arial" font-size="14" text-anchor="middle" fill="#d32f2f">but I'm not very sure. Would you</text>
+  <text x="265" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#d32f2f">like to help me improve?"</text>
+  
+  <rect x="470" y="270" width="330" height="140" rx="5" fill="#f5f5f5" stroke="#9e9e9e" stroke-width="1.5"/>
+  
+  <!-- High confidence example -->
+  <rect x="490" y="290" width="290" height="100" rx="5" fill="white" stroke="#388e3c" stroke-width="1"/>
+  <text x="635" y="315" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#388e3c">High Confidence (98%)</text>
+  <text x="635" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#388e3c">"I've identified a golden retriever</text>
+  <text x="635" y="360" font-family="Arial" font-size="14" text-anchor="middle" fill="#388e3c">in this photo. Would you like to see</text>
+  <text x="635" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#388e3c">similar photos in your collection?"</text>
+  
+  <!-- Section 3: Context-based Recommendations -->
+  <text x="150" y="440" font-family="Arial" font-size="20" text-anchor="start" font-weight="bold" fill="#0d47a1">3. User-Appropriate Actions</text>
+  
+  <rect x="100" y="460" width="700" height="90" rx="5" fill="#e8eaf6" stroke="#3f51b5" stroke-width="1.5"/>
+  
+  <!-- Low confidence actions -->
+  <rect x="120" y="480" width="200" height="50" rx="5" fill="white" stroke="#f44336" stroke-width="1"/>
+  <text x="220" y="505" font-family="Arial" font-size="14" text-anchor="middle" fill="#d32f2f">Ask for confirmation</text>
+  <text x="220" y="525" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic" fill="#d32f2f">"Did you mean...?"</text>
+  
+  <!-- Medium confidence actions -->
+  <rect x="350" y="480" width="200" height="50" rx="5" fill="white" stroke="#ffc107" stroke-width="1"/>
+  <text x="450" y="505" font-family="Arial" font-size="14" text-anchor="middle" fill="#ff8f00">Show with qualification</text>
+  <text x="450" y="525" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic" fill="#ff8f00">"This appears to be..."</text>
+  
+  <!-- High confidence actions -->
+  <rect x="580" y="480" width="200" height="50" rx="5" fill="white" stroke="#4caf50" stroke-width="1"/>
+  <text x="680" y="505" font-family="Arial" font-size="14" text-anchor="middle" fill="#2e7d32">Take action confidently</text>
+  <text x="680" y="525" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic" fill="#2e7d32">"Here are your results..."</text>
+  
+  <!-- Do's and Don'ts Section -->
+  <rect x="100" y="570" width="320" height="160" rx="10" fill="#e8f5e9" stroke="#43a047" stroke-width="1.5"/>
+  <text x="180" y="595" font-family="Arial" font-size="16" text-anchor="start" font-weight="bold" fill="#2e7d32">DO:</text>
+  
+  <circle cx="130" y="625" r="8" fill="#43a047" stroke="none"/>
+  <text x="130" y="629" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✓</text>
+  <text x="240" y="625" font-family="Arial" font-size="14" fill="#2e7d32">Use visual indicators (colors, icons)</text>
+  
+  <circle cx="130" y="655" r="8" fill="#43a047" stroke="none"/>
+  <text x="130" y="659" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✓</text>
+  <text x="265" y="655" font-family="Arial" font-size="14" fill="#2e7d32">Match confidence to appropriate actions</text>
+  
+  <circle cx="130" y="685" r="8" fill="#43a047" stroke="none"/>
+  <text x="130" y="689" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✓</text>
+  <text x="265" y="685" font-family="Arial" font-size="14" fill="#2e7d32">Adjust language based on certainty level</text>
+  
+  <circle cx="130" y="715" r="8" fill="#43a047" stroke="none"/>
+  <text x="130" y="719" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✓</text>
+  <text x="255" y="715" font-family="Arial" font-size="14" fill="#2e7d32">Provide context for confidence numbers</text>
+  
+  <rect x="480" y="570" width="320" height="160" rx="10" fill="#ffebee" stroke="#e53935" stroke-width="1.5"/>
+  <text x="560" y="595" font-family="Arial" font-size="16" text-anchor="start" font-weight="bold" fill="#c62828">DON'T:</text>
+  
+  <circle cx="510" y="625" r="8" fill="#e53935" stroke="none"/>
+  <text x="510" y="629" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✗</text>
+  <text x="650" y="625" font-family="Arial" font-size="14" fill="#c62828">Show raw confidence percentages alone</text>
+  
+  <circle cx="510" y="655" r="8" fill="#e53935" stroke="none"/>
+  <text x="510" y="659" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✗</text>
+  <text x="650" y="655" font-family="Arial" font-size="14" fill="#c62828">Present low confidence results as facts</text>
+  
+  <circle cx="510" y="685" r="8" fill="#e53935" stroke="none"/>
+  <text x="510" y="689" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✗</text>
+  <text x="630" y="685" font-family="Arial" font-size="14" fill="#c62828">Use technical terms like "confidence score"</text>
+  
+  <circle cx="510" y="715" r="8" fill="#e53935" stroke="none"/>
+  <text x="510" y="719" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="white">✗</text>
+  <text x="638" y="715" font-family="Arial" font-size="14" fill="#c62828">Hide uncertainty from users completely</text>
+</svg> 

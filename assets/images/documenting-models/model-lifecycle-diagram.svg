@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#0d47a1">Model Documentation Throughout the Lifecycle</text>
+  
+  <!-- Large circle background -->
+  <circle cx="400" cy="420" r="300" fill="white" stroke="#b0bec5" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="420" r="80" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  <text x="400" y="410" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a237e">Model</text>
+  <text x="400" y="435" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#1a237e">Lifecycle</text>
+  
+  <!-- Development Stage -->
+  <path d="M 400,140 A 280,280 0 0,1 643,278" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="520" y="170" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#0d47a1" transform="rotate(25, 520, 170)">Development</text>
+  
+  <!-- Icon for Development Stage -->
+  <circle cx="520" y="220" r="35" fill="white" stroke="#1976d2" stroke-width="2"/>
+  <rect x="505" y="205" width="30" height="30" fill="#1976d2" stroke="none"/>
+  <rect x="508" y="208" width="24" height="4" fill="white" stroke="none"/>
+  <rect x="508" y="215" width="24" height="4" fill="white" stroke="none"/>
+  <rect x="508" y="222" width="15" height="4" fill="white" stroke="none"/>
+  
+  <!-- List for Development Stage -->
+  <rect x="450" y="150" width="220" height="110" fill="white" stroke="#1976d2" stroke-width="1" rx="5" opacity="0.9"/>
+  <text x="460" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="#0d47a1">Documentation Needs:</text>
+  <text x="460" y="190" font-family="Arial" font-size="12" fill="#0d47a1">• Model architecture decisions</text>
+  <text x="460" y="210" font-family="Arial" font-size="12" fill="#0d47a1">• Feature engineering methods</text>
+  <text x="460" y="230" font-family="Arial" font-size="12" fill="#0d47a1">• Design considerations</text>
+  <text x="460" y="250" font-family="Arial" font-size="12" fill="#0d47a1">• Rejected approaches</text>
+  
+  <!-- Training Stage -->
+  <path d="M 643,278 A 280,280 0 0,1 643,562" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="675" y="420" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#1b5e20" transform="rotate(90, 675, 420)">Training</text>
+  
+  <!-- Icon for Training Stage -->
+  <circle cx="600" y="420" r="35" fill="white" stroke="#388e3c" stroke-width="2"/>
+  <path d="M 585,420 L 595,408 L 605,420 L 615,408 L 615,432 L 605,420 L 595,432 L 585,420" fill="#388e3c" stroke="none"/>
+  
+  <!-- List for Training Stage -->
+  <rect x="640" y="360" width="220" height="110" fill="white" stroke="#388e3c" stroke-width="1" rx="5" opacity="0.9"/>
+  <text x="650" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#1b5e20">Documentation Needs:</text>
+  <text x="650" y="400" font-family="Arial" font-size="12" fill="#1b5e20">• Training datasets & preprocessing</text>
+  <text x="650" y="420" font-family="Arial" font-size="12" fill="#1b5e20">• Hyperparameter configurations</text>
+  <text x="650" y="440" font-family="Arial" font-size="12" fill="#1b5e20">• Training workflow</text>
+  <text x="650" y="460" font-family="Arial" font-size="12" fill="#1b5e20">• Hardware requirements</text>
+  
+  <!-- Evaluation Stage -->
+  <path d="M 643,562 A 280,280 0 0,1 400,700" fill="#fff9c4" stroke="#fbc02d" stroke-width="2"/>
+  <text x="520" y="670" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#f57f17" transform="rotate(-25, 520, 670)">Evaluation</text>
+  
+  <!-- Icon for Evaluation Stage -->
+  <circle cx="520" y="620" r="35" fill="white" stroke="#fbc02d" stroke-width="2"/>
+  <path d="M 505,625 L 535,625 M 510,615 L 530,615 M 515,605 L 525,605" stroke="#fbc02d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 510,635 L 530,635" stroke="#fbc02d" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- List for Evaluation Stage -->
+  <rect x="450" y="540" width="220" height="110" fill="white" stroke="#fbc02d" stroke-width="1" rx="5" opacity="0.9"/>
+  <text x="460" y="560" font-family="Arial" font-size="14" font-weight="bold" fill="#f57f17">Documentation Needs:</text>
+  <text x="460" y="580" font-family="Arial" font-size="12" fill="#f57f17">• Evaluation metrics</text>
+  <text x="460" y="600" font-family="Arial" font-size="12" fill="#f57f17">• Performance benchmarks</text>
+  <text x="460" y="620" font-family="Arial" font-size="12" fill="#f57f17">• Test datasets</text>
+  <text x="460" y="640" font-family="Arial" font-size="12" fill="#f57f17">• Limitations & failure cases</text>
+  
+  <!-- Deployment Stage -->
+  <path d="M 400,700 A 280,280 0 0,1 157,562" fill="#ffccbc" stroke="#e64a19" stroke-width="2"/>
+  <text x="280" y="670" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#bf360c" transform="rotate(25, 280, 670)">Deployment</text>
+  
+  <!-- Icon for Deployment Stage -->
+  <circle cx="280" y="620" r="35" fill="white" stroke="#e64a19" stroke-width="2"/>
+  <rect x="265" y="605" width="30" height="30" fill="#e64a19" stroke="none"/>
+  <rect x="260" y="620" width="40" height="5" fill="white" stroke="none"/>
+  <rect x="277.5" y="605" width="5" height="30" fill="white" stroke="none"/>
+  
+  <!-- List for Deployment Stage -->
+  <rect x="130" y="540" width="220" height="110" fill="white" stroke="#e64a19" stroke-width="1" rx="5" opacity="0.9"/>
+  <text x="140" y="560" font-family="Arial" font-size="14" font-weight="bold" fill="#bf360c">Documentation Needs:</text>
+  <text x="140" y="580" font-family="Arial" font-size="12" fill="#bf360c">• Integration guide</text>
+  <text x="140" y="600" font-family="Arial" font-size="12" fill="#bf360c">• API documentation</text>
+  <text x="140" y="620" font-family="Arial" font-size="12" fill="#bf360c">• System requirements</text>
+  <text x="140" y="640" font-family="Arial" font-size="12" fill="#bf360c">• Versioning information</text>
+  
+  <!-- Monitoring Stage -->
+  <path d="M 157,562 A 280,280 0 0,1 157,278" fill="#d1c4e9" stroke="#673ab7" stroke-width="2"/>
+  <text x="125" y="420" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#311b92" transform="rotate(-90, 125, 420)">Monitoring</text>
+  
+  <!-- Icon for Monitoring Stage -->
+  <circle cx="200" y="420" r="35" fill="white" stroke="#673ab7" stroke-width="2"/>
+  <path d="M 185,435 L 185,405 L 215,405 L 215,435 Z" fill="none" stroke="#673ab7" stroke-width="2"/>
+  <path d="M 190,425 L 200,415 L 210,425" fill="none" stroke="#673ab7" stroke-width="2"/>
+  
+  <!-- List for Monitoring Stage -->
+  <rect x="40" y="360" width="220" height="110" fill="white" stroke="#673ab7" stroke-width="1" rx="5" opacity="0.9"/>
+  <text x="50" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#311b92">Documentation Needs:</text>
+  <text x="50" y="400" font-family="Arial" font-size="12" fill="#311b92">• Performance metrics</text>
+  <text x="50" y="420" font-family="Arial" font-size="12" fill="#311b92">• Monitoring thresholds</text>
+  <text x="50" y="440" font-family="Arial" font-size="12" fill="#311b92">• Alerting protocols</text>
+  <text x="50" y="460" font-family="Arial" font-size="12" fill="#311b92">• Maintenance procedures</text>
+  
+  <!-- Retraining/Update Stage -->
+  <path d="M 157,278 A 280,280 0 0,1 400,140" fill="#f8bbd0" stroke="#c2185b" stroke-width="2"/>
+  <text x="280" y="170" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#880e4f" transform="rotate(-25, 280, 170)">Retraining/Update</text>
+  
+  <!-- Icon for Retraining Stage -->
+  <circle cx="280" y="220" r="35" fill="white" stroke="#c2185b" stroke-width="2"/>
+  <path d="M 265,220 A 15,15 0 1,1 280,205 L 280,220 Z" fill="#c2185b" stroke="none"/>
+  <path d="M 280,220 A 15,15 0 1,0 295,235 L 280,235 Z" fill="#c2185b" stroke="none"/>
+  
+  <!-- List for Retraining Stage -->
+  <rect x="130" y="150" width="220" height="110" fill="white" stroke="#c2185b" stroke-width="1" rx="5" opacity="0.9"/>
+  <text x="140" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="#880e4f">Documentation Needs:</text>
+  <text x="140" y="190" font-family="Arial" font-size="12" fill="#880e4f">• Model drift metrics</text>
+  <text x="140" y="210" font-family="Arial" font-size="12" fill="#880e4f">• Updated datasets</text>
+  <text x="140" y="230" font-family="Arial" font-size="12" fill="#880e4f">• Retraining frequency</text>
+  <text x="140" y="250" font-family="Arial" font-size="12" fill="#880e4f">• Version comparison</text>
+  
+  <!-- Footer -->
+  <text x="400" y="750" font-family="Arial" font-size="14" text-anchor="middle" fill="#546e7a">Each stage requires specific documentation types to ensure transparency and maintainability</text>
+</svg> 

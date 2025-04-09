@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="850" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="425" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#263238">Anatomy of an Effective Getting Started Guide</text>
+  
+  <!-- Main document outline -->
+  <rect x="80" y="80" width="500" height="580" fill="white" stroke="#b0bec5" stroke-width="2" rx="5"/>
+  
+  <!-- Title section -->
+  <rect x="100" y="100" width="460" height="60" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="5"/>
+  <text x="330" y="140" font-family="Arial" font-size="22" text-anchor="middle" font-weight="bold" fill="#0d47a1">Getting Started with AI Vision API</text>
+  
+  <!-- Introduction section -->
+  <rect x="100" y="180" width="460" height="80" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="120" y="205" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Introduction</text>
+  <text x="120" y="230" font-family="Arial" font-size="14" fill="#546e7a">This guide will help you identify objects in images using our</text>
+  <text x="120" y="250" font-family="Arial" font-size="14" fill="#546e7a">Vision API. You'll be up and running in under 10 minutes.</text>
+  
+  <!-- Prerequisites section -->
+  <rect x="100" y="280" width="460" height="80" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="120" y="305" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Prerequisites</text>
+  <text x="120" y="330" font-family="Arial" font-size="14" fill="#546e7a">• An API key (get one at developer.example.com)</text>
+  <text x="120" y="350" font-family="Arial" font-size="14" fill="#546e7a">• Python 3.6+ installed</text>
+  
+  <!-- Step 1 section -->
+  <rect x="100" y="380" width="460" height="80" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="120" y="405" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Step 1: Install the SDK</text>
+  <rect x="120" y="415" width="420" height="35" fill="#f1f8e9" stroke="#c5e1a5" stroke-width="1" rx="2"/>
+  <text x="130" y="437" font-family="Courier New" font-size="14" fill="#33691e">pip install vision-sdk</text>
+  
+  <!-- Step 2 section -->
+  <rect x="100" y="480" width="460" height="100" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="120" y="505" font-family="Arial" font-size="16" font-weight="bold" fill="#263238">Step 2: Analyze your first image</text>
+  <rect x="120" y="515" width="420" height="55" fill="#f1f8e9" stroke="#c5e1a5" stroke-width="1" rx="2"/>
+  <text x="130" y="535" font-family="Courier New" font-size="14" fill="#33691e">from vision_sdk import VisionClient</text>
+  <text x="130" y="555" font-family="Courier New" font-size="14" fill="#33691e">client = VisionClient('YOUR_API_KEY')</text>
+  <text x="130" y="575" font-family="Courier New" font-size="14" fill="#33691e">result = client.analyze('https://example.com/dog.jpg')</text>
+  
+  <!-- Success message section -->
+  <rect x="100" y="600" width="460" height="40" fill="#e8f5e9" stroke="#4caf50" stroke-width="1" rx="3"/>
+  <text x="330" y="625" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#2e7d32">Success! You've analyzed your first image!</text>
+  
+  <!-- Annotations -->
+  <!-- Title annotation -->
+  <path d="M 560,130 L 600,130" stroke="#2196f3" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="610" y="110" width="200" height="40" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="5"/>
+  <text x="710" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="#0d47a1">Engaging, specific title</text>
+  
+  <!-- Introduction annotation -->
+  <path d="M 560,230 L 600,230" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="610" y="210" width="200" height="40" fill="#eceff1" stroke="#78909c" stroke-width="1" rx="5"/>
+  <text x="710" y="235" font-family="Arial" font-size="14" text-anchor="middle" fill="#263238">Sets realistic expectations</text>
+  
+  <!-- Prerequisites annotation -->
+  <path d="M 560,320 L 600,320" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="610" y="300" width="200" height="40" fill="#eceff1" stroke="#78909c" stroke-width="1" rx="5"/>
+  <text x="710" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#263238">Minimal requirements</text>
+  
+  <!-- Code annotation -->
+  <path d="M 560,430 L 600,430" stroke="#4caf50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="610" y="410" width="200" height="40" fill="#f1f8e9" stroke="#8bc34a" stroke-width="1" rx="5"/>
+  <text x="710" y="435" font-family="Arial" font-size="14" text-anchor="middle" fill="#33691e">Copyable code snippets</text>
+  
+  <!-- Complete code annotation -->
+  <path d="M 560,545 L 600,545" stroke="#4caf50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="610" y="525" width="200" height="40" fill="#f1f8e9" stroke="#8bc34a" stroke-width="1" rx="5"/>
+  <text x="710" y="550" font-family="Arial" font-size="14" text-anchor="middle" fill="#33691e">Complete working example</text>
+  
+  <!-- Success annotation -->
+  <path d="M 560,620 L 600,620" stroke="#4caf50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <rect x="610" y="600" width="200" height="40" fill="#e8f5e9" stroke="#4caf50" stroke-width="1" rx="5"/>
+  <text x="710" y="625" font-family="Arial" font-size="14" text-anchor="middle" fill="#2e7d32">Celebrate success moments</text>
+  
+  <!-- Flow diagram -->
+  <path d="M 700,150 L 710,180 L 700,210" stroke="#78909c" stroke-width="2" fill="none"/>
+  <path d="M 700,250 L 710,280 L 700,310" stroke="#78909c" stroke-width="2" fill="none"/>
+  <path d="M 700,340 L 710,370 L 700,400" stroke="#78909c" stroke-width="2" fill="none"/>
+  <path d="M 700,440 L 710,470 L 700,510" stroke="#78909c" stroke-width="2" fill="none"/>
+  <path d="M 700,565 L 710,585 L 700,605" stroke="#78909c" stroke-width="2" fill="none"/>
+  
+  <!-- User journey progress -->
+  <rect x="630" y="150" width="30" height="450" fill="#eceff1" stroke="#b0bec5" stroke-width="1" rx="15"/>
+  <circle cx="645" y="185" r="10" fill="#2196f3" stroke="none"/>
+  <circle cx="645" y="285" r="10" fill="#42a5f5" stroke="none"/>
+  <circle cx="645" y="385" r="10" fill="#64b5f6" stroke="none"/>
+  <circle cx="645" y="485" r="10" fill="#90caf9" stroke="none"/>
+  <circle cx="645" y="585" r="10" fill="#bbdefb" stroke="none"/>
+  <text x="615" y="185" font-family="Arial" font-size="12" text-anchor="end" fill="#263238">Start</text>
+  <text x="615" y="585" font-family="Arial" font-size="12" text-anchor="end" fill="#263238">Success</text>
+
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#546e7a"/>
+    </marker>
+  </defs>
+</svg> 

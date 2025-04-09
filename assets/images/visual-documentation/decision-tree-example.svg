@@ -1,0 +1,47 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Tree structure -->
+    <line x1="400" y1="50" x2="200" y2="150" stroke="#333" stroke-width="2"/>
+    <line x1="400" y1="50" x2="600" y2="150" stroke="#333" stroke-width="2"/>
+    <line x1="200" y1="150" x2="100" y2="250" stroke="#333" stroke-width="2"/>
+    <line x1="200" y1="150" x2="300" y2="250" stroke="#333" stroke-width="2"/>
+    <line x1="600" y1="150" x2="500" y2="250" stroke="#333" stroke-width="2"/>
+    <line x1="600" y1="150" x2="700" y2="250" stroke="#333" stroke-width="2"/>
+    <line x1="100" y1="250" x2="50" y2="350" stroke="#333" stroke-width="2"/>
+    <line x1="100" y1="250" x2="150" y2="350" stroke="#333" stroke-width="2"/>
+    <line x1="300" y1="250" x2="250" y2="350" stroke="#333" stroke-width="2"/>
+    <line x1="300" y1="250" x2="350" y2="350" stroke="#333" stroke-width="2"/>
+    
+    <!-- Nodes -->
+    <circle cx="400" cy="50" r="40" fill="#4CAF50" stroke="#333" stroke-width="2"/>
+    <circle cx="200" cy="150" r="40" fill="#2196F3" stroke="#333" stroke-width="2"/>
+    <circle cx="600" cy="150" r="40" fill="#2196F3" stroke="#333" stroke-width="2"/>
+    <circle cx="100" cy="250" r="40" fill="#FF9800" stroke="#333" stroke-width="2"/>
+    <circle cx="300" cy="250" r="40" fill="#FF9800" stroke="#333" stroke-width="2"/>
+    <circle cx="500" cy="250" r="40" fill="#FF9800" stroke="#333" stroke-width="2"/>
+    <circle cx="700" cy="250" r="40" fill="#FF9800" stroke="#333" stroke-width="2"/>
+    <circle cx="50" cy="350" r="40" fill="#F44336" stroke="#333" stroke-width="2"/>
+    <circle cx="150" cy="350" r="40" fill="#F44336" stroke="#333" stroke-width="2"/>
+    <circle cx="250" cy="350" r="40" fill="#F44336" stroke="#333" stroke-width="2"/>
+    <circle cx="350" cy="350" r="40" fill="#F44336" stroke="#333" stroke-width="2"/>
+    
+    <!-- Node Text -->
+    <text x="400" y="55" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">Age > 30?</text>
+    <text x="200" y="155" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">Income > 50K?</text>
+    <text x="600" y="155" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">Education?</text>
+    <text x="100" y="255" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">Debt?</text>
+    <text x="300" y="255" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">Credit?</text>
+    <text x="500" y="255" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">College</text>
+    <text x="700" y="255" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">HighSchool</text>
+    <text x="50" y="355" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">No Loan</text>
+    <text x="150" y="355" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">Loan</text>
+    <text x="250" y="355" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">No Loan</text>
+    <text x="350" y="355" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold">Loan</text>
+    
+    <!-- Decision Path -->
+    <path d="M 400 90 L 400 110 L 600 150" stroke="#FF5722" stroke-width="4" stroke-dasharray="5,5" fill="none"/>
+    <path d="M 600 190 L 600 210 L 700 250" stroke="#FF5722" stroke-width="4" stroke-dasharray="5,5" fill="none"/>
+    
+    <!-- Title -->
+    <text x="400" y="450" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">Loan Decision Tree Example</text>
+    <text x="400" y="480" text-anchor="middle" font-family="Arial" font-size="16">Decision path highlighted for a 35-year-old with high school education</text>
+</svg> 

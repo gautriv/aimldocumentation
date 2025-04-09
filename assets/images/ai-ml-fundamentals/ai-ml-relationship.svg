@@ -1,0 +1,51 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="600" fill="#f8f9fa"/>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#333">The Relationship Between AI, Machine Learning, and Deep Learning</text>
+    
+    <!-- Main Circles -->
+    <ellipse cx="400" cy="300" rx="350" ry="220" fill="#E8EAF6" stroke="#3F51B5" stroke-width="2"/>
+    <ellipse cx="360" cy="320" rx="220" ry="160" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"/>
+    <ellipse cx="330" cy="340" rx="120" ry="90" fill="#E1F5FE" stroke="#03A9F4" stroke-width="2"/>
+    
+    <!-- Circle Labels -->
+    <text x="560" y="160" font-family="Arial" font-size="28" font-weight="bold" fill="#3F51B5">Artificial Intelligence</text>
+    <text x="560" y="190" font-family="Arial" font-size="16" fill="#333">Systems that mimic human intelligence</text>
+    <text x="560" y="210" font-family="Arial" font-size="16" fill="#333">and can perform tasks requiring</text>
+    <text x="560" y="230" font-family="Arial" font-size="16" fill="#333">human-like reasoning and decision making</text>
+    
+    <text x="460" y="300" font-family="Arial" font-size="24" font-weight="bold" fill="#2196F3">Machine Learning</text>
+    <text x="460" y="325" font-family="Arial" font-size="16" fill="#333">Systems that learn from data</text>
+    <text x="460" y="345" font-family="Arial" font-size="16" fill="#333">without explicit programming</text>
+    
+    <text x="330" y="340" font-family="Arial" font-size="20" font-weight="bold" fill="#03A9F4">Deep Learning</text>
+    <text x="330" y="365" font-family="Arial" font-size="14" fill="#333">Neural networks with</text>
+    <text x="330" y="385" font-family="Arial" font-size="14" fill="#333">multiple layers</text>
+    
+    <!-- Examples for each area (Outside ML/DL) -->
+    <rect x="450" y="400" width="250" height="100" rx="10" ry="10" fill="white" stroke="#3F51B5" stroke-width="1.5"/>
+    <text x="575" y="420" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#3F51B5">AI Examples (not ML)</text>
+    <text x="575" y="445" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Expert Systems</text>
+    <text x="575" y="470" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Rule-Based Systems</text>
+    <text x="575" y="495" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Search and Planning Algorithms</text>
+    
+    <!-- Examples for ML (Outside DL) -->
+    <rect x="120" y="400" width="250" height="100" rx="10" ry="10" fill="white" stroke="#2196F3" stroke-width="1.5"/>
+    <text x="245" y="420" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#2196F3">ML Examples (not DL)</text>
+    <text x="245" y="445" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Random Forests</text>
+    <text x="245" y="470" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Support Vector Machines</text>
+    <text x="245" y="495" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Linear/Logistic Regression</text>
+    
+    <!-- Examples for DL -->
+    <rect x="120" y="180" width="250" height="100" rx="10" ry="10" fill="white" stroke="#03A9F4" stroke-width="1.5"/>
+    <text x="245" y="200" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#03A9F4">Deep Learning Examples</text>
+    <text x="245" y="225" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Convolutional Neural Networks</text>
+    <text x="245" y="250" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Recurrent Neural Networks</text>
+    <text x="245" y="275" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">• Transformer Models</text>
+    
+    <!-- Connect Examples to Domains -->
+    <line x1="180" y1="280" x2="250" y2="340" stroke="#03A9F4" stroke-width="1.5" stroke-dasharray="5,5"/>
+    <line x1="260" y1="400" x2="330" y2="340" stroke="#2196F3" stroke-width="1.5" stroke-dasharray="5,5"/>
+    <line x1="520" y1="400" x2="450" y2="300" stroke="#3F51B5" stroke-width="1.5" stroke-dasharray="5,5"/>
+</svg> 

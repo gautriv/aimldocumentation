@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="900" height="650" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f7fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#263238">Best Practices for AI API Code Samples</text>
+  
+  <!-- Dividing line -->
+  <line x1="450" y1="80" x2="450" y2="600" stroke="#cfd8dc" stroke-width="2" stroke-dasharray="6,3"/>
+  
+  <!-- Poor Examples Side -->
+  <rect x="50" y="80" width="350" height="60" rx="5" fill="#ffebee" stroke="#ef5350" stroke-width="2"/>
+  <text x="225" y="120" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#c62828">Less Effective Examples</text>
+  
+  <!-- Good Examples Side -->
+  <rect x="500" y="80" width="350" height="60" rx="5" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="675" y="120" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#2e7d32">More Effective Examples</text>
+  
+  <!-- Example 1: Incomplete vs. Complete -->
+  <rect x="70" y="160" width="310" height="130" rx="5" fill="white" stroke="#ffcdd2" stroke-width="2"/>
+  <text x="225" y="180" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#c62828">Incomplete Setup</text>
+  
+  <rect x="80" y="190" width="290" height="90" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="90" y="210" font-family="Courier New" font-size="12" fill="#37474f">// Missing import statements</text>
+  <text x="90" y="230" font-family="Courier New" font-size="12" fill="#37474f">// Missing error handling</text>
+  <text x="90" y="250" font-family="Courier New" font-size="12" fill="#37474f">result = client.analyze('image.jpg')</text>
+  <text x="90" y="270" font-family="Courier New" font-size="12" fill="#37474f">print(result.objects[0].name)</text>
+  
+  <rect x="520" y="160" width="310" height="190" rx="5" fill="white" stroke="#c8e6c9" stroke-width="2"/>
+  <text x="675" y="180" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#2e7d32">Complete Working Example</text>
+  
+  <rect x="530" y="190" width="290" height="150" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="540" y="210" font-family="Courier New" font-size="12" fill="#37474f">import vision_sdk</text>
+  <text x="540" y="230" font-family="Courier New" font-size="12" fill="#37474f">from vision_sdk.exceptions import APIError</text>
+  <text x="540" y="250" font-family="Courier New" font-size="12" fill="#37474f"></text>
+  <text x="540" y="270" font-family="Courier New" font-size="12" fill="#37474f">try:</text>
+  <text x="540" y="290" font-family="Courier New" font-size="12" fill="#37474f">    client = vision_sdk.Client('YOUR_API_KEY')</text>
+  <text x="540" y="310" font-family="Courier New" font-size="12" fill="#37474f">    result = client.analyze('image.jpg')</text>
+  <text x="540" y="330" font-family="Courier New" font-size="12" fill="#37474f">    print(f"Found {len(result.objects)} objects")</text>
+  <text x="540" y="350" font-family="Courier New" font-size="12" fill="#37474f">except APIError as e:</text>
+  <text x="540" y="370" font-family="Courier New" font-size="12" fill="#37474f">    print(f"Error: {e.message}")</text>
+  
+  <!-- Example 2: No Confidence Handling vs. Proper Handling -->
+  <rect x="70" y="310" width="310" height="130" rx="5" fill="white" stroke="#ffcdd2" stroke-width="2"/>
+  <text x="225" y="330" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#c62828">No Confidence Handling</text>
+  
+  <rect x="80" y="340" width="290" height="90" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="90" y="360" font-family="Courier New" font-size="12" fill="#37474f">// All results treated equally</text>
+  <text x="90" y="380" font-family="Courier New" font-size="12" fill="#37474f">for (const obj of result.objects) {</text>
+  <text x="90" y="400" font-family="Courier New" font-size="12" fill="#37474f">  console.log(`Found: ${obj.name}`);</text>
+  <text x="90" y="420" font-family="Courier New" font-size="12" fill="#37474f">}</text>
+  
+  <rect x="520" y="370" width="310" height="170" rx="5" fill="white" stroke="#c8e6c9" stroke-width="2"/>
+  <text x="675" y="390" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#2e7d32">Proper Confidence Handling</text>
+  
+  <rect x="530" y="400" width="290" height="130" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="540" y="420" font-family="Courier New" font-size="12" fill="#37474f">// Filter and categorize by confidence</text>
+  <text x="540" y="440" font-family="Courier New" font-size="12" fill="#37474f">const highConfidence = result.objects</text>
+  <text x="540" y="460" font-family="Courier New" font-size="12" fill="#37474f">  .filter(obj => obj.confidence > 0.8)</text>
+  <text x="540" y="480" font-family="Courier New" font-size="12" fill="#37474f">  .map(obj => obj.name);</text>
+  <text x="540" y="500" font-family="Courier New" font-size="12" fill="#37474f"></text>
+  <text x="540" y="520" font-family="Courier New" font-size="12" fill="#37474f">console.log(`High confidence: ${highConfidence}`);</text>
+  
+  <!-- Example 3: Simple Request vs. Real-world Scenario -->
+  <rect x="70" y="460" width="310" height="130" rx="5" fill="white" stroke="#ffcdd2" stroke-width="2"/>
+  <text x="225" y="480" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#c62828">Simple Request Only</text>
+  
+  <rect x="80" y="490" width="290" height="90" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="90" y="510" font-family="Courier New" font-size="12" fill="#37474f"># Only handles ideal case</text>
+  <text x="90" y="530" font-family="Courier New" font-size="12" fill="#37474f"># Single input type</text>
+  <text x="90" y="550" font-family="Courier New" font-size="12" fill="#37474f">response = requests.post(</text>
+  <text x="90" y="570" font-family="Courier New" font-size="12" fill="#37474f">    'https://api.example.com/analyze',</text>
+  <text x="90" y="590" font-family="Courier New" font-size="12" fill="#37474f">    json={'image_url': 'https://...'}</text>
+  <text x="90" y="610" font-family="Courier New" font-size="12" fill="#37474f">)</text>
+  
+  <rect x="520" y="560" width="310" height="170" rx="5" fill="white" stroke="#c8e6c9" stroke-width="2"/>
+  <text x="675" y="580" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#2e7d32">Covers Real-world Scenarios</text>
+  
+  <rect x="530" y="590" width="290" height="130" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" rx="3"/>
+  <text x="540" y="610" font-family="Courier New" font-size="12" fill="#37474f"># Handles different input types</text>
+  <text x="540" y="630" font-family="Courier New" font-size="12" fill="#37474f">if os.path.exists(image_path):</text>
+  <text x="540" y="650" font-family="Courier New" font-size="12" fill="#37474f">    with open(image_path, 'rb') as f:</text>
+  <text x="540" y="670" font-family="Courier New" font-size="12" fill="#37474f">        response = api.analyze_image(file=f)</text>
+  <text x="540" y="690" font-family="Courier New" font-size="12" fill="#37474f">elif image_path.startswith('http'):</text>
+  <text x="540" y="710" font-family="Courier New" font-size="12" fill="#37474f">    response = api.analyze_image(url=image_path)</text>
+  
+  <!-- Annotations -->
+  <!-- Annotation 1 -->
+  <path d="M 395,220 L 430,220 L 520,240" stroke="#43a047" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+  <rect x="400" y="160" width="100" height="40" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1" rx="3"/>
+  <text x="450" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">Include imports</text>
+  
+  <!-- Annotation 2 -->
+  <path d="M 395,270 L 430,270 L 520,330" stroke="#43a047" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+  <rect x="400" y="240" width="100" height="40" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1" rx="3"/>
+  <text x="450" y="265" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">Handle errors</text>
+  
+  <!-- Annotation 3 -->
+  <path d="M 395,400 L 430,400 L 520,460" stroke="#43a047" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+  <rect x="400" y="370" width="100" height="40" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1" rx="3"/>
+  <text x="450" y="390" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">Use confidence</text>
+  <text x="450" y="405" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">thresholds</text>
+  
+  <!-- Annotation 4 -->
+  <path d="M 395,550 L 430,550 L 520,650" stroke="#43a047" stroke-width="2" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
+  <rect x="400" y="500" width="100" height="40" fill="#e8f5e9" stroke="#66bb6a" stroke-width="1" rx="3"/>
+  <text x="450" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">Support multiple</text>
+  <text x="450" y="535" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">input formats</text>
+  
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#43a047"/>
+    </marker>
+  </defs>
+</svg> 

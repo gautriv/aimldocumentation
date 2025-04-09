@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f7fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#080f5b">Common Machine Learning Pitfalls</text>
+  
+  <!-- Overfitting Section -->
+  <rect x="50" y="80" width="320" height="160" rx="10" fill="white" stroke="#3772ff" stroke-width="2"/>
+  <text x="210" y="110" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#3772ff">Overfitting</text>
+  <text x="210" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Model follows training data too closely</text>
+  
+  <!-- Overfitting visualization -->
+  <circle cx="105" cy="190" r="5" fill="#ff9e00"/>
+  <circle cx="130" cy="160" r="5" fill="#ff9e00"/>
+  <circle cx="155" cy="200" r="5" fill="#ff9e00"/>
+  <circle cx="180" cy="170" r="5" fill="#ff9e00"/>
+  <circle cx="205" cy="210" r="5" fill="#ff9e00"/>
+  <circle cx="230" cy="160" r="5" fill="#ff9e00"/>
+  <circle cx="255" cy="190" r="5" fill="#ff9e00"/>
+  <circle cx="280" cy="175" r="5" fill="#ff9e00"/>
+  <circle cx="305" cy="195" r="5" fill="#ff9e00"/>
+  
+  <!-- Ideal model line -->
+  <path d="M 105 180 C 150 170, 250 170, 305 185" stroke="#080f5b" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <!-- Overfitted model line -->
+  <path d="M 105 190 Q 130 160, 155 200 Q 180 170, 205 210 Q 230 160, 255 190 Q 280 175, 305 195" stroke="#ff0000" stroke-width="2" fill="none"/>
+  
+  <!-- Underfitting Section -->
+  <rect x="430" y="80" width="320" height="160" rx="10" fill="white" stroke="#3772ff" stroke-width="2"/>
+  <text x="590" y="110" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#3772ff">Underfitting</text>
+  <text x="590" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Model is too simple to capture patterns</text>
+  
+  <!-- Underfitting visualization -->
+  <circle cx="485" cy="210" r="5" fill="#ff9e00"/>
+  <circle cx="510" cy="140" r="5" fill="#ff9e00"/>
+  <circle cx="535" cy="180" r="5" fill="#ff9e00"/>
+  <circle cx="560" cy="130" r="5" fill="#ff9e00"/>
+  <circle cx="585" cy="170" r="5" fill="#ff9e00"/>
+  <circle cx="610" cy="120" r="5" fill="#ff9e00"/>
+  <circle cx="635" cy="160" r="5" fill="#ff9e00"/>
+  <circle cx="660" cy="125" r="5" fill="#ff9e00"/>
+  <circle cx="685" cy="190" r="5" fill="#ff9e00"/>
+  
+  <!-- Ideal model curve -->
+  <path d="M 485 210 C 535 150, 635 130, 685 190" stroke="#080f5b" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <!-- Underfitted model line -->
+  <line x1="485" y1="170" x2="685" y2="170" stroke="#ff0000" stroke-width="2"/>
+  
+  <!-- Data Leakage Section -->
+  <rect x="50" y="270" width="320" height="160" rx="10" fill="white" stroke="#3772ff" stroke-width="2"/>
+  <text x="210" y="300" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#3772ff">Data Leakage</text>
+  <text x="210" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Model uses information it shouldn't have</text>
+  
+  <!-- Data Leakage visualization -->
+  <rect x="120" y="345" width="180" height="65" rx="5" fill="#f0f0f0" stroke="#333" stroke-width="1"/>
+  <line x1="120" y1="370" x2="300" y2="370" stroke="#333" stroke-width="1"/>
+  <text x="210" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Training Data</text>
+  <text x="210" y="395" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Future Information</text>
+  <path d="M 245 370 L 245 345 L 275 345 L 275 370" stroke="#ff0000" stroke-width="2" fill="none"/>
+  <path d="M 250 380 L 270 380" stroke="#ff0000" stroke-width="2"/>
+  <path d="M 260 375 L 260 385" stroke="#ff0000" stroke-width="2"/>
+  
+  <!-- Class Imbalance Section -->
+  <rect x="430" y="270" width="320" height="160" rx="10" fill="white" stroke="#3772ff" stroke-width="2"/>
+  <text x="590" y="300" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#3772ff">Class Imbalance</text>
+  <text x="590" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">One class dominates the dataset</text>
+  
+  <!-- Class Imbalance visualization -->
+  <rect x="480" y="345" width="220" height="60" rx="5" fill="#f0f0f0" stroke="#333" stroke-width="1"/>
+  <rect x="490" y="355" width="150" height="40" fill="#3772ff" opacity="0.7"/>
+  <rect x="650" y="375" width="40" height="20" fill="#ff9e00" opacity="0.7"/>
+  <text x="565" y="380" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Majority Class</text>
+  <text x="670" y="390" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Minority</text>
+</svg> 
