@@ -286,7 +286,8 @@ permalink: documentation.html
     "@type": "CourseInstance",
     "courseMode": "online",
     "educationalLevel": "Beginner to Advanced",
-    "timeRequired": "PT20H"
+    "timeRequired": "PT20H",
+    "courseWorkload": "Approximately 5 hours per week"
   },
   "coursePrerequisites": "Basic understanding of AI and ML concepts",
   "numberOfCredits": "17 chapters",
@@ -299,4 +300,4 @@ permalink: documentation.html
     "AI API Documentation"
   ]
 }
-</script> 
+</script>
