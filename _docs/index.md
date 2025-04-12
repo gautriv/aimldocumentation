@@ -287,7 +287,14 @@ permalink: documentation.html
     "courseMode": "online",
     "educationalLevel": "Beginner to Advanced",
     "timeRequired": "PT20H",
-    "courseWorkload": "Approximately 5 hours per week"
+    "courseWorkload": "Approximately 5 hours per week",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "url": "https://beingtechnicalwriter.com/aimldocumentation/documentation.html",
+      "availability": "https://schema.org/InStock"
+    }
   },
   "coursePrerequisites": "Basic understanding of AI and ML concepts",
   "numberOfCredits": "17 chapters",
