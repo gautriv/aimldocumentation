@@ -287,7 +287,8 @@ permalink: documentation.html
     "courseMode": "online",
     "educationalLevel": "Beginner to Advanced",
     "timeRequired": "PT20H",
-    "courseWorkload": "Approximately 5 hours per week",
+    "courseWorkload": "PT5H",
+    "startDate": "2025-04-12T00:00",
     "offers": {
       "@type": "Offer",
       "price": "0",
