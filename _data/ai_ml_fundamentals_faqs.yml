@@ -1,0 +1,22 @@
+categories:
+  - name: "AI and ML Basics"
+    items:
+      - question: "What's the difference between AI and Machine Learning?"
+        answer: "Artificial Intelligence (AI) is the broader concept of machines being able to carry out tasks in a way that we would consider 'smart' or 'intelligent.' Machine Learning (ML) is a subset of AI where algorithms learn patterns from data without being explicitly programmed for specific tasks. In documentation, it's important to use these terms precisely—ML refers specifically to systems that learn from data, while AI encompasses a wider range of approaches including rule-based systems, expert systems, and machine learning."
+      
+      - question: "What are the main types of machine learning?"
+        answer: "The main types of machine learning are: 1) Supervised Learning, where models learn from labeled data to make predictions; 2) Unsupervised Learning, where models find patterns in unlabeled data; 3) Reinforcement Learning, where agents learn through interaction with an environment and feedback; and 4) Semi-supervised Learning, which uses a combination of labeled and unlabeled data. When documenting ML systems, specifying the learning approach helps users understand the data requirements and potential limitations."
+      
+      - question: "How do neural networks relate to deep learning?"
+        answer: "Neural networks are computational models inspired by the human brain's structure, consisting of interconnected 'neurons' that process information. Deep learning specifically refers to neural networks with multiple layers (deep neural networks). While all deep learning uses neural networks, not all neural networks are deep. In documentation, it's helpful to specify whether a system uses simple neural networks or deep learning, as this impacts computational requirements, training time, and the amount of data needed."
+
+  - name: "Practical Documentation"
+    items:
+      - question: "Why is documenting AI systems different from traditional software documentation?"
+        answer: "AI systems differ from traditional software because they learn from data rather than following explicit programming instructions. This means documentation must cover data sources, training processes, model limitations, and probabilistic performance metrics—aspects not typically found in traditional software docs. Additionally, AI documentation must address potential biases, explain how the system behaves in edge cases, and provide guidance for handling model drift over time."
+      
+      - question: "How should technical and non-technical aspects be balanced in AI documentation?"
+        answer: "Effective AI documentation should layer information for different audiences. Technical details (model architecture, hyperparameters, training methods) should be accessible to data scientists and engineers, while higher-level information (capabilities, limitations, use cases) should be presented in accessible language for business users and decision-makers. Each layer should contain appropriate detail without overwhelming users. Documentation should also cross-reference between levels, allowing users to dive deeper into technical aspects when needed."
+      
+      - question: "What performance metrics should be included in AI model documentation?"
+        answer: "AI model documentation should include relevant metrics based on the task type: classification (accuracy, precision, recall, F1-score), regression (RMSE, MAE, R²), ranking (NDCG, MAP), generative tasks (perplexity, BLEU score), and reinforcement learning (cumulative reward). It should also document metrics across different data slices to identify potential biases or performance gaps. Additionally, include real-world performance indicators that matter to end-users, and be transparent about evaluation methodology and test data characteristics." 

@@ -1,0 +1,22 @@
+categories:
+  - name: "Neural Network Architectures"
+    items:
+      - question: "What are Transformers and why are they important in AI?"
+        answer: "Transformers are a type of neural network architecture that uses self-attention mechanisms to process sequential data. They have revolutionized natural language processing by effectively handling long-range dependencies in text. Transformers are the foundation for models like BERT, GPT, and other large language models, enabling significant advances in machine translation, text generation, and language understanding."
+      
+      - question: "How do Generative Adversarial Networks (GANs) work?"
+        answer: "GANs consist of two neural networks that work against each other: a Generator and a Discriminator. The Generator creates fake data (like images), while the Discriminator tries to distinguish between real data and the Generator's fake data. Through this adversarial process, the Generator gets better at creating realistic data, and the Discriminator improves at detection. This competition drives both networks to improve, resulting in increasingly realistic generated content."
+      
+      - question: "What are Diffusion Models and how do they differ from GANs?"
+        answer: "Diffusion Models generate images by gradually removing noise from a pure noise input. Unlike GANs which use a generator-discriminator setup, diffusion models work through a denoising process where they learn to reverse a gradual noising process. They've become popular for text-to-image generation systems like DALL-E, Midjourney, and Stable Diffusion because they can produce highly detailed and diverse images with fewer training artifacts than GANs."
+
+  - name: "Responsible AI"
+    items:
+      - question: "What is explainability in AI and why is it important for documentation?"
+        answer: "Explainability refers to making AI decision-making processes understandable to humans. For documentation specialists, this is crucial because it allows them to create transparent documentation that helps users understand how AI systems arrive at decisions. Good explainability documentation builds trust, supports debugging, ensures regulatory compliance, and helps users identify potential biases or limitations in AI systems."
+      
+      - question: "How can documentation specialists address ethical considerations in AI systems?"
+        answer: "Documentation specialists can address ethical considerations by clearly documenting known biases, limitations, and potential misuse scenarios of AI systems. They should include transparency about data sources, model methodology, and decision-making processes. Additionally, they can create guidelines for responsible use, document testing for fairness across different demographics, and ensure documentation itself is accessible to diverse audiences. This ethical approach helps users make informed decisions and use AI systems responsibly."
+      
+      - question: "What is the difference between interpretability and explainability in AI?"
+        answer: "Interpretability typically refers to understanding how a model works intrinsically—being able to follow its internal logic and reasoning process. Explainability, on the other hand, focuses on explaining predictions in human-understandable terms, even if the model itself is complex or opaque. For documentation, interpretability might involve explaining model architecture, while explainability would focus on communicating why a specific output was generated for a given input, often using techniques like feature importance, counterfactual explanations, or surrogate models." 

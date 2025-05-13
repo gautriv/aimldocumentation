@@ -635,12 +635,6 @@ Connect with others facing similar challenges:
 - [**Responsible AI Meetups**](https://www.meetup.com/topics/artificial-intelligence-ethics/): Local gatherings on AI ethics and governance
 - [**Regulatory AI Discord**](https://discord.gg/regulatory-ai): Online community of AI professionals in regulated industries
 
-## Test Your Knowledge
-
-Test your understanding of AI-ML regulatory compliance documentation with this quiz!
-
-{% include quiz.html id="regulatory_compliance" title="Regulatory Compliance Documentation Quiz" description="Check your understanding of compliance documentation requirements, formats, and best practices for AI-ML systems." questions=site.data.regulatory_compliance_questions theme="red" %}
-
 ## What's Next on Your Compliance Journey?
 
 Regulatory compliance documentation isn't a destination—it's an ongoing journey as both your systems and regulations evolve. In our next module, we'll explore how to make your AI documentation accessible to global audiences through localization and internationalization.
@@ -662,3 +656,13 @@ So take a deep breath. You've got this. And your future self (and legal team) wi
 <p>"The best compliance documentation isn't created to satisfy regulators—it's created to protect users. When you focus on documenting what users need to know to use your AI safely and effectively, regulatory compliance usually follows naturally."</p>
 <p class="quote-attribution">—Dr. Emily Chen, AI Ethics Researcher</p>
 </div>
+
+## Frequently Asked Questions
+
+{% include faq-section.html data_file="regulatory_compliance_faqs" title="Frequently Asked Questions About AI Regulatory Compliance Documentation" description="Get answers to common questions about navigating regulatory requirements, creating effective compliance documentation, and integrating documentation processes into AI development workflows." %}
+
+## Test Your Knowledge
+
+Test your understanding of AI-ML regulatory compliance documentation with this quiz!
+
+{% include quiz.html id="regulatory_compliance" title="Regulatory Compliance Documentation Quiz" description="Check your understanding of compliance documentation requirements, formats, and best practices for AI-ML systems." questions=site.data.regulatory_compliance_questions theme="red" %}

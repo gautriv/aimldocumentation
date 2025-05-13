@@ -1269,6 +1269,8 @@ In our next module, we'll explore advanced AI concepts for documentation special
 
 Test your understanding of AI documentation career paths with this quick quiz!
 
+{% include faq-section.html data_file="career_paths_faqs" title="Frequently Asked Questions About AI Documentation Careers" description="Get answers to common questions about career opportunities, skill development, and advancement strategies in the field of AI documentation." %}
+
 {% include quiz.html id="career_paths" title="AI Documentation Career Paths Quiz" description="Check your understanding of career opportunities, skills, and strategies in AI documentation." questions=site.data.career_paths_questions theme="orange" %}
 
 <style>

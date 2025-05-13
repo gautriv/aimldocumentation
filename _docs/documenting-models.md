@@ -600,6 +600,10 @@ Now it's your turn to practice your AI documentation skills:
 3. **Select a complex AI concept (e.g., attention mechanisms or gradient boosting).**
    * Write an explanation twice: once for a technical audience and once for executives. 
 
+## Frequently Asked Questions
+
+{% include faq-section.html data_file="documenting_models_faqs" title="Frequently Asked Questions About Documenting AI Models" description="Get answers to common questions about creating comprehensive and effective documentation for AI/ML models." %}
+
 ## Test Your Knowledge
 
 Check your understanding of AI model documentation best practices with this quiz!

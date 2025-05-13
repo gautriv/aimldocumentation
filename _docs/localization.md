@@ -1137,12 +1137,6 @@ Deepen your understanding with these guides:
 - **[W3C Internationalization Resources](https://www.w3.org/International/techniques/authoring-html)**: Technical standards for global content
 - **[Multilingual Magazine](https://multilingual.com/)**: Industry publication on localization
 
-## Test Your Knowledge
-
-Take this quiz to check your understanding of AI-ML documentation localization principles and practices!
-
-{% include quiz.html id="localization" title="AI-ML Documentation Localization Quiz" description="Test your knowledge of how to create AI documentation that works effectively across languages and cultures." questions=site.data.localization_questions theme="yellow" %}
-
 ## What's Next on Your Global Documentation Journey?
 
 As AI systems continue to evolve, so too will the challenges and opportunities in documenting them for global audiences. The good news? The work you do today to internationalize and localize your documentation will pay dividends for years to come.
@@ -1163,4 +1157,14 @@ Remember: Every step you take toward better localization isn't just good documen
 <li>Test with native speakers in target markets</li>
 <li>Integrate localization into your ongoing documentation workflow</li>
 </ol>
-</div> 
+</div>
+
+## Frequently Asked Questions
+
+{% include faq-section.html data_file="localization_faqs" title="Frequently Asked Questions About AI Documentation Localization" description="Get answers to common questions about preparing AI documentation for global audiences, handling terminology across languages, and adapting content for different cultures and regulatory environments." %}
+
+## Test Your Knowledge
+
+Take this quiz to check your understanding of AI-ML documentation localization principles and practices!
+
+{% include quiz.html id="localization" title="AI-ML Documentation Localization Quiz" description="Test your knowledge of how to create AI documentation that works effectively across languages and cultures." questions=site.data.localization_questions theme="yellow" %} 

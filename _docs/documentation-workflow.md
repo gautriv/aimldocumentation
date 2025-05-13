@@ -629,7 +629,7 @@ Collaboration specifically on ethical aspects:
 
 ## Test Your Knowledge
 
-Test your understanding of documentation workflows for AI systems with this quiz!
+{% include faq-section.html data_file="documentation_workflow_faqs" title="Frequently Asked Questions About AI Documentation Workflows" description="Get answers to common questions about planning, organizing, and implementing effective documentation workflows for AI/ML projects." %}
 
 {% include quiz.html id="documentation_workflow" title="Documentation Workflow Quiz" description="Check your understanding of effective documentation workflows, collaboration patterns, and strategies for AI-ML systems." questions=site.data.documentation_workflow_questions theme="indigo" %}
 

@@ -385,6 +385,23 @@ This test checks whether your visualization creates lasting understanding.
       (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 
+## Learning from the Pros: Resources for Further Study
+
+For those who want to dive deeper into visualization testing methodologies:
+
+- [Nielsen Norman Group on Visualization Usability](https://www.nngroup.com/articles/data-visualization-example/) - Research-based guidance on testing information graphics
+- [Microsoft's Guidelines for AI UI Design](https://www.microsoft.com/design/inclusive/) - Includes guidance on testing visualizations for AI interfaces
+- [Google's People + AI Guidebook](https://pair.withgoogle.com/guidebook/) - Guidance on explaining and visualizing AI
+- [Fernanda Viégas and Martin Wattenberg](http://www.bewitched.com/) - Pioneers in the testing and evaluation of data visualization
+- [DataViz Society](https://www.datavisualizationsociety.org/) - Community of data visualization professionals
+- [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) - See exemplary visualizations that have been thoroughly tested
+
+## Frequently Asked Questions
+
+Get answers to common questions about testing visual documentation for AI systems, including methods for effective testing, approaches for different audiences, and strategies for improving visualizations based on test results.
+
+{% include faq-section.html data_file="visual_testing_documentation_faqs" title="Frequently Asked Questions" description="Get answers to common questions about testing visual documentation for AI systems, including methods for effective testing, approaches for different audiences, and strategies for improving visualizations based on test results." %}
+
 ## Test Your Knowledge
 
 Test your understanding of visual documentation testing principles and techniques with this quiz!

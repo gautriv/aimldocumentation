@@ -264,6 +264,10 @@ To systematically improve documentation, track key metrics:
 - [Don't Make Me Think](https://sensible.com/dont-make-me-think/) by Steve Krug
 - [Just Enough Research](https://abookapart.com/products/just-enough-research) by Erika Hall
 
+## Frequently Asked Questions
+
+{% include faq-section.html data_file="testing_documentation_faqs" title="Frequently Asked Questions About Testing AI-ML Documentation" description="Get answers to common questions about validating documentation accuracy, testing for different audiences, and implementing effective documentation testing processes." %}
+
 ## Test Your Knowledge
 
 Test your understanding of the key concepts for testing and validating AI-ML documentation with this quiz!

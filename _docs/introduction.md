@@ -199,6 +199,10 @@ So grab your beverage of choice, and let's write docs that people *actually* rea
 
 ---
 
+## Frequently Asked Questions
+
+{% include faq-section.html data_file="introduction_faqs" title="Frequently Asked Questions About AI-ML Documentation" description="Get answers to common questions about getting started with AI documentation, best practices, and addressing ethical and governance considerations." %}
+
 ## Test Your Knowledge
 
 Test your understanding of AI-ML documentation fundamentals with this quiz!

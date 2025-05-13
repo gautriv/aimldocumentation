@@ -315,7 +315,7 @@ Let's look at some common documentation tool combinations for different AI-ML co
 
 ## Test Your Knowledge
 
-Test your understanding of documentation tools for AI-ML systems with this quiz!
+{% include faq-section.html data_file="documentation_tools_faqs" title="Frequently Asked Questions About AI Documentation Tools" description="Get answers to common questions about selecting, implementing, and integrating documentation tools for AI/ML projects." %}
 
 {% include quiz.html id="documentation_tools" title="Documentation Tools Quiz" description="Check your understanding of tools and approaches for documenting AI-ML systems effectively." questions=site.data.documentation_tools_questions theme="teal" %}
 

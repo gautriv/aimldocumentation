@@ -724,6 +724,6 @@ Let's move from understanding AI to helping others understand it.
 
 ## Test Your Knowledge
 
-Put your understanding of AI and ML fundamentals to the test with this quick quiz!
+{% include faq-section.html data_file="ai_ml_fundamentals_faqs" title="Frequently Asked Questions About AI-ML Fundamentals" description="Get answers to common questions about AI and ML concepts, terminology, and documentation approaches." %}
 
 {% include quiz.html id="ai_ml_fundamentals" title="AI and ML Fundamentals Quiz" description="Test your understanding of the core concepts covered in this chapter." questions=site.data.ai_ml_fundamentals_questions theme="green" %}

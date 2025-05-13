@@ -731,7 +731,7 @@ Now go forth and decode those black boxes!
 
 ## Test Your Knowledge
 
-Solidify your understanding of advanced AI concepts with this quick quiz. Challenge yourself to see how much you've learned!
+{% include faq-section.html data_file="advanced_ai_concepts_faqs" title="Frequently Asked Questions About Advanced AI Concepts" description="Get answers to common questions about modern AI architectures, training methods, and responsible AI practices." %}
 
 {% include quiz.html id="advanced_ai_concepts" title="Advanced AI Concepts Quiz" description="Test your understanding of modern AI architectures and concepts covered in this chapter." questions=site.data.advanced_ai_concepts_questions theme="blue" %}
 

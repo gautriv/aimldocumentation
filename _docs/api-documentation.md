@@ -514,7 +514,7 @@ Remember: The goal isn't just to document how your API works, but to help develo
 
 ## Test Your Knowledge
 
-Test your understanding of AI API documentation best practices with this quick quiz!
+{% include faq-section.html data_file="api_documentation_faqs" title="Frequently Asked Questions About Documenting AI APIs" description="Get answers to common questions about creating effective documentation for AI APIs, handling unique AI documentation challenges, and following best practices." %}
 
 {% include quiz.html id="api_documentation" title="AI API Documentation Quiz" description="Check your understanding of key concepts for documenting AI APIs effectively." questions=site.data.api_documentation_questions theme="purple" %}
 

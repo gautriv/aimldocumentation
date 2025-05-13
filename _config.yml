@@ -1,30 +1,9 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Master AI-ML Documentation | Complete Course for Technical Writers
-email: contact@beingtechnicalwriter.com
 description: >-
   Master AI and ML documentation with our comprehensive course. Learn to document complex AI systems, 
   explain machine learning models, and create ethical documentation for artificial intelligence. 
   Perfect for technical writers, AI engineers, and documentation specialists.
-baseurl: "/aimldocumentation" # the subpath of your site, e.g. /blog
+baseurl: "/aimldocumentation/"
 url: "https://beingtechnicalwriter.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: Being Technical Writer
 
@@ -61,7 +40,7 @@ social:
     - https://www.youtube.com/c/beingtechnicalwriter
 
 # Google Analytics
-google_analytics: UA-123456789-1
+google_analytics: G-8VQGBYV0J6
 
 # Exclude from processing
 exclude:

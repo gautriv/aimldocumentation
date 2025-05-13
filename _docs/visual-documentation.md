@@ -294,33 +294,11 @@ We've all seen (and maybe created) these visualization disasters:
 **Your deliverable**:
 A visual explanation with annotations that would feel at home in your user-facing documentation.
 
-### Exercise 3: The Visual Transformation Challenge
+## Frequently Asked Questions
 
-**The mission**: Take a text-heavy explanation of an AI concept and give it a visual makeover.
+Get answers to common questions about creating effective visual documentation for AI systems, including tips for non-designers, best practices for different visualization types, and strategies for making complex AI concepts visually accessible.
 
-**Your game plan**:
-1. Find a dense, text-only explanation (at least 500 words) that makes your eyes glaze over
-2. Identify the concepts that are crying out for visual representation
-3. Create visualizations for these concepts
-4. Rewrite the text to work harmoniously with your new visuals
-5. Compare the effectiveness of the original and your transformed version
-
-## Inspiration is Everywhere: Resources to Level Up
-
-### Books and Articles That Will Change How You Think About Visuals
-- [Visualization Analysis and Design](https://www.cs.ubc.ca/~tmm/vadbook/) by Tamara Munzner
-- [Storytelling with Data](http://www.storytellingwithdata.com/) by Cole Nussbaumer Knaflic
-- [Visual Explanations](https://www.edwardtufte.com/tufte/books_visex) by Edward Tufte (the godfather of data visualization)
-
-### Tools and Templates to Jump-Start Your Process
-- [The AI2D Diagram Dataset](https://allenai.org/data/diagrams) - A treasure trove of scientific diagram examples
-- [Google's Material Design System](https://material.io/design/communication/data-visualization.html) - Guidelines for beautiful, clear data visualization
-- [Observable's Visualization Gallery](https://observablehq.com/@d3/gallery) - Examples of interactive visualizations that teach
-
-### Galleries to Feed Your Visual Creativity
-- [Distill Publications](https://distill.pub/) - The gold standard of ML visualizations
-- [Information is Beautiful](https://informationisbeautiful.net/) - Award-winning visualizations to inspire
-- [The Pudding](https://pudding.cool/) - Visual essays that show the power of data storytelling
+{% include faq-section.html data_file="visual_documentation_faqs" title="Frequently Asked Questions" description="Get answers to common questions about creating effective visual documentation for AI systems, including tips for non-designers, best practices for different visualization types, and strategies for making complex AI concepts visually accessible." %}
 
 ## Test Your Knowledge
 

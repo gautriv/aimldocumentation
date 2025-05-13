@@ -1,0 +1,22 @@
+categories:
+  - name: "API Documentation Basics"
+    items:
+      - question: "What makes AI API documentation different from traditional API documentation?"
+        answer: "AI API documentation differs from traditional API documentation in several key ways: 1) It must address non-deterministic behavior where the same input may produce different outputs; 2) It needs to explain confidence scores and thresholds that affect results; 3) It requires documentation of edge cases, limitations, and potential biases; 4) It should include ethical usage guidelines and safety considerations. While traditional API docs focus primarily on endpoints, parameters, and return values, AI API docs must also explain the underlying model behavior, reliability factors, and proper interpretation of results."
+      
+      - question: "What essential sections should every AI API documentation include?"
+        answer: "Every AI API documentation should include: 1) A clear overview explaining what the API does and its key capabilities; 2) Getting started guides with working example code; 3) Comprehensive API reference documentation for all endpoints; 4) Explanations of confidence scores and how to interpret them; 5) Model version information and differences between versions; 6) Known limitations and edge cases; 7) Performance and scaling considerations; 8) Ethical usage guidelines; 9) Troubleshooting guides; and 10) Sample applications or use cases. Documentation should be layered to serve both beginners and advanced users."
+      
+      - question: "How should I document model versioning in AI APIs?"
+        answer: "When documenting model versioning in AI APIs, include: 1) Clear version numbering and release dates; 2) Specific improvements or changes in each version; 3) Performance differences between versions; 4) Compatibility notes; 5) Deprecation timelines for older versions; and 6) Migration guides for users upgrading from previous versions. Make it clear which version is the default and how users can specify a particular version in their requests. Document any behavioral differences that might affect results between versions, as AI model updates can subtly change outputs even for the same inputs."
+
+  - name: "Advanced Documentation Techniques"
+    items:
+      - question: "How should I explain confidence scores in AI API documentation?"
+        answer: "When explaining confidence scores: 1) Define what the confidence score represents for your specific model; 2) Provide a scale (usually 0-1 or 0-100%) and explain what different ranges mean; 3) Include recommended thresholds for different use cases (e.g., high-security vs. general applications); 4) Show examples of high-confidence and low-confidence results; 5) Explain factors that might affect confidence scores; and 6) Provide best practices for handling low-confidence results. Use visualizations where possible to help users understand the relationship between confidence scores and result reliability."
+      
+      - question: "What's the best way to document AI API limitations and edge cases?"
+        answer: "To effectively document limitations and edge cases: 1) Be transparent and explicit about known limitations; 2) Categorize limitations by type (e.g., input constraints, performance issues, accuracy limitations); 3) Provide examples of edge cases with screenshots or code samples; 4) Explain why these limitations exist when possible; 5) Offer workarounds or alternative approaches where available; 6) Include information about ongoing improvements; and 7) Create a dedicated section for limitations rather than burying this information. This transparency builds trust and helps users implement more robust solutions that account for these limitations."
+      
+      - question: "How can I make AI API documentation more inclusive for developers with varying levels of AI knowledge?"
+        answer: "To create inclusive AI API documentation: 1) Layer your content with progressive disclosure—basic concepts first, advanced details later; 2) Include an AI concepts glossary for those new to the field; 3) Provide both basic and advanced code examples; 4) Use clear visualizations to explain complex concepts; 5) Avoid unnecessary jargon or explain it when used; 6) Create separate learning paths for beginners vs. experienced AI developers; 7) Include interactive elements like code playgrounds where possible; and 8) Provide links to educational resources for those wanting to learn more about the underlying AI concepts." 
