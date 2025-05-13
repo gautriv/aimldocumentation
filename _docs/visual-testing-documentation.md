@@ -1,12 +1,9 @@
 ---
-title: Visual Testing Documentation
-parent: Visual Documentation
+title: Testing Visual Documentation
 image: "{{ '/assets/images/visual-documentation/testing-diagram.svg' | relative_url }}"
 image_alt: "User testing a diagram with feedback indicators"
 permalink: /visual-ai-documentation-testing.html
 ---
-
-# Testing Visual Documentation: Making Sure Your AI Visuals Actually Work
 
 Alex spent three weeks creating the perfect diagram of his team's AI recommendation system. It was a work of art—colorful, comprehensive, with perfect layout and typography. He proudly added it to the documentation and waited for the praise to roll in.
 

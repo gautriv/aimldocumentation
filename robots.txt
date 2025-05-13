@@ -1,1 +1,17 @@
-Sitemap: https://beingtechnicalwriter.com/apidocumentation/sitemap.xml
+User-agent: *
+Allow: /
+Disallow: /assets/css/
+Disallow: /assets/js/
+Disallow: /*.md$
+Disallow: /.jekyll-cache/
+Disallow: /_site/
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+Disallow: /
+
+Sitemap: https://beingtechnicalwriter.com/aimldocumentation/sitemap.xml

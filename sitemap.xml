@@ -4,7 +4,8 @@ search: exclude
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   {% for post in site.posts %}
   {% unless post.search == "exclude" %}
   <url>
@@ -12,6 +13,12 @@ search: exclude
     <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    {% if post.image %}
+    <image:image>
+      <image:loc>{{site.url}}{{site.baseurl}}{{ post.image }}</image:loc>
+      <image:title>{% if post.image_alt %}{{ post.image_alt }}{% else %}{{ post.title }}{% endif %}</image:title>
+    </image:image>
+    {% endif %}
   </url>
   {% endunless %}
   {% endfor %}
@@ -21,8 +28,14 @@ search: exclude
   <url>
     <loc>{{site.url}}{{site.baseurl}}{{ page.url | remove_first: site.baseurl }}</loc>
     <lastmod>{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>{% if page.url == "/" %}1.0{% else %}0.7{% endif %}</priority>
+    <changefreq>{% if page.url == "/" %}weekly{% else %}monthly{% endif %}</changefreq>
+    <priority>{% if page.url == "/" %}1.0{% elsif page.url == "/ai-ml-introduction.html" %}0.9{% elsif page.url == "/documentation.html" %}0.9{% else %}0.7{% endif %}</priority>
+    {% if page.image %}
+    <image:image>
+      <image:loc>{{site.url}}{{site.baseurl}}{{ page.image }}</image:loc>
+      <image:title>{% if page.image_alt %}{{ page.image_alt }}{% else %}{{ page.title }}{% endif %}</image:title>
+    </image:image>
+    {% endif %}
   </url>
   {% endunless %}
   {% endfor %}
@@ -34,6 +47,18 @@ search: exclude
     <lastmod>{% if doc.last_modified_at %}{{ doc.last_modified_at | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    {% assign images = doc.content | split:"![" %}
+    {% for image in images %}
+      {% if image contains "](" %}
+        {% assign imageMarkdown = image | split:"](" | last | split:")" | first %}
+        {% unless imageMarkdown contains "http://" or imageMarkdown contains "https://" %}
+        <image:image>
+          <image:loc>{{site.url}}{{site.baseurl}}{{ imageMarkdown }}</image:loc>
+          <image:title>Image in {{ doc.title }}</image:title>
+        </image:image>
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
   </url>
   {% endunless %}
   {% endfor %}

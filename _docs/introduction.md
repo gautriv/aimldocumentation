@@ -1,8 +1,14 @@
 ---
-title: "Introduction to AI-ML Documentation"
+title: "Introduction to AI-ML Documentation | Essential Guide for Technical Writers"
 subtitle: "Understanding the unique challenges and opportunities in documenting AI systems"
-description: "Get started with the fundamentals of AI-ML documentation and learn why it requires a special approach."
+description: "Master the fundamentals of AI-ML documentation with our comprehensive guide. Learn why documenting artificial intelligence requires a special approach and discover best practices for explaining complex AI concepts clearly."
+keywords: "AI documentation introduction, ML documentation basics, AI technical writing, how to document AI systems, artificial intelligence documentation guide, machine learning documentation fundamentals"
 permalink: /ai-ml-introduction.html
+author: "Being Technical Writer Team"
+last_modified_at: 2023-12-01T10:00:00+00:00
+image: /assets/images/introduction/ai-doc-journey.svg
+image_alt: "AI-ML Documentation Journey Map showing the path from novice to expert documentation writer"
+toc: true
 next_page:
   url: /ai-ml-fundamentals.html
   title: "AI and ML Fundamentals"

@@ -18,12 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AI-ML Documentation Course
+title: Master AI-ML Documentation | Complete Course for Technical Writers
+email: contact@beingtechnicalwriter.com
 description: >-
-  A comprehensive course on creating world-class AI and ML documentation.
-  Learn how to document AI models, explain complex concepts, and create ethical documentation for artificial intelligence systems.
+  Master AI and ML documentation with our comprehensive course. Learn to document complex AI systems, 
+  explain machine learning models, and create ethical documentation for artificial intelligence. 
+  Perfect for technical writers, AI engineers, and documentation specialists.
 baseurl: "/aimldocumentation" # the subpath of your site, e.g. /blog
 url: "https://beingtechnicalwriter.com" # the base hostname & protocol for your site, e.g. http://example.com
+author: Being Technical Writer
 
 # Build settings
 markdown: kramdown
@@ -40,15 +43,25 @@ plugins:
   - jekyll-sitemap
 
 # SEO settings
+logo: /assets/images/ai-documentation-logo.png
 twitter:
   username: beingtechwriter
-  card: summary
+  card: summary_large_image
+facebook:
+  app_id: 123456789
+  publisher: https://www.facebook.com/beingtechnicalwriter
+  admins: 12345678
 social:
   name: Being Technical Writer
   links:
     - https://twitter.com/beingtechwriter
     - https://www.linkedin.com/in/gauravtrivedi1988/
     - https://github.com/gautriv
+    - https://www.facebook.com/beingtechnicalwriter
+    - https://www.youtube.com/c/beingtechnicalwriter
+
+# Google Analytics
+google_analytics: UA-123456789-1
 
 # Exclude from processing
 exclude:
@@ -74,12 +87,16 @@ defaults:
       type: "docs"
     values:
       layout: "doc"
+      image: /assets/images/ai-documentation-social.jpg
+      last_modified_at: 2023-12-01T12:00:00+00:00
   - scope:
       path: "_posts"
       type: "posts"
     values:
       layout: "post"
+      image: /assets/images/ai-documentation-social.jpg
   - scope:
       path: ""
     values:
       layout: "default"
+      image: /assets/images/ai-documentation-social.jpg

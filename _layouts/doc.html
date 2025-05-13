@@ -3,8 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}AI documentation, ML documentation, technical writing, artificial intelligence documentation, machine learning documentation, documenting AI models{% endif %}">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+    <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ site.baseurl }}{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/images/ai-documentation-social.jpg{% endif %}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="{{ site.title }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+    <meta property="twitter:image" content="{% if page.image %}{{ site.url }}{{ site.baseurl }}{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/images/ai-documentation-social.jpg{% endif %}">
+    <meta name="twitter:creator" content="@beingtechwriter">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+      "description": "{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}",
+      "provider": {
+        "@type": "Organization",
+        "name": "Being Technical Writer",
+        "sameAs": [
+          "https://twitter.com/beingtechwriter",
+          "https://www.linkedin.com/in/gauravtrivedi1988/",
+          "https://github.com/gautriv",
+          "https://www.facebook.com/beingtechnicalwriter",
+          "https://www.youtube.com/c/beingtechnicalwriter"
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "url": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}",
+      "image": "{% if page.image %}{{ site.url }}{{ site.baseurl }}{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/images/ai-documentation-social.jpg{% endif %}",
+      "educationalCredentialAwarded": "Certification in AI-ML Documentation",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Technical Writers, AI Engineers, Documentation Specialists"
+      },
+      "inLanguage": "en",
+      "isAccessibleForFree": true
+    }
+    </script>
+    
+    <!-- Breadcrumbs Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ site.url }}{{ site.baseurl }}/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        "item": "{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}"
+      }]
+    }
+    </script>
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
@@ -44,6 +125,45 @@
         .completion-link:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* Breadcrumb Navigation Styles */
+        .breadcrumb {
+            margin-bottom: 1.5rem;
+            font-size: 0.875rem;
+        }
+        
+        .breadcrumb ol {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .breadcrumb li {
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .breadcrumb a {
+            color: #3b82f6;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        
+        .breadcrumb a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+        
+        .breadcrumb-separator {
+            color: #9ca3af;
+            margin: 0 0.5rem;
+        }
+        
+        .breadcrumb li:last-child {
+            color: #4b5563;
         }
     </style>
 </head>
@@ -100,6 +220,40 @@
                     <!-- Main Content Area -->
                     <div class="docs-content">
                         <div class="doc-header">
+                            <!-- Breadcrumb Navigation -->
+                            <nav class="breadcrumb" aria-label="breadcrumb">
+                                <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+                                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                        <a itemprop="item" href="{{ site.baseurl }}/">
+                                            <span itemprop="name">Home</span>
+                                        </a>
+                                        <meta itemprop="position" content="1" />
+                                    </li>
+                                    {% if page.parent %}
+                                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                        <span class="breadcrumb-separator">/</span>
+                                        <a itemprop="item" href="{{ site.baseurl }}/{{ page.parent | downcase | replace: ' ', '-' }}.html">
+                                            <span itemprop="name">{{ page.parent }}</span>
+                                        </a>
+                                        <meta itemprop="position" content="2" />
+                                    </li>
+                                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                        <span class="breadcrumb-separator">/</span>
+                                        <span itemprop="name">{{ page.title }}</span>
+                                        <meta itemprop="position" content="3" />
+                                    </li>
+                                    {% else %}
+                                    {% unless page.url == "/" %}
+                                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                        <span class="breadcrumb-separator">/</span>
+                                        <span itemprop="name">{{ page.title }}</span>
+                                        <meta itemprop="position" content="2" />
+                                    </li>
+                                    {% endunless %}
+                                    {% endif %}
+                                </ol>
+                            </nav>
+                            
                             <h1>{{ page.title }}</h1>
                             {% if page.description %}
                                 <p class="doc-description">{{ page.description }}</p>
