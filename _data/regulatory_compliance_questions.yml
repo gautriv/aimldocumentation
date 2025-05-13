@@ -1,0 +1,44 @@
+- question: "According to the chapter, what are the five pillars of compliant AI documentation?"
+  options:
+    - "System transparency, impact assessment, data documentation, performance evidence, and governance documentation"
+    - "Legal compliance, fairness assessment, technical specifications, user guides, and version control"
+    - "Risk assessment, bias mitigation, data privacy, explainability, and human oversight"
+    - "Model architecture, training methods, validation procedures, testing results, and deployment guidelines"
+  correctIndex: 0
+  explanation: "The chapter outlines five core categories of compliance documentation: System Transparency (how your system works), Impact Assessment (potential effects and mitigations), Data Documentation (data practices), Performance Evidence (how well and fairly your system works), and Governance Documentation (ongoing oversight)."
+
+- question: "What does the chapter recommend for determining how detailed your AI documentation needs to be?"
+  options:
+    - "Always document every aspect of your AI system in extreme detail regardless of use case"
+    - "Base documentation detail on risk level, regulatory jurisdiction, industry sector, system impact, and system autonomy"
+    - "Focus only on technical details that engineers would understand"
+    - "Limit documentation to what's legally required in your primary market"
+  correctIndex: 1
+  explanation: "The chapter explains that the level of documentation detail depends on five factors: risk level (higher-risk systems need more documentation), regulatory jurisdiction (requirements vary by region), industry sector (healthcare and finance have higher standards), system impact (systems affecting individuals need more documentation), and system autonomy (less human oversight requires more documentation)."
+
+- question: "Which standardized documentation format is described as 'your AI's ID card' in the chapter?"
+  options:
+    - "System Factsheet"
+    - "Algorithm Impact Assessment"
+    - "Technical Architecture Document"
+    - "Model Card"
+  correctIndex: 3
+  explanation: "The chapter describes Model Cards as 'your AI's ID card' - standardized summaries of AI models that include regulatory information. They're presented as a professional profile for your model, containing details like model type, intended use, training data, performance evaluation, ethical considerations, and regulatory compliance status."
+
+- question: "What approach to compliance documentation does the chapter recommend to accommodate different stakeholders?"
+  options:
+    - "Creating different documents for different countries"
+    - "Separating technical and non-technical documentation"
+    - "A layered documentation approach with executive, legal/regulatory, technical, user, and auditor layers"
+    - "Focusing exclusively on what regulators require and ignoring other stakeholders"
+  correctIndex: 2
+  explanation: "The chapter recommends a layered documentation approach since not all stakeholders need the same level of detail. This includes five layers: Executive layer (high-level compliance summaries), Legal/regulatory layer (detailed compliance documentation), Technical layer (implementation specifics), User layer (simplified explanations), and Auditor layer (evidence collections with traceability)."
+
+- question: "According to the case studies, what was identified as a key lesson from the healthcare AI documentation experience?"
+  options:
+    - "Regulatory compliance is impossible in healthcare"
+    - "Documentation should focus only on system capabilities"
+    - "Documenting what your system can't do is just as important as documenting what it can do"
+    - "Healthcare AI should avoid documentation to prevent liability"
+  correctIndex: 2
+  explanation: "In the healthcare AI case study about a radiology assistant, the key lesson highlighted was that 'Documenting what your system can't do is just as important as documenting what it can do.' The company achieved FDA clearance after developing a 'limitations documentation database' cataloging known edge cases where performance decreased, with regulators specifically praising their transparent limitations documentation." 

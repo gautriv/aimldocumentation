@@ -1,0 +1,44 @@
+- question: "According to the chapter, why is testing documentation especially important for AI-ML systems?"
+  options:
+    - "Documentation testing is required by law for AI systems"
+    - "AI-ML concepts are complex and easily misunderstood, with potential real-world consequences if misused"
+    - "Testing is only important for code, not documentation"
+    - "Only academic AI systems need documentation testing"
+  correctIndex: 1
+  explanation: "The chapter emphasizes that testing documentation is crucial for AI-ML systems because they involve complex concepts that are easily misunderstood, serve multiple audiences with different requirements, evolve rapidly, can have real-world consequences if misused, and require accurate documentation to build trust."
+
+- question: "Which of the following is NOT identified as one of the main types of documentation testing in the chapter?"
+  options:
+    - "Technical Accuracy Testing"
+    - "Usability Testing"
+    - "Performance Benchmark Testing"
+    - "Accessibility Testing"
+  correctIndex: 2
+  explanation: "The chapter identifies four main types of documentation testing: Technical Accuracy Testing (verifying content correctness), Usability Testing (evaluating user understanding), Accessibility Testing (ensuring access for all users), and Experience Testing (evaluating overall documentation experience). Performance Benchmark Testing is not listed as one of the main types."
+
+- question: "What special testing approach does the chapter recommend for ensuring that complex AI-ML concepts are explained well to different audiences?"
+  options:
+    - "Cultural Awareness Testing"
+    - "Technical-to-Simple Translation Testing"
+    - "Regulatory Compliance Testing"
+    - "Algorithm Validation Testing"
+  correctIndex: 1
+  explanation: "The chapter specifically recommends 'Technical-to-Simple Translation Testing' as an approach to verify that complex concepts are explained well. This includes testing analogy effectiveness, jargon explanation, progressive disclosure, and cross-audience testing with both technical and non-technical users."
+
+- question: "Which of the following metrics would be classified as a 'quantitative metric' for documentation according to the chapter?"
+  options:
+    - "User satisfaction with the documentation"
+    - "Perceived usefulness of examples"
+    - "Task completion rate"
+    - "User confidence in applying concepts"
+  correctIndex: 2
+  explanation: "The chapter categorizes 'Task completion rate' (percentage of users who successfully complete tasks) as a quantitative metric. User satisfaction, perceived usefulness, and user confidence are all listed as qualitative metrics that measure subjective aspects of the documentation experience."
+
+- question: "What approach does the chapter recommend for testing responsible AI documentation?"
+  options:
+    - "Focus exclusively on technical accuracy"
+    - "Test only with advanced users who understand AI ethics"
+    - "Check for clear communication of bias, limitations, fairness considerations, safety procedures, and compliance information"
+    - "Avoid mentioning limitations to prevent user concerns"
+  correctIndex: 2
+  explanation: "For Responsible AI Documentation Testing, the chapter recommends checking whether documentation clearly communicates potential bias, system limitations, fairness considerations, safety procedures, and regulatory compliance information. This approach ensures ethical considerations are properly addressed in the documentation." 

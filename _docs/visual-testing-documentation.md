@@ -385,6 +385,12 @@ This test checks whether your visualization creates lasting understanding.
       (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 
+## Test Your Knowledge
+
+Test your understanding of visual documentation testing principles and techniques with this quiz!
+
+{% include quiz.html id="visual_testing_documentation" title="Testing Visual Documentation Quiz" description="Check your understanding of key methods and best practices for ensuring your AI-ML visualizations are clear and effective for all users." questions=site.data.visual_testing_documentation_questions theme="indigo" %}
+
 ## Wrapping Up: From Testing to Excellence
 
 Testing your visualizations isn't just about avoiding embarrassing mistakes—it's about developing a fundamental skill: the ability to see your work through others' eyes.

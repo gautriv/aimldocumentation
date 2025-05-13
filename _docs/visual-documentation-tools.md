@@ -282,6 +282,12 @@ How do you know if your visualizations are working?
 - [The Noun Project](https://thenounproject.com/) - Simple icons for every concept imaginable
 - [Google Fonts](https://fonts.google.com/) - Free, easy-to-use web fonts for your interactive visualizations
 
+## Test Your Knowledge
+
+Test your understanding of visual documentation tools for AI-ML systems with this quiz!
+
+{% include quiz.html id="visual_documentation_tools" title="Visual Documentation Tools Quiz" description="Check your knowledge of tools, techniques, and best practices for creating effective visual explanations for AI systems." questions=site.data.visual_documentation_tools_questions theme="green" %}
+
 ## Your Next Steps on the Visualization Journey
 
 You now have a toolkit of visualization resources that can transform how you explain AI systems. Here's what to do next:

@@ -447,6 +447,12 @@ Here's a simple checklist to ensure your AI documentation meets basic ethical st
 - [Race After Technology](https://www.ruhabenjamin.com/race-after-technology) by Ruha Benjamin - Crucial insights on algorithmic discrimination
 - [Ethics of AI and Robotics](https://plato.stanford.edu/entries/ethics-ai/) - Stanford Encyclopedia of Philosophy's thorough overview
 
+## Test Your Knowledge
+
+Take this quiz to test your understanding of ethical documentation principles and practices!
+
+{% include quiz.html id="ethical_documentation" title="Ethical Documentation Quiz" description="Test your knowledge of how to create honest, transparent documentation that protects users and promotes responsible AI use." questions=site.data.ethical_documentation_questions theme="red" %}
+
 ## The Journey Continues: Your Documentation as Ethical Practice
 
 Documentation isn't just something you create once and forget. It's an ongoing ethical practice that evolves with your system and the world around it.

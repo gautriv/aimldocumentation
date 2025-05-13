@@ -1,0 +1,44 @@
+- question: "According to the chapter, which tool would be most appropriate for creating interactive demos where users can manipulate parameters of your AI model and see results immediately?"
+  options:
+    - "Lucidchart"
+    - "Matplotlib"
+    - "Streamlit"
+    - "VEED.IO"
+  correctIndex: 2
+  explanation: "The chapter identifies Streamlit as an interaction champion tool that lets you 'turn your Python scripts into interactive web apps with minimal effort' and is described as 'like having a UI designer automatically create the perfect interface for your model demonstrations.' This makes it ideal for creating interactive demos where users can manipulate parameters and see results."
+
+- question: "Which design principle is recommended in the chapter as a quick way to achieve visual harmony in your visualizations?"
+  options:
+    - "Using as many colors as possible to differentiate elements"
+    - "The 60-30-10 rule for color distribution"
+    - "Always using dark backgrounds for technical visualizations"
+    - "Using at least 3-4 different fonts for visual interest"
+  correctIndex: 1
+  explanation: "The chapter recommends 'The 60-30-10 rule' as a way to achieve 'instant visual harmony' in your visualizations. This rule suggests using your main color for 60% of the visualization, a complementary color for 30%, and an accent color for 10%."
+
+- question: "What is the first step in the visual documentation workflow recommended by the chapter, even before selecting digital tools?"
+  options:
+    - "Choose a color palette"
+    - "Research what other companies are doing"
+    - "Start with a sketch, even a simple one"
+    - "Select the appropriate visualization software"
+  correctIndex: 2
+  explanation: "The chapter states that no matter which digital tools you'll eventually use, you should 'start with a simple sketch on paper or a digital whiteboard' and notes that 'stick figures and boxes are perfectly fine!' This is listed as step 1 in the visual documentation workflow, before choosing tools or working on digital versions."
+
+- question: "Which tool is described as 'the universal model viewer' that allows you to visualize nearly any model file?"
+  options:
+    - "TensorBoard"
+    - "Netron"
+    - "NN-SVG"
+    - "Plotly"
+  correctIndex: 1
+  explanation: "The chapter describes Netron as 'the universal model viewer' that lets you 'drop in nearly any model file, and it shows you a visual representation.' It's compared to 'having a universal translator for neural network architectures.'"
+
+- question: "What does the chapter recommend for improving the look of default Matplotlib visualizations?"
+  options:
+    - "Switch to Tableau instead"
+    - "Hire a professional designer to improve them"
+    - "Apply a style with plt.style.use('seaborn-whitegrid') and customize colors"
+    - "Keep them basic as simplicity is best for technical audiences"
+  correctIndex: 2
+  explanation: "In the 'Common Tool-Specific Challenges' section, the chapter addresses the challenge that 'Default plots look basic and uninspiring' in Matplotlib. The recommended solution is to 'Apply a style with plt.style.use('seaborn-whitegrid') before plotting, and always customize colors and remove chart junk.'" 

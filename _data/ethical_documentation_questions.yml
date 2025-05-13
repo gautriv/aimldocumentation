@@ -1,0 +1,44 @@
+- question: "Why do AI systems require a higher ethical standard for documentation than traditional software?"
+  options:
+    - "Because AI documentation typically requires more technical jargon"
+    - "Because AI systems make consequential decisions about people's lives and can cause harm at massive scale"
+    - "Because AI documentation is always longer and more complex"
+    - "Because AI systems are always deployed in high-risk environments"
+  correctIndex: 1
+  explanation: "AI systems require higher ethical documentation standards because, unlike predictable traditional software, they make consequential decisions about people's lives, learn from potentially biased data, create complex societal effects, operate with varying transparency, and can cause harm at massive scale if misused or poorly designed."
+
+- question: "What is a 'model card' in ethical AI documentation?"
+  options:
+    - "A physical ID card that grants access to AI models"
+    - "A visual diagram showing the model's neural network architecture"
+    - "A standardized framework that provides a concise overview of an AI model's capabilities, limitations, and ethical considerations"
+    - "A certification of regulatory compliance issued by government agencies"
+  correctIndex: 2
+  explanation: "A model card is a standardized documentation framework developed by Google that provides a concise overview (typically 2-4 pages) of an AI model's capabilities, limitations, and ethical considerations. It includes model details, intended use, factors affecting performance, metrics, evaluation data, training data, ethical considerations, and usage guidance."
+
+- question: "Which of the following is NOT one of the seven key elements of ethical AI documentation mentioned in the chapter?"
+  options:
+    - "System Purpose and Boundaries"
+    - "Data Transparency"
+    - "Performance Limitations"
+    - "Competitive Advantage Analysis"
+  correctIndex: 3
+  explanation: "The seven key elements of ethical AI documentation discussed in the chapter are: 1) System Purpose and Boundaries, 2) Data Transparency, 3) Fairness and Equity, 4) Performance Limitations, 5) Uncertainty Communication, 6) Environmental and Social Impact, and 7) Security and Privacy. Competitive Advantage Analysis was not mentioned as one of these elements."
+
+- question: "When facing pressure to remove warnings from documentation, what approach does the chapter recommend?"
+  options:
+    - "Remove the warnings to increase product adoption"
+    - "Hide warnings in technical appendices"
+    - "Find a constructive framing that acknowledges limitations while highlighting strengths"
+    - "Delegate the decision to the legal department"
+  correctIndex: 2
+  explanation: "When business pressures conflict with ethical disclosure, the chapter recommends finding a constructive framing that acknowledges limitations while highlighting strengths. For example, saying 'Best performance when used for X' rather than just 'Poor performance for Y'. This maintains ethical responsibility to users while presenting information in a balanced way."
+
+- question: "According to the chapter, what should you do when documenting an AI system whose inner workings aren't fully understood (the 'black box' problem)?"
+  options:
+    - "Simply state that the system is too complex to explain"
+    - "Be honest about uncertainty while documenting observed behavioral patterns from empirical testing"
+    - "Avoid documenting the system until it's fully understood"
+    - "Only allow technical experts to use such systems"
+  correctIndex: 1
+  explanation: "When facing the 'black box' problem, the chapter recommends being honest about uncertainty while documenting observed patterns from empirical testing. Even if you can't explain the mechanisms, you can document known behaviors. For example: 'While the exact decision process is complex, our testing shows consistent patterns...'" 

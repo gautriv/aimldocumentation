@@ -721,3 +721,9 @@ Next, we'll explore how to **explain AI and ML systems** to different types of r
 You'll learn how to adjust your writing style, use the right tone, and build clarity even for the most complex concepts.
 
 Let's move from understanding AI to helping others understand it.
+
+## Test Your Knowledge
+
+Put your understanding of AI and ML fundamentals to the test with this quick quiz!
+
+{% include quiz.html id="ai_ml_fundamentals" title="AI and ML Fundamentals Quiz" description="Test your understanding of the core concepts covered in this chapter." questions=site.data.ai_ml_fundamentals_questions theme="green" %}

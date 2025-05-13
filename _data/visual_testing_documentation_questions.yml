@@ -1,0 +1,44 @@
+- question: "According to the chapter, what cognitive bias makes creators poor judges of their own visualization's clarity?"
+  options:
+    - "The Dunning-Kruger effect"
+    - "The curse of knowledge"
+    - "The availability heuristic"
+    - "The confirmation bias"
+  correctIndex: 1
+  explanation: "The chapter specifically identifies 'the curse of knowledge' as the cognitive bias that affects creators of visualizations. It explains that 'once you know something, it's nearly impossible to imagine what it's like not to know it,' creating a massive blind spot when creating visualizations for others."
+
+- question: "Which of the following tests is described as showing your visualization to someone for exactly five seconds and then asking specific questions about it?"
+  options:
+    - "The 'Fresh Eyes' Test"
+    - "The 'Five Second' Test"
+    - "The 'Describe and Draw' Test"
+    - "The 'Prediction Test'"
+  correctIndex: 1
+  explanation: "The chapter describes 'The Five Second Test' as a method where you 'show your visualization to a tester for exactly five seconds' and then 'hide it and ask a specific question.' This test measures whether viewers can grasp key information in your visualization almost instantly."
+
+- question: "What simple accessibility check does the chapter recommend to ensure your visualization doesn't rely solely on color to convey information?"
+  options:
+    - "Run an automated accessibility checker tool"
+    - "Ask colorblind team members to review the visualization"
+    - "Convert your image to grayscale and check if important information is lost"
+    - "Print the visualization in black and white"
+  correctIndex: 2
+  explanation: "In the 'Check for Accessibility Issues' section, the chapter recommends a 'simple test' to 'convert your image to grayscale. If you lose important information, you need to fix it.' This helps ensure that information isn't conveyed by color alone, which is important for accessibility."
+
+- question: "What approach does the chapter recommend for handling a visualization that test participants find 'too complicated to understand'?"
+  options:
+    - "Add more detailed labels and explanations"
+    - "Simplify by removing less important details"
+    - "Layer your information with a simplified high-level view that allows viewers to drill down into more complex layers"
+    - "Create an interactive version with tooltips"
+  correctIndex: 2
+  explanation: "In the 'Common Problems and Their Visual Solutions' section, for the problem 'This is too complicated to understand,' the chapter recommends to 'Layer your information. Start with a simplified high-level view, then allow viewers to drill down into more complex layers, either through interactive elements or through a series of increasingly detailed visualizations.'"
+
+- question: "Based on the case study in the chapter, what was the most effective solution for a complex flowchart that testers couldn't understand?"
+  options:
+    - "Adding more detailed labels to each component"
+    - "Using more distinctive colors to differentiate components"
+    - "Breaking the visualization into three simpler diagrams with different focuses"
+    - "Adding a comprehensive legend explaining all symbols"
+  correctIndex: 2
+  explanation: "In the case study, the chapter explains that 'the redesign broke the visualization into three simpler diagrams' (a high-level overview, a detailed training pipeline, and a separate inference pipeline). The lesson stated was that 'sometimes the best fix for a confusing visualization is to break it into multiple, simpler visualizations with a clear narrative connecting them.'" 

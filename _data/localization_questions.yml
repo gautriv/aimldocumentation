@@ -1,0 +1,44 @@
+- question: "According to the chapter, what is the difference between internationalization (i18n) and localization (l10n)?"
+  options:
+    - "Internationalization is focusing on software interface, while localization is focusing on documentation"
+    - "Internationalization happens after translation, while localization happens before"
+    - "Internationalization is preparing content for global adaptation, while localization is adapting it for specific markets"
+    - "Internationalization is for Asian markets, while localization is for European markets"
+  correctIndex: 2
+  explanation: "The chapter explains that internationalization (i18n) happens before translation and involves preparing your documentation structure to support multiple languages (like a passport). Localization (l10n) happens after internationalization and involves adapting content for specific markets, including translating content, adapting examples, and ensuring compliance with local regulations."
+
+- question: "Which of the following is NOT mentioned as one of the best practices for writing internationalization-friendly AI documentation?"
+  options:
+    - "Keep sentences short and sweet"
+    - "Avoid idioms and culturally-specific expressions"
+    - "Use complex technical terms to sound more professional"
+    - "Be consistent with terminology"
+  correctIndex: 2
+  explanation: "The internationalization writing checklist in the chapter recommends keeping sentences short, ditching idioms, being consistent with terminology, embracing active voice, and giving context to translators. Using complex technical terms to sound more professional is not recommended and would actually make translation more difficult."
+
+- question: "What unique challenge do AI systems present for localization compared to traditional software?"
+  options:
+    - "AI documentation is always longer and more complex"
+    - "AI performance often varies depending on the language used"
+    - "AI systems cannot be translated at all"
+    - "AI terminology is standardized across all languages"
+  correctIndex: 1
+  explanation: "Unlike traditional software that behaves identically regardless of language, the chapter explains that AI systems often perform differently depending on the language used. This means documentation must clearly communicate which languages are fully supported, performance variations by language, known limitations, training data composition, and dialect handling."
+
+- question: "What approach does the chapter recommend for handling AI-specific terminology that may not have established translations in other languages?"
+  options:
+    - "Always create new words in the target language"
+    - "Never translate technical terms"
+    - "Use different strategies depending on the term, including keeping some terms in English"
+    - "Always use machine translation for technical terms"
+  correctIndex: 2
+  explanation: "The chapter presents a terminology table with different strategies: keeping widely recognized technical terms in English (like 'Transformer' or 'BERT'), using translation plus English in parentheses for concepts that need clarity, and creating new terminology when a good equivalent exists. The approach varies depending on the specific term and context."
+
+- question: "What does the chapter identify as perhaps the most challenging aspect of AI documentation localization?"
+  options:
+    - "Finding qualified translators"
+    - "Keeping up with changing AI terminology"
+    - "Addressing different regulatory requirements across regions"
+    - "Handling right-to-left languages"
+  correctIndex: 2
+  explanation: "The chapter explicitly states that 'perhaps the most challenging aspect of AI documentation is addressing different regulatory requirements across regions.' Different regions have different documentation requirements for AI systems, such as GDPR and the AI Act in the EU, sector-specific disclosures in the US, algorithm registration in China, and Algorithmic Impact Assessment details in Canada." 

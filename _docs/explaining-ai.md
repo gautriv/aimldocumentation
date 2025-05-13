@@ -374,3 +374,9 @@ Our state-of-the-art deep learning algorithm processes millions of data points t
 ```
 You'll discover new songs you'll love without having to search for them, saving you time and introducing you to artists you might have missed.
 ```
+
+## Test Your Knowledge
+
+Test your understanding of how to effectively explain AI concepts with this quiz!
+
+{% include quiz.html id="explaining_ai" title="Explaining AI Concepts Quiz" description="Check your knowledge of techniques and best practices for making AI understandable to different audiences." questions=site.data.explaining_ai_questions theme="violet" %}

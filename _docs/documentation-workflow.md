@@ -627,6 +627,12 @@ Collaboration specifically on ethical aspects:
 - [Team Topologies](https://teamtopologies.com/) by Matthew Skelton and Manuel Pais - How to structure teams for effective collaboration
 - [Docs for Developers](https://docsfordevelopers.com/) - Practical guide to developer documentation
 
+## Test Your Knowledge
+
+Test your understanding of documentation workflows for AI systems with this quiz!
+
+{% include quiz.html id="documentation_workflow" title="Documentation Workflow Quiz" description="Check your understanding of effective documentation workflows, collaboration patterns, and strategies for AI-ML systems." questions=site.data.documentation_workflow_questions theme="indigo" %}
+
 ## The Journey Continues: What's Next?
 
 In our next module, we'll dive into regulatory compliance and legal considerations for AI-ML documentation. You'll learn how to document systems to meet emerging AI regulations and standards—without drowning in legalese.

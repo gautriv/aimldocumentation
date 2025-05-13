@@ -199,6 +199,14 @@ So grab your beverage of choice, and let's write docs that people *actually* rea
 
 ---
 
+## Test Your Knowledge
+
+Test your understanding of AI-ML documentation fundamentals with this quiz!
+
+{% include quiz.html id="introduction" title="Introduction to AI-ML Documentation Quiz" description="Check your understanding of the unique challenges and approaches to documenting AI-ML systems." questions=site.data.introduction_questions theme="blue" %}
+
+---
+
 ## Bonus Resources to Explore
 
 Wanna dig deeper? Here's your go-to starter pack:

@@ -512,6 +512,12 @@ Answer these questions:
 
 Remember: The goal isn't just to document how your API works, but to help developers build trust in your AI service and use it effectively in their applications.
 
+## Test Your Knowledge
+
+Test your understanding of AI API documentation best practices with this quick quiz!
+
+{% include quiz.html id="api_documentation" title="AI API Documentation Quiz" description="Check your understanding of key concepts for documenting AI APIs effectively." questions=site.data.api_documentation_questions theme="purple" %}
+
 ## Additional Resources
 
 - [Google's REST API Documentation Style Guide](https://developers.google.com/style/api-reference-comments)

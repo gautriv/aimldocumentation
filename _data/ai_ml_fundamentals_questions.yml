@@ -1,0 +1,44 @@
+- question: "What is the relationship between Artificial Intelligence (AI) and Machine Learning (ML)?"
+  options:
+    - "They are completely separate technologies with no overlap"
+    - "ML is a subset of AI where machines learn from data rather than being explicitly programmed"
+    - "AI is a subset of ML focused on mimicking human intelligence"
+    - "They are exactly the same thing with different names"
+  correctIndex: 1
+  explanation: "Machine Learning is a subset of Artificial Intelligence. While AI is the broader concept of machines being able to carry out tasks in a way that we would consider 'smart', ML refers specifically to systems that can learn from data."
+
+- question: "Which type of machine learning involves an algorithm learning by receiving rewards or penalties?"
+  options:
+    - "Supervised Learning"
+    - "Unsupervised Learning"
+    - "Reinforcement Learning"
+    - "Transfer Learning"
+  correctIndex: 2
+  explanation: "Reinforcement Learning is when an algorithm learns by trial and error, receiving rewards for correct actions and penalties for incorrect ones, similar to how a video game character might learn to navigate a level."
+
+- question: "What is a key characteristic of Unsupervised Learning?"
+  options:
+    - "It requires labeled data with correct answers"
+    - "It finds patterns in data without labeled examples"
+    - "It always involves some form of human guidance"
+    - "It can only be used for classification tasks"
+  correctIndex: 1
+  explanation: "Unsupervised Learning works with unlabeled data, finding hidden patterns or groupings without being told what to look for. Common examples include clustering customers based on purchasing behavior."
+
+- question: "Which neural network type is specifically designed for processing images?"
+  options:
+    - "Recurrent Neural Networks (RNNs)"
+    - "Convolutional Neural Networks (CNNs)"
+    - "Generative Adversarial Networks (GANs)"
+    - "Transformers"
+  correctIndex: 1
+  explanation: "Convolutional Neural Networks (CNNs) are specifically designed for processing grid-like data such as images. They use convolutional layers to detect spatial patterns at different scales, making them ideal for image recognition and computer vision tasks."
+
+- question: "What is one of the major limitations of AI systems mentioned in the chapter?"
+  options:
+    - "They can only run on specific hardware"
+    - "They require constant internet connectivity"
+    - "They are highly dependent on the quality of training data"
+    - "They can only be programmed in Python"
+  correctIndex: 2
+  explanation: "AI systems are highly dependent on the quality of their training data—'garbage in, garbage out.' Poor quality data leads to poor model performance, and biased data leads to biased outcomes." 

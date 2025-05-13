@@ -1,0 +1,44 @@
+- question: "What is the RACI matrix used for in documentation workflows?"
+  options:
+    - "Ranking documentation types by importance"
+    - "Rating document quality on a scale from R to I"
+    - "Clearly defining who's responsible for different documentation tasks"
+    - "Recording all completed documentation items"
+  correctIndex: 2
+  explanation: "The RACI matrix clarifies roles in documentation by defining who is Responsible (creates the documentation), Accountable (ensures it gets done), Consulted (provides input), and Informed (needs to know about changes). This helps prevent situations where everyone thinks someone else is handling documentation tasks."
+
+- question: "What is the 'shift left' approach to documentation?"
+  options:
+    - "Moving documentation responsibilities to left-handed team members"
+    - "Aligning text to the left side of the page"
+    - "Moving documentation earlier in the development process"
+    - "Focusing documentation on left-brain analytical thinking"
+  correctIndex: 2
+  explanation: "The 'shift left' revolution in documentation means moving documentation earlier in the development process rather than treating it as an afterthought. This includes documentation planning during sprint planning, creating documentation acceptance criteria, and even writing documentation before implementing features."
+
+- question: "According to the chapter, what is one of the most effective ways to extract knowledge from busy experts?"
+  options:
+    - "Sending detailed questionnaires via email"
+    - "Structured 30-minute interview sessions with specific questions"
+    - "Requiring all experts to write documentation on weekends"
+    - "Only allowing experts to document their own work"
+  correctIndex: 1
+  explanation: "The chapter recommends structured 30-minute documentation interviews with specific questions as an effective knowledge extraction method. The most effective expert interviews start with: 'Explain this to me like I'm a smart colleague but from a completely different field.'"
+
+- question: "What special documentation collaboration is needed specifically for AI systems that traditional software may not require?"
+  options:
+    - "Version control systems"
+    - "Ethics reviews and responsible AI documentation"
+    - "User guides"
+    - "Release notes"
+  correctIndex: 1
+  explanation: "AI systems specifically require ethics collaboration in documentation, including ethics reviews focusing on ethical considerations, cross-functional ethics teams providing multiple perspectives, and ethical documentation templates with standardized sections for ethical considerations."
+
+- question: "What is described as the key to making documentation a natural part of your development process?"
+  options:
+    - "Hiring more technical writers"
+    - "Forcing everyone to write documentation on Fridays"
+    - "Integrating documentation into existing workflows rather than treating it as a separate task"
+    - "Using only AI tools to generate documentation"
+  correctIndex: 2
+  explanation: "The key to good documentation isn't working harder but working smarter by integrating documentation into existing processes. This means making documentation part of your workflow rather than bolting it on as a separate task, and shifting from 'build the feature, then document it' to 'documenting is part of building.'" 

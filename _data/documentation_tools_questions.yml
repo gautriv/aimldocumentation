@@ -1,0 +1,44 @@
+- question: "What are some unique requirements of AI-ML documentation compared to traditional software documentation?"
+  options:
+    - "Needs to be written only by data scientists"
+    - "Must be published in academic journals"
+    - "Needs to integrate code, mathematical notation, and complex visualizations"
+    - "Should avoid technical details to make it accessible"
+  correctIndex: 2
+  explanation: "AI-ML documentation has unique requirements including the need to integrate code examples, mathematical notation, and complex visualizations, as well as support for interactive elements, version control, multi-audience support, executable examples, and governance documentation."
+
+- question: "Which tool is best suited for creating executable, interactive documentation with support for mathematical notation?"
+  options:
+    - "Swagger/OpenAPI"
+    - "Jupyter Book"
+    - "Mermaid"
+    - "ReDoc"
+  correctIndex: 1
+  explanation: "Jupyter Book is designed for creating beautiful, publication-quality books and documents from Jupyter notebooks, with support for executable code and mathematical notation, making it ideal for tutorials and explanations with executable code."
+
+- question: "What is the primary purpose of tools like Model Cards Toolkit and Hugging Face Model Cards?"
+  options:
+    - "Creating API documentation"
+    - "Generating code from documentation"
+    - "Drawing diagrams and visualizations"
+    - "Documenting ML model characteristics and limitations"
+  correctIndex: 3
+  explanation: "Model Cards Toolkit and Hugging Face Model Cards are specialized tools for ML model documentation, designed specifically for documenting model characteristics, performance metrics, limitations, ethical considerations, and intended use cases."
+
+- question: "When choosing documentation tools for a team with limited technical expertise, what is an important consideration?"
+  options:
+    - "Always choose the most powerful tool available"
+    - "Match tool complexity to your team's skills"
+    - "Only use open-source tools"
+    - "Prioritize tools with the most features"
+  correctIndex: 1
+  explanation: "When selecting documentation tools, it's important to match tool complexity to your team's technical expertise. Choosing overly complex tools can lead to poor adoption and ineffective documentation if the team struggles to use them effectively."
+
+- question: "For a tool stack focused on open source ML libraries, which combination is recommended in the chapter?"
+  options:
+    - "Docusaurus, Swagger/OpenAPI, GitLab"
+    - "Quarto, Jupyter notebooks, Streamlit"
+    - "Sphinx with MyST, Autodoc + Napoleon, Jupyter Book, Read the Docs"
+    - "MkDocs, ReDoc, Observable notebooks"
+  correctIndex: 2
+  explanation: "For open source ML libraries, the recommended documentation tool stack includes Sphinx with MyST for Markdown support, Autodoc + Napoleon for API reference documentation from Google-style docstrings, Jupyter Book for tutorials, Read the Docs for hosting, and GitHub pull requests for collaboration." 

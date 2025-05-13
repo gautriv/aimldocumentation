@@ -1,0 +1,44 @@
+- question: "What are the three converging forces creating extraordinary demand for AI documentation specialists?"
+  options:
+    - "Increasing regulation, rising salaries, and global expansion"
+    - "The complexity gap, the regulation wave, and the adoption explosion"
+    - "Technical skills shortage, market competition, and educational barriers"
+    - "Remote work opportunities, automation concerns, and ethical guidelines"
+  correctIndex: 1
+  explanation: "Three forces are converging to create extraordinary demand for AI documentation specialists: the complexity gap (AI systems becoming more sophisticated), the regulation wave (governments requiring greater transparency), and the adoption explosion (companies implementing AI across industries)."
+
+- question: "According to the chapter, what is the core 'translation superpower' that makes AI documentation specialists valuable?"
+  options:
+    - "The ability to speak multiple human languages"
+    - "The ability to code in multiple programming languages"
+    - "The ability to translate AI complexity into clarity for different audiences"
+    - "The ability to quickly learn new technical concepts"
+  correctIndex: 2
+  explanation: "The heart of an AI documentation specialist's value lies in their ability to translate complex AI concepts into clear explanations for different audiences, essentially building bridges between the mathematical realm, technical world, business landscape, and end users."
+
+- question: "Which of the following is described as a common career mistake for technical writers in AI documentation?"
+  options:
+    - "Focusing too much on technical knowledge rather than communication skills"
+    - "Focusing exclusively on content creation while neglecting architecture and automation skills"
+    - "Learning too many programming languages instead of focusing on one"
+    - "Spending too much time on ethical considerations rather than technical details"
+  correctIndex: 1
+  explanation: "A common career mistake is focusing exclusively on content creation skills while neglecting architecture and automation skills. The ability to design scalable documentation systems and integrate with developer workflows is often what separates mid-level from senior roles and salaries."
+
+- question: "What is the recommended '80/20 Rule of AI Knowledge' mentioned in the chapter?"
+  options:
+    - "Spend 80% of your time writing and 20% learning AI concepts"
+    - "Focus on the 20% of AI knowledge that helps explain 80% of what matters to stakeholders"
+    - "Allocate 80% of documentation to technical details and 20% to user guidance"
+    - "Spend 80% of your budget on tools and 20% on training"
+  correctIndex: 1
+  explanation: "The 80/20 Rule of AI Knowledge suggests focusing on the 20% of AI knowledge that will help you explain 80% of what matters to users, developers, and stakeholders. You don't need to understand every detail of neural networks, but enough to ask intelligent questions and recognize when something doesn't make sense."
+
+- question: "What emerging specialty in AI documentation involves creating guidelines for interacting with large language models?"
+  options:
+    - "Algorithmic auditing documentation"
+    - "Human-AI collaboration documentation"
+    - "Synthetic data documentation"
+    - "Prompt engineering documentation"
+  correctIndex: 3
+  explanation: "Prompt engineering documentation is an emerging specialty that focuses on creating guidelines and best practices for interacting with large language models, helping users formulate effective prompts to get desired outputs from AI systems." 

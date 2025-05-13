@@ -635,6 +635,12 @@ Connect with others facing similar challenges:
 - [**Responsible AI Meetups**](https://www.meetup.com/topics/artificial-intelligence-ethics/): Local gatherings on AI ethics and governance
 - [**Regulatory AI Discord**](https://discord.gg/regulatory-ai): Online community of AI professionals in regulated industries
 
+## Test Your Knowledge
+
+Test your understanding of AI-ML regulatory compliance documentation with this quiz!
+
+{% include quiz.html id="regulatory_compliance" title="Regulatory Compliance Documentation Quiz" description="Check your understanding of compliance documentation requirements, formats, and best practices for AI-ML systems." questions=site.data.regulatory_compliance_questions theme="red" %}
+
 ## What's Next on Your Compliance Journey?
 
 Regulatory compliance documentation isn't a destination—it's an ongoing journey as both your systems and regulations evolve. In our next module, we'll explore how to make your AI documentation accessible to global audiences through localization and internationalization.

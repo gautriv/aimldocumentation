@@ -264,6 +264,12 @@ To systematically improve documentation, track key metrics:
 - [Don't Make Me Think](https://sensible.com/dont-make-me-think/) by Steve Krug
 - [Just Enough Research](https://abookapart.com/products/just-enough-research) by Erika Hall
 
+## Test Your Knowledge
+
+Test your understanding of the key concepts for testing and validating AI-ML documentation with this quiz!
+
+{% include quiz.html id="testing_documentation" title="Testing AI-ML Documentation Quiz" description="Check your understanding of documentation testing approaches, methods, and best practices for AI-ML systems." questions=site.data.testing_documentation_questions theme="purple" %}
+
 ## Next Steps
 
 In the next module, we'll explore ethical considerations in AI-ML documentation, including transparency, bias disclosure, and promoting responsible use of AI systems. 

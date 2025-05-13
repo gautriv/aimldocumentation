@@ -729,6 +729,12 @@ Remember: You don't need to be a machine learning researcher to document AI syst
 
 Now go forth and decode those black boxes! 
 
+## Test Your Knowledge
+
+Solidify your understanding of advanced AI concepts with this quick quiz. Challenge yourself to see how much you've learned!
+
+{% include quiz.html id="advanced_ai_concepts" title="Advanced AI Concepts Quiz" description="Test your understanding of modern AI architectures and concepts covered in this chapter." questions=site.data.advanced_ai_concepts_questions theme="blue" %}
+
 <style>
 .svg-container {
   width: 100%;

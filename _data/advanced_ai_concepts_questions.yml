@@ -1,0 +1,44 @@
+- question: "Which neural network architecture is best known for its self-attention mechanism and has transformed natural language processing?"
+  options:
+    - "Recurrent Neural Networks (RNNs)"
+    - "Convolutional Neural Networks (CNNs)" 
+    - "Transformers"
+    - "Graph Neural Networks (GNNs)"
+  correctIndex: 2
+  explanation: "Transformers use self-attention mechanisms to handle sequential data and have revolutionized NLP tasks. They're the foundation for models like BERT, GPT, and other large language models."
+
+- question: "In Generative Adversarial Networks (GANs), what are the two neural networks that work against each other?"
+  options:
+    - "Encoder and Decoder"
+    - "Generator and Discriminator"
+    - "Transformer and Attention"
+    - "Embedder and Classifier"
+  correctIndex: 1
+  explanation: "GANs consist of a Generator that creates fake data and a Discriminator that tries to distinguish between real and fake data. This adversarial process drives improvement in both networks."
+
+- question: "What is the key characteristic of Diffusion Models used in image generation systems like DALL-E and Stable Diffusion?"
+  options:
+    - "They use graph-based architectures"
+    - "They generate images through one-shot prediction"
+    - "They create images by gradually adding detail to random noise"
+    - "They require paired image-text datasets"
+  correctIndex: 2
+  explanation: "Diffusion models work by gradually removing noise from a pure noise input, slowly revealing a coherent image through an iterative denoising process."
+
+- question: "What types of data are Graph Neural Networks (GNNs) particularly well-suited for?"
+  options:
+    - "Sequential data like text"
+    - "Grid data like images"
+    - "Network data with connected nodes"
+    - "Time series data"
+  correctIndex: 2
+  explanation: "GNNs excel at handling data with graph-like structures, where relationships between entities (nodes) are important, such as social networks, molecular structures, and knowledge graphs."
+
+- question: "In the context of Responsible AI, what does 'explainability' refer to?"
+  options:
+    - "The ability of AI systems to perform tasks without errors"
+    - "The capability to understand and explain how AI systems arrive at decisions"
+    - "The transparency of AI company operations"
+    - "The documentation quality of AI systems"
+  correctIndex: 1
+  explanation: "Explainability refers to making AI decision-making processes understandable to humans, which is crucial for trust, debugging, and responsible deployment." 

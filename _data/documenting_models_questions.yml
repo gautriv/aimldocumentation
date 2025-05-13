@@ -1,0 +1,44 @@
+- question: "What key challenge do AI systems present for documentation that traditional software doesn't?"
+  options:
+    - "The need to include images and diagrams"
+    - "The requirement for multiple programming languages"
+    - "Non-determinism where the same input might produce slightly different outputs"
+    - "The necessity to use technical language for all documentation"
+  correctIndex: 2
+  explanation: "AI models present unique documentation challenges including non-determinism, where the same input might produce slightly different outputs. This unpredictability makes AI systems fundamentally different from traditional software, which typically produces consistent outputs for the same inputs."
+
+- question: "In the Four-Layer Framework for AI documentation, which layer is designed for decision-makers and executives?"
+  options:
+    - "Technical Overview Layer"
+    - "User Experience Layer"
+    - "Deep Dive Layer"
+    - "Executive Summary Layer"
+  correctIndex: 3
+  explanation: "The Executive Summary Layer is specifically designed for decision-makers and executives. It contains business value, high-level performance metrics, key limitations, and ethical considerations in non-technical language focused on outcomes and business impacts."
+
+- question: "What is a 'model card' in AI documentation?"
+  options:
+    - "A physical ID badge required to access model training facilities"
+    - "A standardized approach to documenting machine learning models that acts like a nutrition label for AI"
+    - "A credit card-sized summary of model performance"
+    - "A certificate of model ownership and copyright"
+  correctIndex: 1
+  explanation: "A model card is a standardized approach to documenting machine learning models, introduced by Mitchell et al. in 2019. It functions like a nutrition label for AI, providing essential information in a standardized format that stakeholders have come to expect."
+
+- question: "When documenting data for AI models, which of the following is NOT considered an essential element to document?"
+  options:
+    - "Source and collection methods"
+    - "Preprocessing steps applied to the data"
+    - "The names of all individuals who worked with the data"
+    - "Statistical properties and limitations/biases of the data"
+  correctIndex: 2
+  explanation: "While documenting data sources, preprocessing steps, statistical properties, and limitations/biases are all essential elements of data documentation, documenting the names of all individuals who worked with the data is not typically considered an essential element. The focus is on the data itself rather than the personnel involved."
+
+- question: "What interactive documentation element allows users to understand how changing inputs affects a model's outputs?"
+  options:
+    - "API Reference"
+    - "Input Manipulation"
+    - "Performance Monitoring"
+    - "Version Control"
+  correctIndex: 1
+  explanation: "Input Manipulation is an interactive documentation element that allows users to modify inputs and see how outputs change. This helps users develop intuition about model behavior through direct exploration and experimentation." 

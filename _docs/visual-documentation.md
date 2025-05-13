@@ -322,6 +322,12 @@ A visual explanation with annotations that would feel at home in your user-facin
 - [Information is Beautiful](https://informationisbeautiful.net/) - Award-winning visualizations to inspire
 - [The Pudding](https://pudding.cool/) - Visual essays that show the power of data storytelling
 
+## Test Your Knowledge
+
+Test your understanding of visual documentation principles for AI-ML systems with this quiz!
+
+{% include quiz.html id="visual_documentation" title="Visual Documentation Quiz" description="Check your understanding of key concepts, principles, and best practices for creating effective visual documentation for AI-ML systems." questions=site.data.visual_documentation_questions theme="blue" %}
+
 ## Your Visual Journey Continues
 
 In the next module, we'll explore the tools and platforms for creating comprehensive AI-ML documentation, from API docs to model cards to interactive tutorials. You'll learn how to combine your new visual skills with the right documentation tools to create learning experiences that users will actually enjoy.

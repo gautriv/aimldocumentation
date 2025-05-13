@@ -1,0 +1,44 @@
+- question: "According to the chapter, how much faster does the human brain process visuals compared to text?"
+  options:
+    - "6 times faster"
+    - "600 times faster"
+    - "6,000 times faster"
+    - "60,000 times faster"
+  correctIndex: 3
+  explanation: "The chapter states that 'the human brain processes visuals 60,000 times faster than text,' highlighting the significant cognitive advantage of visual information over text-based explanations, which makes visual documentation particularly valuable for complex AI systems."
+
+- question: "Which of the following is NOT listed as one of the 5 types of AI-ML visualizations in the chapter?"
+  options:
+    - "Architecture Diagrams"
+    - "Conceptual Visualizations"
+    - "User Journey Maps"
+    - "Interactive Visualizations"
+  correctIndex: 2
+  explanation: "The chapter outlines 5 types of AI-ML visualizations: 1) Architecture Diagrams (the big picture view), 2) Conceptual Visualizations (making abstract concepts concrete), 3) Process Flowcharts (step-by-step journeys), 4) Data Visualizations (making numbers tell a story), and 5) Interactive Visualizations (letting users explore). User Journey Maps were not included in this list."
+
+- question: "What does the chapter recommend as the first step in the 6-step process for creating effective visual documentation?"
+  options:
+    - "Sketch your visualization"
+    - "Choose the right visualization tools"
+    - "Know your audience"
+    - "Test with real users"
+  correctIndex: 2
+  explanation: "The chapter outlines a 6-step process for creating effective visual documentation, with the first step being 'Know Your Audience (Before Drawing a Single Line)'. The chapter emphasizes understanding who will see the visualization, their technical background, and what they need to understand before starting to create the visual."
+
+- question: "According to the chapter, what percentage of information do people typically remember from what they see, compared to what they hear or read?"
+  options:
+    - "People remember 30% of what they see, 20% of what they read, and 10% of what they hear"
+    - "People remember 50% of what they see, 30% of what they read, and 20% of what they hear"
+    - "People remember 80% of what they see, 20% of what they read, and 10% of what they hear"
+    - "People remember 90% of what they see, 40% of what they read, and 30% of what they hear"
+  correctIndex: 2
+  explanation: "The chapter states that 'people remember about 10% of what they hear, 20% of what they read, but 80% of what they see,' highlighting the significantly higher retention rate for visual information compared to auditory or text-based information."
+
+- question: "What visualization fail does the chapter describe as 'cramming every possible detail into one diagram until it's incomprehensible'?"
+  options:
+    - "The 'Beautiful Lie'"
+    - "The 'Mystery Meat'"
+    - "The 'Style Chameleon'"
+    - "The 'Everything Bagel'"
+  correctIndex: 3
+  explanation: "In the 'Hall of Shame' section, the chapter describes 'The Everything Bagel' as 'Cramming every possible detail into one diagram until it's incomprehensible.' This refers to the common mistake of including too much information in a single visualization, making it difficult to understand." 

@@ -359,6 +359,12 @@ Documentation maintenance shouldn't be a heroic effort:
 - [Machine Learning Governance](https://aws.amazon.com/blogs/machine-learning/machine-learning-governance-how-to-build-accountability-and-reduce-risk/) - AWS's guide to model versioning and governance
 - [Google's Developer Documentation Style Guide](https://developers.google.com/style) - The gold standard for technical writing consistency
 
+## Test Your Knowledge
+
+Test your understanding of version control strategies for AI-ML documentation with this quiz!
+
+{% include quiz.html id="version_control" title="Version Control for AI Documentation Quiz" description="Check your understanding of key strategies for maintaining accurate documentation as AI systems evolve." questions=site.data.version_control_questions theme="orange" %}
+
 ## The Journey Continues: What's Next?
 
 In our next module, we'll explore documentation workflows and collaboration models for AI-ML teams. You'll learn how to integrate documentation into your development process from the very beginning—not as an afterthought when everyone's already moved on to the next feature.

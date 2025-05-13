@@ -1265,6 +1265,12 @@ In our next module, we'll explore advanced AI concepts for documentation special
 </ol>
 </div>
 
+## Test Your Knowledge
+
+Test your understanding of AI documentation career paths with this quick quiz!
+
+{% include quiz.html id="career_paths" title="AI Documentation Career Paths Quiz" description="Check your understanding of career opportunities, skills, and strategies in AI documentation." questions=site.data.career_paths_questions theme="orange" %}
+
 <style>
 .action-items {
   border-left: 5px solid #e91e63;

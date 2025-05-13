@@ -1,0 +1,44 @@
+- question: "According to the chapter, what makes maintaining AI documentation harder than traditional software documentation?"
+  options:
+    - "AI documentation requires more technical expertise"
+    - "AI systems can change behavior without deliberate code updates through factors like new training data, model drift, and different versions running simultaneously"
+    - "AI documentation must follow stricter regulatory requirements"
+    - "AI documentation must be written in more programming languages"
+  correctIndex: 1
+  explanation: "The chapter explains that AI systems are harder to document because they can change behavior when new training data arrives, when the world itself changes, as models drift over time, when different model versions run simultaneously, and as experimental branches multiply - all without deliberate code changes that typically trigger documentation updates in traditional software."
+
+- question: "Which of the following is NOT listed as one of the three core strategies for version control in AI documentation?"
+  options:
+    - "Version Alignment — Keeping Docs and Systems in Step"
+    - "Multiple Version Support — Supporting users on different versions"
+    - "Cross-platform Compatibility — Ensuring documentation works on all devices"
+    - "Automation — Reducing manual documentation updates"
+  correctIndex: 2
+  explanation: "The chapter outlines three core strategies for version control: Version Alignment (keeping docs and systems in sync), Multiple Version Support (because users may be on different versions), and Automation (to reduce manual updates). Cross-platform Compatibility is not mentioned as one of the core strategies, though responsive design is briefly mentioned under Experience Testing in other parts of the documentation."
+
+- question: "What does the chapter recommend for model versioning beyond standard software versioning practices?"
+  options:
+    - "Using only numerical versions like v1, v2, v3"
+    - "Including details like training date, dataset version, architecture details, performance benchmarks, and known limitations"
+    - "Versioning only when major architectural changes occur"
+    - "Avoiding version numbers and using only codenames"
+  correctIndex: 1
+  explanation: "The chapter explains that for AI models, version information should capture more than just a number. It should include training date, dataset version, architecture details, performance benchmarks, and known limitations to give users a complete understanding of the model they're using."
+
+- question: "According to the chapter, what is the 'DRY' principle in documentation and why is it important?"
+  options:
+    - "Document Rapidly Yearly - updating documentation annually is sufficient"
+    - "Don't Repeat Yourself - duplicated information becomes inconsistent when only some instances are updated"
+    - "Describe Requirements Yearly - major requirement changes should be documented annually"
+    - "Document Reviews Yield - the benefits of reviewing documentation regularly"
+  correctIndex: 1
+  explanation: "The DRY (Don't Repeat Yourself) principle is explained as critical because every piece of duplicated information becomes a potential source of inconsistency. When information appears in multiple places and changes, it's easy to miss updating some instances, leading to contradictions that confuse users."
+
+- question: "What approach does the chapter recommend for making documentation maintenance sustainable?"
+  options:
+    - "Hiring a dedicated documentation team separate from developers"
+    - "Updating documentation only when users report problems"
+    - "Using strategies like documentation sprints, rotation schedules, priority frameworks, recognition, and realistic planning"
+    - "Freezing product features periodically to catch up on documentation"
+  correctIndex: 2
+  explanation: "For sustainable documentation maintenance, the chapter recommends documentation sprints (dedicated time periods for documentation), rotation schedules (sharing responsibility across the team), priority frameworks (focusing on high-impact sections first), celebration and recognition (rewarding good documentation work), and realistic planning (budgeting time for documentation in release cycles)." 

@@ -1,0 +1,44 @@
+- question: "According to the introduction, what makes documenting AI-ML systems different from traditional software documentation?"
+  options:
+    - "AI systems require more technical language and jargon"
+    - "AI documentation needs to be more persuasive to convince users"
+    - "AI systems have unpredictable behaviors and results that need explanation"
+    - "AI documentation always requires mathematical equations and formulas"
+  correctIndex: 2
+  explanation: "The introduction explains that documenting AI/ML is different because AI systems can be unpredictable - unlike traditional software where input and output are consistent (like 2+2=4), AI systems might show unexpected behaviors (like identifying a cat as a pancake) that need explanation."
+
+- question: "What are the three pillars of the 'Holy Trifecta of AI Documentation' mentioned in the chapter?"
+  options:
+    - "Conciseness, Creativity, and Color"
+    - "Technical Accuracy, Accessibility, and Transparency"
+    - "Design, Development, and Deployment"
+    - "Coding, Testing, and Maintenance"
+  correctIndex: 1
+  explanation: "The chapter describes the 'Holy Trifecta of AI Documentation' as consisting of Technical Accuracy (explaining what's actually going on), Accessibility (making it easy to understand), and Transparency (showing limitations, risks, and biases). These three pillars together build trust."
+
+- question: "Which of the following is NOT identified as one of the audience types for AI-ML documentation?"
+  options:
+    - "Data Scientists and ML Engineers"
+    - "Product Managers"
+    - "Lawyers and Law Enforcement"
+    - "Regulators"
+  correctIndex: 2
+  explanation: "The chapter lists Data Scientists and ML Engineers, Developers, Product Managers, End Users, Executives, and Regulators as the different audiences for AI-ML documentation. Lawyers and Law Enforcement are not specifically mentioned as a distinct audience category."
+
+- question: "What does the chapter identify as a common pitfall in AI documentation called the 'It Just Works' Syndrome?"
+  options:
+    - "Providing too many technical details that overwhelm the reader"
+    - "Not explaining how the model actually functions and saying it 'just knows'"
+    - "Making the documentation too visually appealing"
+    - "Including too many code examples"
+  correctIndex: 1
+  explanation: "The 'It Just Works' Syndrome is described as never explaining how a model actually functions by saying things like 'the model just knows.' The chapter compares this to telling someone your toaster is psychic - it doesn't actually explain the mechanism behind how the AI works."
+
+- question: "According to the introduction, why must AI documentation evolve constantly?"
+  options:
+    - "Because readers forget information over time"
+    - "Because AI itself evolves"
+    - "Because regulations change frequently"
+    - "Because competitors are constantly updating their documentation"
+  correctIndex: 1
+  explanation: "The chapter states that 'Unlike traditional software docs that might collect digital dust, AI docs must evolve constantly. Why? Because the AI itself evolves.' This highlights the living, breathing nature of AI-ML documentation that must keep pace with evolving AI systems." 

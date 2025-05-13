@@ -1,0 +1,44 @@
+- question: "What unique characteristic of AI APIs makes them different from traditional APIs in terms of output?"
+  options:
+    - "They always have more complex JSON responses"
+    - "They require more authentication steps"
+    - "They exhibit non-deterministic behavior where the same input may produce different outputs"
+    - "They only work with specific programming languages"
+  correctIndex: 2
+  explanation: "Unlike traditional APIs where the same input reliably produces the same output, AI APIs may return different results for the same input due to model updates, randomness in model inference, and contextual factors affecting prediction."
+
+- question: "What should be included in documentation about confidence scores for AI APIs?"
+  options:
+    - "Only technical details about how they're calculated"
+    - "Recommended thresholds and what constitutes a 'good' score for specific use cases"
+    - "Guarantees about perfect accuracy"
+    - "Mathematical formulas used in the confidence algorithms"
+  correctIndex: 1
+  explanation: "Proper documentation should explain what a 'good' confidence score is for specific use cases and provide recommended thresholds, as these scores often require interpretation by developers."
+
+- question: "Which of the following is an essential component of version documentation for AI APIs?"
+  options:
+    - "The names of all data scientists who worked on each version"
+    - "Differences between versions and migration guides for upgrading"
+    - "The exact date and time each version was released"
+    - "A list of all possible errors without solutions"
+  correctIndex: 1
+  explanation: "Effective version documentation should clearly explain the differences between versions (capabilities, performance, breaking changes) and provide migration guides to help developers upgrade."
+
+- question: "What makes interactive documentation particularly valuable for AI APIs?"
+  options:
+    - "It makes the documentation look more professional"
+    - "It reduces the need for written documentation"
+    - "It helps developers understand and test the effects of different parameters like confidence thresholds"
+    - "It's required by API standards organizations"
+  correctIndex: 2
+  explanation: "Interactive elements such as API testing consoles and confidence threshold sliders help developers better understand how the AI responds to different inputs and parameter adjustments, which is especially important for probabilistic systems."
+
+- question: "What should be included in documentation about the limitations of an AI API?"
+  options:
+    - "Marketing claims about future improvements"
+    - "Input types that may produce unreliable results and known biases"
+    - "Comparisons to competitor limitations"
+    - "Only success cases and optimal scenarios"
+  correctIndex: 1
+  explanation: "Ethical and effective documentation should clearly state the API's limitations, including input types that may produce unreliable results, known biases in training data, and performance degradation with certain inputs." 

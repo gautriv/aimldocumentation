@@ -313,6 +313,12 @@ Let's look at some common documentation tool combinations for different AI-ML co
 - [scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html) - Well-structured ML documentation
 - [Hugging Face Model Cards](https://huggingface.co/docs/hub/model-cards) - Examples of model documentation
 
+## Test Your Knowledge
+
+Test your understanding of documentation tools for AI-ML systems with this quiz!
+
+{% include quiz.html id="documentation_tools" title="Documentation Tools Quiz" description="Check your understanding of tools and approaches for documenting AI-ML systems effectively." questions=site.data.documentation_tools_questions theme="teal" %}
+
 ## Next Steps
 
 In the next module, we'll explore how to test and validate your documentation to ensure it meets the needs of your users – a critical step that's often overlooked in the documentation process. 

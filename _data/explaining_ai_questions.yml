@@ -1,0 +1,44 @@
+- question: "What does the chapter identify as the primary focus of end users when it comes to AI systems?"
+  options:
+    - "The neural network architecture and technical details"
+    - "The activation functions and hyperparameter tuning strategy"
+    - "Practical concerns like capabilities, reliability, usage, privacy, and explainability"
+    - "The historical development of AI and machine learning technologies"
+  correctIndex: 2
+  explanation: "According to the chapter, most end users don't care about technical details like neural network architecture. Instead, they care about practical concerns: what the AI can do for them, how well it works, how to use it effectively, whether their data is safe, and why it makes specific decisions."
+
+- question: "What is the 'layered explanations' approach to explaining AI?"
+  options:
+    - "Explaining AI only to technical users who understand the terminology"
+    - "Starting with a simple explanation and progressively adding technical details for those who want to learn more"
+    - "Using only visual diagrams to explain AI concepts"
+    - "Creating separate explanations for different age groups"
+  correctIndex: 1
+  explanation: "The layered explanations approach involves starting with a simple, one-sentence explanation that everyone can understand, then providing options to learn more with progressively increasing technical detail for those who are interested. This respects different users' needs and curiosity levels without overwhelming anyone."
+
+- question: "According to the chapter, when is the best time to provide AI explanations?"
+  options:
+    - "Only in technical documentation"
+    - "Only during initial onboarding"
+    - "At key moments when users need them, such as during onboarding, within the UI, when something unexpected happens, and in help documentation"
+    - "Only when users explicitly request an explanation"
+  correctIndex: 2
+  explanation: "The chapter explains that the best AI explanations appear at the moment users need them. This includes during onboarding and first encounters, in context within the UI, when something unexpected happens, and in help documentation and support materials."
+
+- question: "Which of the following is NOT mentioned as part of 'The AI Explainer's Toolkit' in the chapter?"
+  options:
+    - "Metaphors & Analogies"
+    - "Concrete Examples"
+    - "Visual Explanations"
+    - "Technical Specifications Sheets"
+  correctIndex: 3
+  explanation: "The AI Explainer's Toolkit described in the chapter includes six approaches: Metaphors & Analogies, Concrete Examples, Visual Explanations, Progressive Disclosure, Counterfactual Explanations, and Interactive Experiences. Technical Specifications Sheets is not mentioned as one of these approaches."
+
+- question: "When explaining AI confidence levels to users, what does the chapter recommend?"
+  options:
+    - "Always provide the exact probability percentages"
+    - "Focus on what confidence levels mean for the user's decision-making, not statistical details"
+    - "Avoid mentioning uncertainty to prevent confusing users"
+    - "Only use technical terms like 'precision' and 'recall'"
+  correctIndex: 1
+  explanation: "The chapter recommends making confidence meaningful to users by focusing on what it means for their decision-making, not the statistical details. Strategies include using visual indicators, matching confidence levels to appropriate actions, adjusting language based on certainty, and providing context for numbers." 
