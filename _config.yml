@@ -3,7 +3,7 @@ description: >-
   Master AI and ML documentation with our comprehensive course. Learn to document complex AI systems, 
   explain machine learning models, and create ethical documentation for artificial intelligence. 
   Perfect for technical writers, AI engineers, and documentation specialists.
-baseurl: "/aimldocumentation/"
+baseurl: "/aimldocumentation"
 url: "https://beingtechnicalwriter.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: Being Technical Writer
 
