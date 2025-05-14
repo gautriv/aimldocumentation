@@ -4,8 +4,8 @@ subtitle: "The ultimate toolkit to transform complex AI ideas into captivating v
 description: "Discover the best tools, techniques, and insider tips for creating powerful visual documentation that makes your AI systems accessible and engaging to all users."
 permalink: /visual-ai-documentation-tools.html
 next_page:
-  url: /explaining-ai.html
-  title: "The Power of Visual Storytelling in AI Documentation"
+  url: /visual-ai-documentation-testing.html
+  title: "Testing Visual Documentation"
 previous_page:
   url: /visual-ai-documentation.html
   title: "The Power of Visual Storytelling in AI Documentation"
@@ -213,6 +213,19 @@ Every visualization tool has its quirks. Here are some common obstacles and how 
 **Challenge:** Basic apps look utilitarian and unpolished.
 **Solution:** Use `st.markdown()` with custom HTML/CSS to add visual flair, and organize your app into tabs for complex functionality.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## Exercise: Tool Test Drive
 
 **The mission:** Create the same simple visualization in three different tools to discover which one feels most intuitive to you.
@@ -265,6 +278,20 @@ How do you know if your visualizations are working?
 - Survey users about which parts of your documentation were most helpful
 - A/B test different visualization approaches for the same concept
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Resources That Will Save You Hours
 
 ### Tutorials and Courses
@@ -282,11 +309,18 @@ How do you know if your visualizations are working?
 - [The Noun Project](https://thenounproject.com/) - Simple icons for every concept imaginable
 - [Google Fonts](https://fonts.google.com/) - Free, easy-to-use web fonts for your interactive visualizations
 
-## Test Your Knowledge
-
-Test your understanding of visual documentation tools for AI-ML systems with this quiz!
-
-{% include quiz.html id="visual_documentation_tools" title="Visual Documentation Tools Quiz" description="Check your knowledge of tools, techniques, and best practices for creating effective visual explanations for AI systems." questions=site.data.visual_documentation_tools_questions theme="green" %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Your Next Steps on the Visualization Journey
 
@@ -308,6 +342,20 @@ When you create a visualization you love, don't just admire it—document exactl
 - Create a swipe file of successful visualizations
 - Document techniques that worked well for specific concepts
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## Measuring the Impact of Your Visualizations
 
 How do you know if your visualizations are actually effective? Consider these evaluation approaches:
@@ -323,6 +371,20 @@ How do you know if your visualizations are actually effective? Consider these ev
 - Increased adoption of your AI features
 - Positive mentions of documentation in user feedback
 - Social media shares of your visualizations (they're worth bragging about!)
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Resource Roundup: Your Documentation Design Toolkit
 
@@ -341,6 +403,19 @@ How do you know if your visualizations are actually effective? Consider these ev
 - [Noun Project](https://thenounproject.com/) - Simple icons for your diagrams
 - [Adobe Color](https://color.adobe.com/) - Create harmonious color schemes
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## Where to Go From Here: Your Next Steps
 
 The journey to becoming proficient at visual documentation is an ongoing one. Here are three simple next steps:
@@ -349,11 +424,41 @@ The journey to becoming proficient at visual documentation is an ongoing one. He
 2. **Build a personal swipe file** - Collect examples of AI visualizations you admire to reference later
 3. **Allocate learning time** - Schedule 30 minutes each week to experiment with a new tool or technique
 
-## Frequently Asked Questions
-
-Get answers to common questions about tools and techniques for creating visual documentation for AI systems, including choosing the right visualization tool, using specific platforms effectively, and implementing advanced visualization strategies.
-
 {% include faq-section.html data_file="visual_documentation_tools_faqs" title="Frequently Asked Questions" description="Get answers to common questions about tools and techniques for creating visual documentation for AI systems, including choosing the right visualization tool, using specific platforms effectively, and implementing advanced visualization strategies." %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
+## Test Your Knowledge
+
+Test your understanding of visual documentation tools for AI-ML systems with this quiz!
+
+{% include quiz.html id="visual_documentation_tools" title="Visual Documentation Tools Quiz" description="Check your knowledge of tools, techniques, and best practices for creating effective visual explanations for AI systems." questions=site.data.visual_documentation_tools_questions theme="green" %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Wrapping Up: From Tools to Communication
 

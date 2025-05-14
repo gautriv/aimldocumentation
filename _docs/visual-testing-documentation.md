@@ -3,6 +3,12 @@ title: Testing Visual Documentation
 image: "{{ '/assets/images/visual-documentation/testing-diagram.svg' | relative_url }}"
 image_alt: "User testing a diagram with feedback indicators"
 permalink: /visual-ai-documentation-testing.html
+next_page:
+  url: /ethical-documentation.html
+  title: "Ethical Documentation"
+previous_page:
+  url: /visual-ai-documentation-tools.html
+  title: "Visual Documentation Tools - Bringing AI Concepts to Life"
 ---
 
 Alex spent three weeks creating the perfect diagram of his team's AI recommendation system. It was a work of art—colorful, comprehensive, with perfect layout and typography. He proudly added it to the documentation and waited for the praise to roll in.
@@ -43,6 +49,19 @@ Common visualization failures include:
 - **Missing context**: Failing to explain what the visualization is showing and why it matters
 
 The truth is, we're all terrible judges of our own visualizations' clarity. That's why testing isn't optional—it's essential.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## The Visual Testing Toolkit: 5 Methods to Validate Your Diagrams
 
@@ -156,6 +175,19 @@ Different audiences need different levels of detail. This test ensures your visu
 
 **The balancing act:** If experts say "this is oversimplified" but novices say "I can't follow this," you might need multiple visualizations for different audience levels.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## The Testing Process: From Creation to Validation
 
 Let's walk through a practical process for incorporating testing into your visual documentation workflow:
@@ -266,6 +298,20 @@ Based on thousands of tested visualizations, here are the most common problems t
 ### Problem: "I don't see how this relates to what I'm trying to do"
 **Solution:** Add practical examples or use cases directly in your visualization. Show how the diagram connects to real-world usage.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Case Study: Before and After Testing
 
 Let's look at a real example of how testing transformed an AI system visualization:
@@ -322,6 +368,20 @@ Time to put these principles into practice with your own visualization:
 - What assumptions had you made that weren't obvious to others?
 - How might this impact your approach to future visualizations?
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## Advanced Testing Approaches: When Stakes Are High
 
 For critical documentation where clarity is essential, consider these more formal testing approaches:
@@ -353,6 +413,19 @@ This test checks whether your visualization creates lasting understanding.
 3. See how much they've retained
 
 **Why it matters:** Sometimes visualizations that seem clear in the moment don't create lasting mental models—this test reveals which explanations stick.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Resources to Deepen Your Testing Toolkit
 
@@ -396,17 +469,53 @@ For those who want to dive deeper into visualization testing methodologies:
 - [DataViz Society](https://www.datavisualizationsociety.org/) - Community of data visualization professionals
 - [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/) - See exemplary visualizations that have been thoroughly tested
 
-## Frequently Asked Questions
-
-Get answers to common questions about testing visual documentation for AI systems, including methods for effective testing, approaches for different audiences, and strategies for improving visualizations based on test results.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 {% include faq-section.html data_file="visual_testing_documentation_faqs" title="Frequently Asked Questions" description="Get answers to common questions about testing visual documentation for AI systems, including methods for effective testing, approaches for different audiences, and strategies for improving visualizations based on test results." %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Test Your Knowledge
 
 Test your understanding of visual documentation testing principles and techniques with this quiz!
 
-{% include quiz.html id="visual_testing_documentation" title="Testing Visual Documentation Quiz" description="Check your understanding of key methods and best practices for ensuring your AI-ML visualizations are clear and effective for all users." questions=site.data.visual_testing_documentation_questions theme="indigo" %}
+{% include quiz.html id="visual_testing_documentation" title="Testing Visual Documentation Quiz" description="Check your understanding of key methods and best practices for ensuring your AI-ML visualizations are clear and effective for all users." questions=site.data.visual_testing_documentation_questions theme="blue" %}
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Wrapping Up: From Testing to Excellence
 
