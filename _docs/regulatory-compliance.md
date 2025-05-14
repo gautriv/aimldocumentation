@@ -9,8 +9,8 @@ next_page:
   url: /localization.html
   title: "Making Your AI Speak Everyone's Language"
 previous_page:
-  url: /documentation-workflow.html
-  title: "Documentation Workflows That Actually Work"
+  url: /testing-ai-ml-documentation
+  title: "Testing and Validating AI-ML Documentation"
 image_alt: "A bridge connecting the world of AI innovation with regulatory compliance"
 ---
 
@@ -376,6 +376,20 @@ System Factsheets provide a comprehensive overview of an entire AI system:
 <p>"The documentation wasn't just checkbox compliance," said their Chief Compliance Officer. "It demonstrated we had thought deeply about how our system impacts customers and built safeguards into every step."</p>
 </div>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Beyond Regulations: Legal Considerations You Can't Ignore
 
 Regulatory compliance isn't the only legal consideration for AI documentation. Let's look at some additional legal aspects that should make it into your documentation strategy.
@@ -421,6 +435,20 @@ If your AI is provided as a service or product, documentation should include:
 <h4>Pro Tip</h4>
 <p>Create an internal "documentation contract requirements" checklist for your sales team. When new contracts are signed with special documentation requirements (such as heightened security documentation for a government client), this ensures the documentation team knows what additional documentation is needed.</p>
 </div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Building Your Compliance Documentation Strategy
 
@@ -533,6 +561,20 @@ Compliance isn't a one-time effort. You need ongoing processes:
 <p>Four: One to change the bulb, one to document the process, one to update the regulatory compliance statement, and one to verify that the documentation complies with the light bulb regulation standards of 17 different countries.</p>
 </div>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Case Studies: Compliance Documentation in Action
 
 ### Healthcare AI: The Radiology Assistant
@@ -605,6 +647,20 @@ Compliance isn't a one-time effort. You need ongoing processes:
 <p><strong>Key lesson:</strong> Proactive documentation of known issues and mitigations provides stronger legal protection than attempting to hide limitations.</p>
 </div>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Your Compliance Documentation Toolkit
 
 ### Essential Templates and Frameworks
@@ -635,6 +691,20 @@ Connect with others facing similar challenges:
 - [**Responsible AI Meetups**](https://www.meetup.com/topics/artificial-intelligence-ethics/): Local gatherings on AI ethics and governance
 - [**Regulatory AI Discord**](https://discord.gg/regulatory-ai): Online community of AI professionals in regulated industries
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## What's Next on Your Compliance Journey?
 
 Regulatory compliance documentation isn't a destination—it's an ongoing journey as both your systems and regulations evolve. In our next module, we'll explore how to make your AI documentation accessible to global audiences through localization and internationalization.
@@ -657,12 +727,38 @@ So take a deep breath. You've got this. And your future self (and legal team) wi
 <p class="quote-attribution">—Dr. Emily Chen, AI Ethics Researcher</p>
 </div>
 
-## Frequently Asked Questions
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 {% include faq-section.html data_file="regulatory_compliance_faqs" title="Frequently Asked Questions About AI Regulatory Compliance Documentation" description="Get answers to common questions about navigating regulatory requirements, creating effective compliance documentation, and integrating documentation processes into AI development workflows." %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Test Your Knowledge
 
 Test your understanding of AI-ML regulatory compliance documentation with this quiz!
 
-{% include quiz.html id="regulatory_compliance" title="Regulatory Compliance Documentation Quiz" description="Check your understanding of compliance documentation requirements, formats, and best practices for AI-ML systems." questions=site.data.regulatory_compliance_questions theme="red" %}
+{% include quiz.html id="regulatory_compliance" title="Regulatory Compliance Documentation Quiz" description="Check your understanding of compliance documentation requirements, formats, and best practices for AI-ML systems." questions=site.data.regulatory_compliance_questions theme="blue" %}
