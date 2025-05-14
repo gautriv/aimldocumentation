@@ -4,8 +4,8 @@ subtitle: "How to build documentation into your AI team's DNA (and stop treating
 description: "Learn practical strategies to integrate documentation into your AI development process, collaborate effectively across teams, and create a culture where great documentation happens naturally."
 permalink: /documentation-workflow.html
 next_page:
-  url: /regulatory-compliance.html
-  title: "Navigating the Regulatory Maze with Confidence"
+  url: /testing-ai-ml-documentation
+  title: "Testing and Validating AI-ML Documentation"
 previous_page:
   url: /version-control.html
   title: "Version Control for AI Systems"
@@ -49,6 +49,20 @@ The challenges are even more acute for AI teams:
 - **The "I'll remember this" delusion**: We consistently overestimate our future ability to recall why we made certain decisions
 
 > "Documentation isn't one person's job—it's everyone's job, but with different responsibilities." — This is the mindset that separates AI teams that thrive from those that eventually implode.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## The Documentation Dream Team: Who Does What?
 
@@ -305,6 +319,20 @@ Every successful documentation culture has people who genuinely care about it:
 
 **The champion effect**: One manufacturing company I consulted with identified natural "documentation champions" in each team and gave them official recognition and 10% time for documentation activities. Within six months, their internal support tickets dropped by 35% as knowledge became more accessible.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Building Documentation Into Your Workflow (Not Bolted On)
 
 The key to good documentation isn't working harder—it's working smarter by integrating documentation into your existing processes.
@@ -344,6 +372,20 @@ If your code has a deployment pipeline, your documentation should too:
 - **Automated publishing**: Push a commit, documentation updates automatically
 
 **Automation in action**: Netflix's documentation system automatically detects API changes and flags discrepancies with the documentation, ensuring their docs stay in sync with rapidly evolving services.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Extracting Knowledge Before It Walks Out the Door
 
@@ -406,6 +448,21 @@ Raw knowledge dumps aren't documentation—they need refinement:
 
 **The refinement reality**: Perfect documentation isn't the goal—continuously improving documentation is. One team I worked with introduced a simple "documentation improvement token" system where anyone could submit small doc improvements and earn recognition tokens that could be redeemed for perks.
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Tools of the Trade: Collaboration Technologies That Help
 
 The right tools can make documentation collaboration much smoother.
@@ -445,6 +502,20 @@ Tools designed specifically for AI-ML documentation needs:
 - **Data documentation platforms**: Data catalogs, dataset cards
 
 **Specialist tool insight**: Model documentation is increasingly moving toward standardized formats. One healthcare AI company I worked with adopted a model card template that included all the fields required by multiple regulators, saving enormous time when compliance questions arose.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Building a Documentation Culture That Doesn't Suck
 
@@ -504,6 +575,20 @@ Let's face it: people do what they're rewarded for:
 
 **The incentive reality check**: One AI research lab I advised struggled with documentation until they made a simple change: they wouldn't publicize or present any model unless its documentation met quality standards. Suddenly, researchers found time for documentation because it directly connected to their professional visibility.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## AI-ML Specific Collaboration Patterns: Special Considerations for Data Science
 
 AI teams face unique documentation challenges that require specialized approaches.
@@ -543,6 +628,20 @@ Collaboration specifically on ethical aspects:
 - **Ethical documentation templates**: Standardized sections for ethical considerations
 
 **Ethics collaboration example**: One facial recognition company I worked with assembled a diverse review panel specifically for their system documentation. This panel identified several problematic assumptions in the documentation that would have created legal and ethical risks if published.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Put It Into Practice: Exercises to Build Your Workflow Muscles
 
@@ -610,6 +709,20 @@ Collaboration specifically on ethical aspects:
 - How do you balance capturing details with creating readable documentation?
 - What follow-up processes would ensure documentation stays accurate?
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Your Documentation Workflow Toolkit: Essential Resources
 
 ### Collaboration Frameworks
@@ -627,11 +740,53 @@ Collaboration specifically on ethical aspects:
 - [Team Topologies](https://teamtopologies.com/) by Matthew Skelton and Manuel Pais - How to structure teams for effective collaboration
 - [Docs for Developers](https://docsfordevelopers.com/) - Practical guide to developer documentation
 
-## Test Your Knowledge
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
+
 
 {% include faq-section.html data_file="documentation_workflow_faqs" title="Frequently Asked Questions About AI Documentation Workflows" description="Get answers to common questions about planning, organizing, and implementing effective documentation workflows for AI/ML projects." %}
 
-{% include quiz.html id="documentation_workflow" title="Documentation Workflow Quiz" description="Check your understanding of effective documentation workflows, collaboration patterns, and strategies for AI-ML systems." questions=site.data.documentation_workflow_questions theme="indigo" %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+## Test Your Knowledge
+
+{% include quiz.html id="documentation_workflow" title="Documentation Workflow Quiz" description="Check your understanding of effective documentation workflows, collaboration patterns, and strategies for AI-ML systems." questions=site.data.documentation_workflow_questions theme="blue" %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## The Journey Continues: What's Next?
 
