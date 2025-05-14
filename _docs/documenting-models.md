@@ -4,8 +4,8 @@ subtitle: "Creating Clear and Useful Documentation for AI Models"
 description: "Learn how to document AI systems for different audiences, from executives to engineers, with templates and approaches that emphasize clarity and transparency."
 permalink: /documenting-models.html
 next_page:
-  url: /explaining-ai.html
-  title: "The Art of Explaining AI to Humans"
+  url: /documenting-ai-apis
+  title: "Documenting AI APIs"
 previous_page:
   url: /ai-ml-fundamentals.html
   title: "AI and ML Fundamentals"

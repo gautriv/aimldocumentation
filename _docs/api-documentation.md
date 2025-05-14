@@ -4,11 +4,11 @@ has_children: true
 image: "{{ '/assets/images/api-documentation/ai-api-unique-aspects.svg' | relative_url }}"
 permalink: /documenting-ai-apis
 next_page:
+  url: /explaining-ai.html
+  title: "Explaining AI Concepts"
+previous_page:
   url: /documenting-models.html
   title: "Documenting AI Models"
-previous_page:
-  url: /ai-ml-fundamentals.html
-  title: "AI and ML Fundamentals"
 includes: 
   - api-basics
   - machine-learning
@@ -24,6 +24,12 @@ Think about it: How do you explain confidence scores to someone who's never work
 
 In this module, we'll explore how to create documentation that not only explains how your AI API works but helps developers truly understand, trust, and effectively use it. Whether you're documenting a computer vision API, a language model, or any other AI service, you'll learn practical strategies to make your documentation shine.
 
+<div class="promo-box">
+<strong>Want to master API documentation?</strong> Check out our <a href="https://beingtechnicalwriter.com/apidocumentation">Complete API Documentation Course</a> for comprehensive training on creating professional-grade API documentation that developers love.
+</div>
+
+![Unique aspects of AI API documentation]({{ '/assets/images/api-documentation/ai-api-unique-aspects.svg' | relative_url }})
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
       crossorigin="anonymous"></script>
   <!-- AddTitleOne -->
@@ -36,12 +42,6 @@ In this module, we'll explore how to create documentation that not only explains
   <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
-
-<div class="promo-box">
-<strong>Want to master API documentation?</strong> Check out our <a href="https://beingtechnicalwriter.com/apidocumentation">Complete API Documentation Course</a> for comprehensive training on creating professional-grade API documentation that developers love.
-</div>
-
-![Unique aspects of AI API documentation]({{ '/assets/images/api-documentation/ai-api-unique-aspects.svg' | relative_url }})
 
 ## What Makes AI APIs Different?
 
@@ -201,20 +201,6 @@ response = requests.post(
   "process_time_ms": 328
 }
 ```
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
-      crossorigin="anonymous"></script>
-  <!-- AddTitleOne -->
-  <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-7149683584202371"
-      data-ad-slot="7422872052"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
-  <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-
 ### Notes
 
 - Lower lighting conditions may reduce detection accuracy
@@ -246,6 +232,19 @@ Each error should include:
 - Example error responses
 
 ![Error Documentation Template]({{ '/assets/images/api-documentation/error-documentation-template.svg' | relative_url }})
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Documenting Confidence Scores
 
@@ -291,7 +290,18 @@ if response.confidence < 0.7:
     # Option 3: Request additional input
     ask_for_clarification()
 ```
-```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Documenting Input Validation
 
@@ -398,7 +408,19 @@ Our API versions (v1, v2, etc.) are separate from our model versions (1.0, 2.3, 
 - print(result.entities)  // ["product", "feature"]
 + print(result.entities)  // [{"entity": "product", "confidence": 0.97}, ...]
 ```
-```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Creating Interactive Documentation
 
@@ -472,6 +494,18 @@ const ApiConsole = () => {
   );
 };
 ```
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Best Practices Checklist
 
@@ -487,6 +521,19 @@ Use this checklist to ensure your AI API documentation covers all the essentials
 - [ ] Ethical usage guidelines and limitations
 - [ ] Performance characteristics and optimization tips
 - [ ] Updated example code in multiple languages
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Exercise: Evaluating AI API Documentation
 
@@ -512,11 +559,37 @@ Answer these questions:
 
 Remember: The goal isn't just to document how your API works, but to help developers build trust in your AI service and use it effectively in their applications.
 
-## Test Your Knowledge
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 {% include faq-section.html data_file="api_documentation_faqs" title="Frequently Asked Questions About Documenting AI APIs" description="Get answers to common questions about creating effective documentation for AI APIs, handling unique AI documentation challenges, and following best practices." %}
 
+## Test Your Knowledge
+
 {% include quiz.html id="api_documentation" title="AI API Documentation Quiz" description="Check your understanding of key concepts for documenting AI APIs effectively." questions=site.data.api_documentation_questions theme="purple" %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Additional Resources
 
