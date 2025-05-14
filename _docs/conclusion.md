@@ -62,12 +62,12 @@ You now have a powerful toolkit at your disposal. Here's your quick-reference gu
 
 Before writing a single word, ask yourself:
 
-- [ ] Who exactly is reading this documentation?
-- [ ] What is their technical background?
-- [ ] What are they trying to accomplish?
-- [ ] What are their biggest concerns about AI?
-- [ ] What mental models do they already have?
-- [ ] What level of detail is appropriate?
+- Who exactly is reading this documentation?
+- What is their technical background?
+- What are they trying to accomplish?
+- What are their biggest concerns about AI?
+- What mental models do they already have?
+- What level of detail is appropriate?
 
 ### 2. The Explanation Framework
 
@@ -319,6 +319,20 @@ Remember Maya, the healthcare administrator from our first module? The one who n
 Or think about Jamal, the small business owner who wanted to use AI tools but was overwhelmed by technical jargon. Documentation created by someone with your skills gave him the confidence to adopt tools that ultimately saved his business time and money.
 
 Your work touches real lives. It makes powerful technology usable by those who need it most.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Your Documentation Journey: A Never-Ending Story
 

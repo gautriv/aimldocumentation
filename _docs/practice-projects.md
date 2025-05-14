@@ -47,6 +47,20 @@ These projects are designed to turn you into Jamie.
 <p>Beyond skill-building, these practice projects make excellent portfolio pieces. Hiring managers love seeing practical examples of your work—especially ones that showcase your ability to explain complex technical concepts.</p>
 </div>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Project 1: The Jargon Translator Challenge
 
 ### The Scenario
@@ -141,6 +155,20 @@ The engineers have given you this JSON sample response and nothing else:
 - Proper API documentation formatting (consider using standardized formats like OpenAPI)
 - Guidance on handling edge cases and errors
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Project 3: The Model Card Challenge
 
 ### The Scenario
@@ -188,6 +216,21 @@ Create a complete model card following the framework from [Model Cards for Model
 - Transparent discussion of potential issues
 - Professional presentation similar to model cards from leading organizations
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Project 4: The Interactive Tutorial Challenge
 
 ### The Scenario
@@ -214,6 +257,21 @@ Design a notebook-style tutorial (conceptually similar to Jupyter Notebooks) tha
 - Interactive elements clearly described
 - Anticipation of common questions and concerns
 - A structure that gradually builds understanding
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Project 5: The Multimodal Explanation Challenge
 
@@ -260,6 +318,21 @@ The twist: Your explanation must work across three formats:
 - Practical guidance that solves real user problems
 - Documentation that builds accurate mental models
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## The Documentation Critique Project (Bonus Challenge)
 
 ### The Scenario
@@ -304,6 +377,21 @@ By completing these projects, you're not just practicing—you're building a por
 <h3>Success Story: From Practice to Professional</h3>
 <p>Meet Elena, who completed these practice projects and included them in her portfolio. During her interview at an AI startup, she walked the hiring team through her model card project. The CTO was so impressed with her clear explanation of model limitations that he offered her the role on the spot, saying: "You've demonstrated more understanding of how to document AI systems than candidates with twice your experience."</p>
 </div>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Next Steps: Getting Feedback on Your Work
 
