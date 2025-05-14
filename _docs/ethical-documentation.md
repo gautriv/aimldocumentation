@@ -4,8 +4,8 @@ subtitle: "How to create honest, transparent documentation that protects users a
 description: "Discover how to craft AI documentation that promotes transparency, prevents harm, and empowers users to make informed decisions about AI systems and their limitations."
 permalink: /ethical-documentation.html
 next_page:
-  url: /explaining-ai.html
-  title: "The Power of Visual Storytelling in AI Documentation"
+  url: /version-control.html
+  title: "Version Control for AI Systems"
 previous_page:
   url: /visual-ai-documentation-testing.html
   title: "Making Sure Your AI Visuals Actually Work"
@@ -64,6 +64,20 @@ As the person writing the documentation, you become the critical bridge between 
   </script>
 
 > "The thing that's transformational about AI isn't the technology itself, but how humans use it." — Your documentation is the instruction manual for *how* humans will use AI.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Your Ethical Documentation Toolkit: 7 Elements That Matter Most
 
@@ -249,6 +263,20 @@ Similar to environmental impact statements, these documents assess the broader e
 
 **Impact statement in action:** Before deploying a predictive policing system, a police department publishes an impact statement identifying potential risks of reinforcing discriminatory patterns and detailing the oversight and auditing measures they'll implement.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Writing in Practice: The Art of Ethical Communication
 
 Frameworks provide structure, but your specific word choices and presentation decisions matter enormously. Here are some practical tips for ethical documentation writing:
@@ -287,6 +315,21 @@ Some ethical concepts are better shown than told:
 - **Input limitation examples**: Show examples of inputs where the system performs poorly
 
 **The power of visual ethics:** A credit scoring model provides a simulation tool letting loan officers see how changing various factors would affect the score, making the model's behavior more transparent.
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Common Ethical Documentation Dilemmas (and How to Handle Them)
 
@@ -331,6 +374,20 @@ When facing documentation fatigue:
 - **The solution**: Make critical ethical information unavoidable in the user experience. Build it into onboarding, user interfaces, and decision points
 
 **Making ethics unavoidable:** A facial recognition system requires users to complete a brief training that covers accuracy limitations across demographics before they can use the system.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Your Ethical Documentation Checklist: The Practical Tool
 
@@ -377,6 +434,21 @@ Here's a simple checklist to ensure your AI documentation meets basic ethical st
 - [ ] Data privacy practices
 - [ ] Security testing conducted
 - [ ] Incident response and responsible disclosure process
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Exercises: Putting Ethics into Documentation Practice
 
@@ -430,6 +502,20 @@ Here's a simple checklist to ensure your AI documentation meets basic ethical st
 - Was it challenging to make technical ethical concepts accessible to non-technical audiences?
 - Did you identify ethical considerations that wouldn't be captured in typical technical documentation?
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+
 ## Resources: Your Ethical Documentation Library
 
 ### Frameworks and Templates
@@ -447,15 +533,55 @@ Here's a simple checklist to ensure your AI documentation meets basic ethical st
 - [Race After Technology](https://www.ruhabenjamin.com/race-after-technology) by Ruha Benjamin - Crucial insights on algorithmic discrimination
 - [Ethics of AI and Robotics](https://plato.stanford.edu/entries/ethics-ai/) - Stanford Encyclopedia of Philosophy's thorough overview
 
-## Frequently Asked Questions
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 {% include faq-section.html data_file="ethical_documentation_faqs" title="Frequently Asked Questions About Ethical AI Documentation" description="Get answers to common questions about creating ethical, transparent, and responsible documentation for AI/ML systems." %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Test Your Knowledge
 
 Take this quiz to test your understanding of ethical documentation principles and practices!
 
-{% include quiz.html id="ethical_documentation" title="Ethical Documentation Quiz" description="Test your knowledge of how to create honest, transparent documentation that protects users and promotes responsible AI use." questions=site.data.ethical_documentation_questions theme="red" %}
+{% include quiz.html id="ethical_documentation" title="Ethical Documentation Quiz" description="Test your knowledge of how to create honest, transparent documentation that protects users and promotes responsible AI use." questions=site.data.ethical_documentation_questions theme="blue" %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## The Journey Continues: Your Documentation as Ethical Practice
 
