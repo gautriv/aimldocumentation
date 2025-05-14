@@ -21,8 +21,6 @@ Welcome to your adventure into the exciting (and occasionally mind-bending) univ
 
 Imagine this: You're standing at the edge of a jungle. It's buzzing with neural networks, wild algorithms, and mysterious data creatures. Don't worry—you've got a backpack full of words, wit, and wisdom. And I'm your guide.
 
----
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
       crossorigin="anonymous"></script>
   <!-- AddTitleOne -->
@@ -79,7 +77,18 @@ Amazing AI-ML documentation is like a 3-legged stool. Remove one leg, and it top
 
 These three together build trust—and that's the magic sauce for user-friendly, ethical AI documentation.
 
----
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Who's Reading This Stuff, Anyway?
 
@@ -145,7 +154,18 @@ Let's look at the 4 key phases:
 
 Your docs should grow like a Pokémon—leveling up as the project does.
 
----
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Let's Get Practical: Hands-On Exercise
 
@@ -162,7 +182,18 @@ Time to stretch those documentation muscles.
 Doing this helps you switch from "What do *I* want to write?" to "What does *my reader* need?"  
 That, my friend, is how great docs are born.
 
----
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Watch Out for These Common Pitfalls
 
@@ -178,7 +209,18 @@ Even seasoned writers fall into these traps:
 
    -  **The Myth of Perfection**: AI systems have flaws. That's not bad. But hiding them *is*. Be transparent. It's how we build trust and accountability.
 
----
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## What's Next on This Journey?
 
@@ -197,11 +239,33 @@ By the end of this course, you'll be able to:
 
 So grab your beverage of choice, and let's write docs that people *actually* read.
 
----
-
-## Frequently Asked Questions
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 {% include faq-section.html data_file="introduction_faqs" title="Frequently Asked Questions About AI-ML Documentation" description="Get answers to common questions about getting started with AI documentation, best practices, and addressing ethical and governance considerations." %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Test Your Knowledge
 
@@ -209,7 +273,18 @@ Test your understanding of AI-ML documentation fundamentals with this quiz!
 
 {% include quiz.html id="introduction" title="Introduction to AI-ML Documentation Quiz" description="Check your understanding of the unique challenges and approaches to documenting AI-ML systems." questions=site.data.introduction_questions theme="blue" %}
 
----
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Bonus Resources to Explore
 
