@@ -259,6 +259,9 @@
                                 <p class="doc-description">{{ page.description }}</p>
                             {% endif %}
                         </div>
+
+                        <!-- Table of Contents -->
+                        {% include toc.html %}
                         
                         <div class="doc-content">
                             {{ content }}
