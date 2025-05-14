@@ -5,6 +5,14 @@ has_children: true
 permalink: /explaining-ai.html
 has_toc: true
 description: Learn how to effectively explain complex AI concepts to different audiences through layered explanations and visual aids.
+
+next_page:
+  url: /visual-ai-documentation.html
+  title: "Visual Documentation"
+previous_page:
+  url: /documenting-ai-apis
+  title: "Documenting AI APIs"
+
 last_modified_date: 2024-04-15T14:00:00+0000
 image: "{{ '/assets/images/explaining-ai/mental-models-bridge.svg' | relative_url }}"
 image_alt: Bridging the gap between AI technical reality and user mental models
@@ -51,6 +59,19 @@ What they do care about is much more practical:
 Your job as an AI explainer is to translate complex technical realities into meaningful human terms—without sacrificing accuracy or oversimplifying to the point of deception.
 
 ![Bridging the Gap: User Mental Models vs. AI Reality]({{ '/assets/images/explaining-ai/mental-models-bridge.svg' | relative_url }})
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Understanding Your User's Mental Model
 
@@ -110,6 +131,19 @@ Start with a simple, one-sentence explanation that everyone can understand. Then
 **Level 3 (Technical):** "Our image recognition uses a convolutional neural network trained on millions of labeled images to classify visual content with over 90% accuracy for common objects and scenes."
 
 This approach respects different users' needs and curiosity levels without overwhelming anyone.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Where and When to Explain AI
 
@@ -171,11 +205,22 @@ Dedicated help content allows users to learn more when they want to:
 - **Conceptual explanations** of how the technology works
 - **Troubleshooting guides** for when things go wrong
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## The AI Explainer's Toolkit
 
 Different explanation challenges require different approaches. Here are six powerful methods for making AI understandable:
-
-![The AI Explainer's Toolkit]({{ '/assets/images/explaining-ai/explanation-methods.svg' | relative_url }})
 
 ### 1. Metaphors & Analogies
 
@@ -264,14 +309,6 @@ Move the sliders to adjust your priorities:
 
 Interactive explanations create "learning by doing" which can be more effective than passive reading.
 
-## The Confidence Challenge: Explaining Uncertainty
-
-One of the trickiest aspects of explaining AI is communicating uncertainty. Most AI systems don't produce binary yes/no answers—they generate probabilities or confidence scores.
-
-The problem? Most humans aren't natural statistical thinkers.
-
-![Making AI Confidence Scores Meaningful to Users]({{ '/assets/images/explaining-ai/confidence-visualization.svg' | relative_url }})
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
       crossorigin="anonymous"></script>
   <!-- AddTitleOne -->
@@ -284,6 +321,13 @@ The problem? Most humans aren't natural statistical thinkers.
   <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
+
+
+## The Confidence Challenge: Explaining Uncertainty
+
+One of the trickiest aspects of explaining AI is communicating uncertainty. Most AI systems don't produce binary yes/no answers—they generate probabilities or confidence scores.
+
+The problem? Most humans aren't natural statistical thinkers.
 
 ### Making Confidence Meaningful
 
@@ -303,6 +347,19 @@ Here are strategies for explaining confidence and uncertainty:
    - "65% confidence (somewhat uncertain)"
 
 When explaining confidence, focus on what it means for the user's decision-making, not the statistical details.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Principles for Honest and Ethical AI Explanations
 
@@ -360,7 +417,19 @@ Our state-of-the-art deep learning algorithm processes millions of data points t
 You'll discover new songs you'll love without having to search for them, saving you time and introducing you to artists you might have missed.
 ```
 
-## Frequently Asked Questions
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 {% include faq-section.html data_file="explaining_ai_faqs" title="Frequently Asked Questions About Explaining AI Concepts" description="Get answers to common questions about effectively communicating complex AI concepts, creating layered explanations, and maintaining ethical transparency in AI explanations." %}
 
@@ -368,4 +437,4 @@ You'll discover new songs you'll love without having to search for them, saving 
 
 Test your understanding of how to effectively explain AI concepts with this quiz!
 
-{% include quiz.html id="explaining_ai" title="Explaining AI Concepts Quiz" description="Check your knowledge of techniques and best practices for making AI understandable to different audiences." questions=site.data.explaining_ai_questions theme="violet" %}
+{% include quiz.html id="introduction" title="Explaining AI Concepts Quiz" description="Check your knowledge of techniques and best practices for making AI understandable to different audiences." questions=site.data.introduction_questions theme="blue" %}

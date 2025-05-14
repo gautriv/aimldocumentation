@@ -11,7 +11,7 @@ next_page:
   title: "Bringing AI Concepts to Life"
 previous_page:
   url: /explaining-ai.html
-  title: "The Art of Explaining AI to Humans"
+  title: "Explaining AI Concepts"
 ---
 
 Imagine you're trying to explain how your complex neural network makes predictions to your company's CEO who has zero technical background. You've been talking for 10 minutes, using careful analogies and simplified language, but her eyes are starting to glaze over...
@@ -48,6 +48,19 @@ Our brains are wired for visuals, which makes visualization particularly crucial
 - **System components** that interact in ways that would take paragraphs to describe
 
 > "The greatest value of a picture is when it forces us to notice what we never expected to see." — John Tukey
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## The Visual Storyteller's Toolkit: 5 Types of AI-ML Visualizations
 
@@ -147,6 +160,21 @@ For online documentation, interactive visuals turn passive readers into active e
 - Design for all devices (that amazing desktop experience might be terrible on mobile)
 - Keep interactions intuitive—if users need instructions, you might be overthinking it
 - Provide clear guides so users know what to look for
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 
 ## Your Visualization Toolkit: From Beginner to Pro
 
@@ -254,6 +282,19 @@ We've all seen (and maybe created) these visualization disasters:
 6. **The "Decoration Only"**: Visuals that look nice but add zero informational value
 7. **The "Orphaned Visual"**: Diagrams disconnected from surrounding text, leaving readers wondering, "Why am I looking at this?"
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
 ## Let's Get Visual: Hands-On Exercises
 
 ### Exercise 1: Map Your AI Territory
@@ -294,11 +335,33 @@ We've all seen (and maybe created) these visualization disasters:
 **Your deliverable**:
 A visual explanation with annotations that would feel at home in your user-facing documentation.
 
-## Frequently Asked Questions
-
-Get answers to common questions about creating effective visual documentation for AI systems, including tips for non-designers, best practices for different visualization types, and strategies for making complex AI concepts visually accessible.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 {% include faq-section.html data_file="visual_documentation_faqs" title="Frequently Asked Questions" description="Get answers to common questions about creating effective visual documentation for AI systems, including tips for non-designers, best practices for different visualization types, and strategies for making complex AI concepts visually accessible." %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7149683584202371"
+      crossorigin="anonymous"></script>
+  <!-- AddTitleOne -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-7149683584202371"
+      data-ad-slot="7422872052"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 ## Test Your Knowledge
 
